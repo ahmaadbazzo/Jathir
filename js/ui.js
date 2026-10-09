@@ -35,8 +35,8 @@
     }
     entry = words[round.index];
     $('word').textContent = entry.word;
-    $('round-label').textContent = mode === 'daily' ? `التحدّي #${day.toLocaleString('ar', { useGrouping: false })} · التوقيت العالمي` : 'تدريب حرّ · بلا حدود';
-    $('difficulty').textContent = ['سهل', 'متوسط', 'متقدّم', 'النخبة ✦'][entry.difficulty - 1];
+    $('round-label').textContent = mode === 'daily' ? `#${day.toLocaleString('ar', { useGrouping: false })}` : '∞';
+    $('difficulty').textContent = ['سهل', 'متوسط', 'متقدم', 'نخبة'][entry.difficulty - 1];
     $('daily-mode').setAttribute('aria-pressed', String(mode === 'daily'));
     $('practice-mode').setAttribute('aria-pressed', String(mode === 'practice'));
     $('practice-options').hidden = mode !== 'practice';
@@ -78,11 +78,13 @@
   function render(reveal = false) {
     renderBoard(reveal);
     const status = G.roundStatus(round.guesses, entry.root);
-    say(status === 'won' ? `أحسنت! الجذر هو ${[...entry.root].join(' ')}.` : status === 'lost' ? `انتهت المحاولات. الجذر هو ${[...entry.root].join(' ')}.` : `المحاولة ${(round.guesses.length + 1).toLocaleString('ar')} من ٦`);
+    say(status === 'won' ? `أحسنت! ${[...entry.root].join(' ')}` : status === 'lost' ? `الجذر: ${[...entry.root].join(' ')}` : `${(round.guesses.length + 1).toLocaleString('ar')} / ٦`);
     $('submit-guess').disabled = finished(); $('clear-guess').disabled = finished(); $('delete-letter').disabled = finished();
     $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
-    $('root-story').textContent = finished() ? `${entry.word} · ${entry.meaning} — الوزن: ${entry.pattern}` : '';
-    $('welcome-status').textContent = data.daily?.recorded ? 'أنجزت تحدّي اليوم. رحلة جديدة تنتظرك في التدريب.' : 'تحدٍّ واحد كل يوم، ورحلة جديدة مع كل كلمة.';
+    $('root-story').textContent = finished() ? entry.meaning : '';
+    $('game-screen').classList.toggle('won', status === 'won');
+    document.querySelector('.play-actions').hidden = finished();
+    $('welcome-status').textContent = '';
     $('hints').replaceChildren();
     const wrong = round.guesses.filter(g => G.normalize(g) !== G.normalize(entry.root)).length;
     if (wrong >= 2) addHint('الوزن', entry.pattern);
@@ -148,6 +150,7 @@
   $('delete-letter').addEventListener('click', () => input('delete'));
   $('submit-guess').addEventListener('click', () => input('enter'));
   $('clear-guess').addEventListener('click', () => { if (words && !checkDate() && !finished() && !animating) { draft = ''; renderBoard(); } });
+  $('settings-button').addEventListener('click', () => $('settings-dialog').showModal());
   $('help-button').addEventListener('click', () => $('help-dialog').showModal());
   $('stats-button').addEventListener('click', showStats);
   document.querySelectorAll('.close-dialog').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
@@ -190,7 +193,7 @@
       if (!loaded.some(w => w.difficulty <= 3)) throw new Error('Daily pool unavailable');
       words = loaded.map(w => ({ ...w, root: G.normalize(w.root) }));
       buildKeyboard(); start('daily');
-      ['daily-mode', 'practice-mode', 'start-daily', 'start-practice', 'start-expert'].forEach(id => { $(id).disabled = false; });
+      ['daily-mode', 'practice-mode', 'start-daily'].forEach(id => { $(id).disabled = false; });
     } catch (_) {
       words = null;
       $('keyboard').replaceChildren();
@@ -204,7 +207,8 @@
   A.setEnabled(data.sound);
   function soundLabel() {
     $('sound-button').setAttribute('aria-pressed', String(data.sound));
-    $('sound-button').textContent = data.sound ? '♪ الصوت مفعّل' : '♪ الصوت مكتوم';
+    $('sound-button').setAttribute('aria-label', data.sound ? 'كتم الصوت' : 'تشغيل الصوت');
+    $('sound-button').classList.toggle('muted', !data.sound);
   }
   soundLabel();
   $('sound-button').addEventListener('click', () => { data.sound = !data.sound; A.setEnabled(data.sound); soundLabel(); persist(); A.play('tap'); });
@@ -223,8 +227,8 @@
   $('home-button').addEventListener('click', home);
   $('back-home').addEventListener('click', home);
   $('start-daily').addEventListener('click', () => openGame('daily'));
-  $('start-practice').addEventListener('click', () => openGame('practice'));
-  $('start-expert').addEventListener('click', () => openGame('practice', true));
+
+
 
   $('retry-load').addEventListener('click', loadWords);
   await loadWords();

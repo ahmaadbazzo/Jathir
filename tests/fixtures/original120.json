@@ -1,0 +1,842 @@
+[
+  {
+    "word": "يلبس",
+    "root": "لبس",
+    "pattern": "يفعل",
+    "meaning": "يرتدي ثوبًا",
+    "difficulty": 3
+  },
+  {
+    "word": "ساكن",
+    "root": "سكن",
+    "pattern": "فاعل",
+    "meaning": "من يقيم في مكان",
+    "difficulty": 1
+  },
+  {
+    "word": "محمول",
+    "root": "حمل",
+    "pattern": "مفعول",
+    "meaning": "ما يُرفع ويُنقل",
+    "difficulty": 2
+  },
+  {
+    "word": "يجلس",
+    "root": "جلس",
+    "pattern": "يفعل",
+    "meaning": "يستقر على مقعد",
+    "difficulty": 3
+  },
+  {
+    "word": "مرسوم",
+    "root": "رسم",
+    "pattern": "مفعول",
+    "meaning": "ما صُوّر بالقلم",
+    "difficulty": 2
+  },
+  {
+    "word": "رافع",
+    "root": "رفع",
+    "pattern": "فاعل",
+    "meaning": "من يجعل شيئًا أعلى",
+    "difficulty": 1
+  },
+  {
+    "word": "غاسل",
+    "root": "غسل",
+    "pattern": "فاعل",
+    "meaning": "من ينظّف بالماء",
+    "difficulty": 1
+  },
+  {
+    "word": "خدمة",
+    "root": "خدم",
+    "pattern": "فعلة",
+    "meaning": "مساعدة تُقدّم للغير",
+    "difficulty": 2
+  },
+  {
+    "word": "مكسور",
+    "root": "كسر",
+    "pattern": "مفعول",
+    "meaning": "ما تحطّم",
+    "difficulty": 2
+  },
+  {
+    "word": "يشرح",
+    "root": "شرح",
+    "pattern": "يفعل",
+    "meaning": "يوضّح المعنى",
+    "difficulty": 3
+  },
+  {
+    "word": "ناقل",
+    "root": "نقل",
+    "pattern": "فاعل",
+    "meaning": "من يحوّل شيئًا إلى مكان آخر",
+    "difficulty": 1
+  },
+  {
+    "word": "يربط",
+    "root": "ربط",
+    "pattern": "يفعل",
+    "meaning": "يصل شيئين",
+    "difficulty": 3
+  },
+  {
+    "word": "يزرع",
+    "root": "زرع",
+    "pattern": "يفعل",
+    "meaning": "يغرس البذور",
+    "difficulty": 3
+  },
+  {
+    "word": "مركبة",
+    "root": "ركب",
+    "pattern": "مفعلة",
+    "meaning": "وسيلة للتنقّل",
+    "difficulty": 2
+  },
+  {
+    "word": "منقول",
+    "root": "نقل",
+    "pattern": "مفعول",
+    "meaning": "ما حُوّل من مكانه",
+    "difficulty": 2
+  },
+  {
+    "word": "يطلب",
+    "root": "طلب",
+    "pattern": "يفعل",
+    "meaning": "يسأل عن شيء يريده",
+    "difficulty": 3
+  },
+  {
+    "word": "يجمع",
+    "root": "جمع",
+    "pattern": "يفعل",
+    "meaning": "يضمّ الأشياء",
+    "difficulty": 3
+  },
+  {
+    "word": "يحفظ",
+    "root": "حفظ",
+    "pattern": "يفعل",
+    "meaning": "يصون أو يتذكّر",
+    "difficulty": 3
+  },
+  {
+    "word": "مخبز",
+    "root": "خبز",
+    "pattern": "مفعل",
+    "meaning": "مكان صنع الخبز",
+    "difficulty": 1
+  },
+  {
+    "word": "حافر",
+    "root": "حفر",
+    "pattern": "فاعل",
+    "meaning": "من يصنع حفرة",
+    "difficulty": 1
+  },
+  {
+    "word": "ينقل",
+    "root": "نقل",
+    "pattern": "يفعل",
+    "meaning": "يحوّل شيئًا إلى مكان آخر",
+    "difficulty": 3
+  },
+  {
+    "word": "ينظم",
+    "root": "نظم",
+    "pattern": "يفعل",
+    "meaning": "يرتّب الأشياء",
+    "difficulty": 3
+  },
+  {
+    "word": "ناشر",
+    "root": "نشر",
+    "pattern": "فاعل",
+    "meaning": "من يذيع خبرًا أو كتابًا",
+    "difficulty": 1
+  },
+  {
+    "word": "مصنوع",
+    "root": "صنع",
+    "pattern": "مفعول",
+    "meaning": "ما جرى إنتاجه",
+    "difficulty": 2
+  },
+  {
+    "word": "منظوم",
+    "root": "نظم",
+    "pattern": "مفعول",
+    "meaning": "ما رُتّب أو صيغ شعرًا",
+    "difficulty": 2
+  },
+  {
+    "word": "يحسب",
+    "root": "حسب",
+    "pattern": "يفعل",
+    "meaning": "يعدّ أو يحسب",
+    "difficulty": 3
+  },
+  {
+    "word": "يملك",
+    "root": "ملك",
+    "pattern": "يفعل",
+    "meaning": "له حق التصرف في شيء",
+    "difficulty": 3
+  },
+  {
+    "word": "لابس",
+    "root": "لبس",
+    "pattern": "فاعل",
+    "meaning": "من يرتدي ثوبًا",
+    "difficulty": 1
+  },
+  {
+    "word": "مقطوع",
+    "root": "قطع",
+    "pattern": "مفعول",
+    "meaning": "ما فُصل عن أصله",
+    "difficulty": 2
+  },
+  {
+    "word": "ينشر",
+    "root": "نشر",
+    "pattern": "يفعل",
+    "meaning": "يذيع خبرًا أو كتابًا",
+    "difficulty": 3
+  },
+  {
+    "word": "مالك",
+    "root": "ملك",
+    "pattern": "فاعل",
+    "meaning": "من له حق التصرف في شيء",
+    "difficulty": 1
+  },
+  {
+    "word": "يكتب",
+    "root": "كتب",
+    "pattern": "يفعل",
+    "meaning": "يدوّن كلمات",
+    "difficulty": 3
+  },
+  {
+    "word": "رسام",
+    "root": "رسم",
+    "pattern": "فعال",
+    "meaning": "من يمتهن الرسم",
+    "difficulty": 1
+  },
+  {
+    "word": "طابخ",
+    "root": "طبخ",
+    "pattern": "فاعل",
+    "meaning": "من يُعدّ الطعام بالنار",
+    "difficulty": 1
+  },
+  {
+    "word": "يخبز",
+    "root": "خبز",
+    "pattern": "يفعل",
+    "meaning": "يصنع الخبز",
+    "difficulty": 3
+  },
+  {
+    "word": "مفتوح",
+    "root": "فتح",
+    "pattern": "مفعول",
+    "meaning": "غير مغلق",
+    "difficulty": 2
+  },
+  {
+    "word": "فاهم",
+    "root": "فهم",
+    "pattern": "فاعل",
+    "meaning": "من يدرك المعنى",
+    "difficulty": 1
+  },
+  {
+    "word": "جالس",
+    "root": "جلس",
+    "pattern": "فاعل",
+    "meaning": "من يستقر على مقعد",
+    "difficulty": 1
+  },
+  {
+    "word": "يغلق",
+    "root": "غلق",
+    "pattern": "يفعل",
+    "meaning": "يسدّ فتحة",
+    "difficulty": 3
+  },
+  {
+    "word": "يسكن",
+    "root": "سكن",
+    "pattern": "يفعل",
+    "meaning": "يقيم في مكان",
+    "difficulty": 3
+  },
+  {
+    "word": "دارس",
+    "root": "درس",
+    "pattern": "فاعل",
+    "meaning": "من يتعلّم موضوعًا",
+    "difficulty": 1
+  },
+  {
+    "word": "يكسر",
+    "root": "كسر",
+    "pattern": "يفعل",
+    "meaning": "يحطّم شيئًا",
+    "difficulty": 3
+  },
+  {
+    "word": "يقطع",
+    "root": "قطع",
+    "pattern": "يفعل",
+    "meaning": "يفصل جزءًا",
+    "difficulty": 3
+  },
+  {
+    "word": "يسبح",
+    "root": "سبح",
+    "pattern": "يفعل",
+    "meaning": "يتحرّك في الماء",
+    "difficulty": 3
+  },
+  {
+    "word": "مخبوز",
+    "root": "خبز",
+    "pattern": "مفعول",
+    "meaning": "ما أُعدّ في الفرن",
+    "difficulty": 2
+  },
+  {
+    "word": "محكوم",
+    "root": "حكم",
+    "pattern": "مفعول",
+    "meaning": "من صدر عليه حكم",
+    "difficulty": 2
+  },
+  {
+    "word": "مطبخ",
+    "root": "طبخ",
+    "pattern": "مفعل",
+    "meaning": "مكان إعداد الطعام",
+    "difficulty": 2
+  },
+  {
+    "word": "مشروح",
+    "root": "شرح",
+    "pattern": "مفعول",
+    "meaning": "ما وُضّح معناه",
+    "difficulty": 2
+  },
+  {
+    "word": "مسكون",
+    "root": "سكن",
+    "pattern": "مفعول",
+    "meaning": "مكان يقيم فيه الناس",
+    "difficulty": 2
+  },
+  {
+    "word": "يغسل",
+    "root": "غسل",
+    "pattern": "يفعل",
+    "meaning": "ينظّف بالماء",
+    "difficulty": 3
+  },
+  {
+    "word": "يعمل",
+    "root": "عمل",
+    "pattern": "يفعل",
+    "meaning": "يؤدي عملًا",
+    "difficulty": 3
+  },
+  {
+    "word": "حاكم",
+    "root": "حكم",
+    "pattern": "فاعل",
+    "meaning": "من يفصل في أمر",
+    "difficulty": 1
+  },
+  {
+    "word": "يطبخ",
+    "root": "طبخ",
+    "pattern": "يفعل",
+    "meaning": "يُعدّ الطعام بالنار",
+    "difficulty": 3
+  },
+  {
+    "word": "مفهوم",
+    "root": "فهم",
+    "pattern": "مفعول",
+    "meaning": "معنى يمكن إدراكه",
+    "difficulty": 2
+  },
+  {
+    "word": "مسبح",
+    "root": "سبح",
+    "pattern": "مفعل",
+    "meaning": "حوض مخصّص للسباحة",
+    "difficulty": 2
+  },
+  {
+    "word": "حارس",
+    "root": "حرس",
+    "pattern": "فاعل",
+    "meaning": "من يحمي ويراقب",
+    "difficulty": 1
+  },
+  {
+    "word": "سابح",
+    "root": "سبح",
+    "pattern": "فاعل",
+    "meaning": "من يتحرّك في الماء",
+    "difficulty": 1
+  },
+  {
+    "word": "منشور",
+    "root": "نشر",
+    "pattern": "مفعول",
+    "meaning": "ما أُتيح للناس قراءته",
+    "difficulty": 2
+  },
+  {
+    "word": "مدفوع",
+    "root": "دفع",
+    "pattern": "مفعول",
+    "meaning": "ما حُرّك بالدفع",
+    "difficulty": 2
+  },
+  {
+    "word": "قاطع",
+    "root": "قطع",
+    "pattern": "فاعل",
+    "meaning": "من يفصل جزءًا",
+    "difficulty": 1
+  },
+  {
+    "word": "مزروع",
+    "root": "زرع",
+    "pattern": "مفعول",
+    "meaning": "ما غُرس في الأرض",
+    "difficulty": 2
+  },
+  {
+    "word": "يحكم",
+    "root": "حكم",
+    "pattern": "يفعل",
+    "meaning": "يفصل في أمر",
+    "difficulty": 3
+  },
+  {
+    "word": "حاسب",
+    "root": "حسب",
+    "pattern": "فاعل",
+    "meaning": "من يعدّ أو يحسب",
+    "difficulty": 1
+  },
+  {
+    "word": "ملعب",
+    "root": "لعب",
+    "pattern": "مفعل",
+    "meaning": "مكان ممارسة اللعب",
+    "difficulty": 2
+  },
+  {
+    "word": "باحث",
+    "root": "بحث",
+    "pattern": "فاعل",
+    "meaning": "من يسعى إلى معرفة",
+    "difficulty": 1
+  },
+  {
+    "word": "خادم",
+    "root": "خدم",
+    "pattern": "فاعل",
+    "meaning": "من يساعد غيره",
+    "difficulty": 1
+  },
+  {
+    "word": "زارع",
+    "root": "زرع",
+    "pattern": "فاعل",
+    "meaning": "من يغرس البذور",
+    "difficulty": 1
+  },
+  {
+    "word": "دافع",
+    "root": "دفع",
+    "pattern": "فاعل",
+    "meaning": "من يحرّك شيئًا إلى الأمام",
+    "difficulty": 1
+  },
+  {
+    "word": "يلعب",
+    "root": "لعب",
+    "pattern": "يفعل",
+    "meaning": "يمارس اللعب",
+    "difficulty": 3
+  },
+  {
+    "word": "مسموع",
+    "root": "سمع",
+    "pattern": "مفعول",
+    "meaning": "صوت تدركه الأذن",
+    "difficulty": 2
+  },
+  {
+    "word": "ملبوس",
+    "root": "لبس",
+    "pattern": "مفعول",
+    "meaning": "ما يُرتدى من الثياب",
+    "difficulty": 2
+  },
+  {
+    "word": "يدرس",
+    "root": "درس",
+    "pattern": "يفعل",
+    "meaning": "يتعلّم أو يبحث",
+    "difficulty": 3
+  },
+  {
+    "word": "محفور",
+    "root": "حفر",
+    "pattern": "مفعول",
+    "meaning": "ما أُحدثت فيه حفرة",
+    "difficulty": 2
+  },
+  {
+    "word": "مدروس",
+    "root": "درس",
+    "pattern": "مفعول",
+    "meaning": "ما جرى بحثه وفهمه",
+    "difficulty": 2
+  },
+  {
+    "word": "مرفوع",
+    "root": "رفع",
+    "pattern": "مفعول",
+    "meaning": "ما جُعل أعلى",
+    "difficulty": 2
+  },
+  {
+    "word": "يحرس",
+    "root": "حرس",
+    "pattern": "يفعل",
+    "meaning": "يحمي ويراقب",
+    "difficulty": 3
+  },
+  {
+    "word": "حافظ",
+    "root": "حفظ",
+    "pattern": "فاعل",
+    "meaning": "من يتذكّر أو يصون",
+    "difficulty": 1
+  },
+  {
+    "word": "كاتب",
+    "root": "كتب",
+    "pattern": "فاعل",
+    "meaning": "من يدوّن الكلمات",
+    "difficulty": 1
+  },
+  {
+    "word": "منحوت",
+    "root": "نحت",
+    "pattern": "مفعول",
+    "meaning": "ما شُكّل بالنحت",
+    "difficulty": 2
+  },
+  {
+    "word": "محفوظ",
+    "root": "حفظ",
+    "pattern": "مفعول",
+    "meaning": "ما جرى صونه",
+    "difficulty": 2
+  },
+  {
+    "word": "فاتح",
+    "root": "فتح",
+    "pattern": "فاعل",
+    "meaning": "من يزيل الإغلاق",
+    "difficulty": 1
+  },
+  {
+    "word": "يفتح",
+    "root": "فتح",
+    "pattern": "يفعل",
+    "meaning": "يزيل الإغلاق",
+    "difficulty": 3
+  },
+  {
+    "word": "رابط",
+    "root": "ربط",
+    "pattern": "فاعل",
+    "meaning": "من يصل شيئين",
+    "difficulty": 1
+  },
+  {
+    "word": "يصنع",
+    "root": "صنع",
+    "pattern": "يفعل",
+    "meaning": "ينتج شيئًا",
+    "difficulty": 3
+  },
+  {
+    "word": "لاعب",
+    "root": "لعب",
+    "pattern": "فاعل",
+    "meaning": "من يمارس اللعب",
+    "difficulty": 1
+  },
+  {
+    "word": "ينحت",
+    "root": "نحت",
+    "pattern": "يفعل",
+    "meaning": "يشكّل الحجر أو الخشب",
+    "difficulty": 3
+  },
+  {
+    "word": "انكسار",
+    "root": "كسر",
+    "pattern": "انفعال",
+    "meaning": "تحطّم الشيء أو انشقاقه",
+    "difficulty": 1
+  },
+  {
+    "word": "مجلس",
+    "root": "جلس",
+    "pattern": "مفعل",
+    "meaning": "مكان الاجتماع والجلوس",
+    "difficulty": 2
+  },
+  {
+    "word": "سامع",
+    "root": "سمع",
+    "pattern": "فاعل",
+    "meaning": "من يدرك صوتًا",
+    "difficulty": 1
+  },
+  {
+    "word": "حساب",
+    "root": "حسب",
+    "pattern": "فعال",
+    "meaning": "عدّ الأعداد وإجراء العمليات",
+    "difficulty": 2
+  },
+  {
+    "word": "مطلوب",
+    "root": "طلب",
+    "pattern": "مفعول",
+    "meaning": "ما يسعى إليه أحد",
+    "difficulty": 2
+  },
+  {
+    "word": "نظام",
+    "root": "نظم",
+    "pattern": "فعال",
+    "meaning": "ترتيب تحكمه قواعد",
+    "difficulty": 1
+  },
+  {
+    "word": "يحمل",
+    "root": "حمل",
+    "pattern": "يفعل",
+    "meaning": "يرفع شيئًا وينقله",
+    "difficulty": 3
+  },
+  {
+    "word": "يدفع",
+    "root": "دفع",
+    "pattern": "يفعل",
+    "meaning": "يحرّك شيئًا إلى الأمام",
+    "difficulty": 3
+  },
+  {
+    "word": "إغلاق",
+    "root": "غلق",
+    "pattern": "إفعال",
+    "meaning": "سدّ فتحة أو إنهاء الإتاحة",
+    "difficulty": 1
+  },
+  {
+    "word": "شارح",
+    "root": "شرح",
+    "pattern": "فاعل",
+    "meaning": "من يوضّح المعنى",
+    "difficulty": 1
+  },
+  {
+    "word": "ناحت",
+    "root": "نحت",
+    "pattern": "فاعل",
+    "meaning": "من يشكّل الحجر أو الخشب",
+    "difficulty": 1
+  },
+  {
+    "word": "يركب",
+    "root": "ركب",
+    "pattern": "يفعل",
+    "meaning": "يصعد وسيلة نقل",
+    "difficulty": 3
+  },
+  {
+    "word": "طالب",
+    "root": "طلب",
+    "pattern": "فاعل",
+    "meaning": "من يسعى إلى شيء",
+    "difficulty": 1
+  },
+  {
+    "word": "مكتوب",
+    "root": "كتب",
+    "pattern": "مفعول",
+    "meaning": "ما دُوّن بالكتابة",
+    "difficulty": 2
+  },
+  {
+    "word": "يفهم",
+    "root": "فهم",
+    "pattern": "يفعل",
+    "meaning": "يدرك المعنى",
+    "difficulty": 3
+  },
+  {
+    "word": "بحث",
+    "root": "بحث",
+    "pattern": "فعل",
+    "meaning": "تقصٍّ للوصول إلى المعرفة",
+    "difficulty": 2
+  },
+  {
+    "word": "صانع",
+    "root": "صنع",
+    "pattern": "فاعل",
+    "meaning": "من ينتج شيئًا",
+    "difficulty": 1
+  },
+  {
+    "word": "محروس",
+    "root": "حرس",
+    "pattern": "مفعول",
+    "meaning": "ما جرت حمايته",
+    "difficulty": 2
+  },
+  {
+    "word": "يسمع",
+    "root": "سمع",
+    "pattern": "يفعل",
+    "meaning": "يدرك صوتًا بأذنه",
+    "difficulty": 3
+  },
+  {
+    "word": "يرسم",
+    "root": "رسم",
+    "pattern": "يفعل",
+    "meaning": "يصوّر بالقلم",
+    "difficulty": 3
+  },
+  {
+    "word": "راكب",
+    "root": "ركب",
+    "pattern": "فاعل",
+    "meaning": "من يصعد وسيلة نقل",
+    "difficulty": 1
+  },
+  {
+    "word": "يحفر",
+    "root": "حفر",
+    "pattern": "يفعل",
+    "meaning": "يصنع حفرة",
+    "difficulty": 3
+  },
+  {
+    "word": "مربوط",
+    "root": "ربط",
+    "pattern": "مفعول",
+    "meaning": "ما شُدّ أو وُصل",
+    "difficulty": 2
+  },
+  {
+    "word": "يخدم",
+    "root": "خدم",
+    "pattern": "يفعل",
+    "meaning": "يقدّم خدمة",
+    "difficulty": 3
+  },
+  {
+    "word": "يرفع",
+    "root": "رفع",
+    "pattern": "يفعل",
+    "meaning": "يجعل شيئًا أعلى",
+    "difficulty": 3
+  },
+  {
+    "word": "عامل",
+    "root": "عمل",
+    "pattern": "فاعل",
+    "meaning": "من يؤدي عملًا",
+    "difficulty": 1
+  },
+  {
+    "word": "مغلق",
+    "root": "غلق",
+    "pattern": "مفعل",
+    "meaning": "غير مفتوح",
+    "difficulty": 2
+  },
+  {
+    "word": "مجموع",
+    "root": "جمع",
+    "pattern": "مفعول",
+    "meaning": "ما ضُمّ بعضه إلى بعض",
+    "difficulty": 2
+  },
+  {
+    "word": "مملكة",
+    "root": "ملك",
+    "pattern": "مفعلة",
+    "meaning": "بلاد يحكمها ملك",
+    "difficulty": 2
+  },
+  {
+    "word": "جامع",
+    "root": "جمع",
+    "pattern": "فاعل",
+    "meaning": "من يضمّ الأشياء",
+    "difficulty": 1
+  },
+  {
+    "word": "معمول",
+    "root": "عمل",
+    "pattern": "مفعول",
+    "meaning": "ما صُنع أو أُنجز",
+    "difficulty": 2
+  },
+  {
+    "word": "يبحث",
+    "root": "بحث",
+    "pattern": "يفعل",
+    "meaning": "يسعى إلى معرفة",
+    "difficulty": 3
+  },
+  {
+    "word": "مغسول",
+    "root": "غسل",
+    "pattern": "مفعول",
+    "meaning": "ما نُظّف بالماء",
+    "difficulty": 2
+  },
+  {
+    "word": "حامل",
+    "root": "حمل",
+    "pattern": "فاعل",
+    "meaning": "من يرفع شيئًا وينقله",
+    "difficulty": 1
+  }
+]

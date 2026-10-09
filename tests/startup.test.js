@@ -29,7 +29,7 @@ async function boot(responses, saved = null, blocked = false) {
   }
   const get = id => { if (!elements.has(id)) elements.set(id, new Element()); return elements.get(id); };
   const document = { getElementById: get, createElement: () => new Element(), body: new Element(),
-    querySelector: () => null, querySelectorAll: () => [], addEventListener() {} };
+    querySelector: selector => selector === '.play-actions' ? get('play-actions') : null, querySelectorAll: () => [], addEventListener() {} };
   let value = saved;
   const context = vm.createContext({ document, console, AbortController, location: { protocol: 'https:' }, navigator: {},
     localStorage: { getItem() { if (blocked) throw Error('blocked'); return value; }, setItem(k, v) { if (blocked) throw Error('blocked'); value = v; } },
@@ -96,8 +96,9 @@ test('expert additions do not change the daily pool and level selection persists
   assert.equal(words.filter(w => w.difficulty === 4).length, 25);
   const app = await boot([words]);
   const dailyWord = app.get('word').textContent;
-  app.click('start-expert');
-  assert.equal(app.get('difficulty').textContent, 'النخبة ✦');
+  app.saved();
+  app.get('practice-level').handlers.change({ target: { value: '4' } });
+  assert.equal(app.get('difficulty').textContent, 'نخبة');
   assert.equal(app.saved().practiceLevel, '4');
   app.click('daily-mode');
   assert.equal(app.get('word').textContent, dailyWord);
