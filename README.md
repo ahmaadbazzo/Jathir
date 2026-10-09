@@ -31,11 +31,13 @@ The interface is RTL throughout, with Arabic accessible labels, keyboard focus i
 Node.js 18 or later is sufficient; nothing needs to be installed.
 
 ```sh
-node --test tests/game.test.js
+node --test tests/*.test.js
 node scripts/validate-words.js
 ```
 
 Tests cover positional feedback, duplicate letters (including doubled synthetic roots), hamza and diacritic normalization, invalid input, UTC daily selection, round completion and spoiler-free sharing.
+
+Startup tests also parse every browser script and run UI handlers against a minimal DOM adapter, covering loading, retry, invalid data, saved wins, practice, unavailable storage and clipboard fallback. These are not real-browser layout tests. GitHub Actions runs the checks on pushes and pull requests, and Pages deployment runs them before publishing.
 
 The data validator checks all required fields, difficulty 1–3, exactly three Arabic root letters, sound non-doubled roots, root letters occurring in order within each word, and duplicate normalized words. Shared roots are intentional: different derived words can share a root. The data contains 120 words from 40 sound triliteral roots, with no weak/hollow roots. Patterns are written without vowel marks, matching the displayed words.
 
@@ -53,3 +55,4 @@ tests/game.test.js          Node test runner tests
 ```
 
 The same date and dataset produce the same daily puzzle for everyone. Changing the word list or its order changes daily selection. Data is public, so curious players can inspect solutions; there is no server-side anti-cheat. Storage is device-local and does not synchronize across browsers. Blocked or full storage is handled with an Arabic notice while play remains available.
+

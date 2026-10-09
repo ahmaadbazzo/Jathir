@@ -10,10 +10,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20261009-2">
-  <script defer src="js/game.js?v=20261009-2"></script>
-  <script defer src="js/storage.js?v=20261009-2"></script>
-  <script defer src="js/ui.js?v=20261009-2"></script>
+  <link rel="stylesheet" href="css/style.css?v=20261009-3">
+  <script defer src="js/game.js?v=20261009-3"></script>
+  <script defer src="js/storage.js?v=20261009-3"></script>
+  <script defer src="js/ui.js?v=20261009-3"></script>
 </head>
 <body>
   <div class="ambient-pattern" aria-hidden="true"></div>
@@ -26,8 +26,8 @@
       </div>
     </header>
     <nav class="modes" aria-label="نمط اللعب">
-      <button id="daily-mode" aria-pressed="true">تحدّي اليوم</button>
-      <button id="practice-mode" aria-pressed="false">تدريب حرّ</button>
+      <button id="daily-mode" disabled aria-pressed="true">تحدّي اليوم</button>
+      <button id="practice-mode" disabled aria-pressed="false">تدريب حرّ</button>
     </nav>
     <section class="puzzle" aria-labelledby="word">
       <div class="eyebrow">✦ رحلة إلى أصول الكلمات ✦</div>
@@ -37,7 +37,8 @@
       <p class="subtitle">ثلاثة أحرف. ستّ محاولات.</p>
       <div class="board-frame"><div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div></div>
       <p id="message" class="message" role="status" aria-live="polite">جارٍ تحميل الكلمات…</p>
-      <div class="play-actions"><button type="button" id="submit-guess" class="primary submit-guess" aria-label="تأكيد التخمين">تأكيد الجذر ↵</button><button type="button" id="clear-guess" class="secondary clear-guess" aria-label="مسح الحروف">مسح الحروف</button></div>
+      <button type="button" id="retry-load" class="secondary" hidden>إعادة المحاولة</button>
+      <div class="play-actions"><button type="button" id="submit-guess" disabled class="primary submit-guess" aria-label="تأكيد التخمين">تأكيد الجذر ↵</button><button type="button" id="clear-guess" disabled class="secondary clear-guess" aria-label="مسح الحروف">مسح الحروف</button></div>
       <div id="hints" class="hints" aria-live="polite"></div>
       <div class="result-actions" id="result-actions" hidden>
         <button id="share-button" class="primary">مشاركة النتيجة <span aria-hidden="true">↗</span></button>
@@ -74,15 +75,7 @@
     <p>تعذّر النسخ التلقائي. حدّد النص وانسخه:</p>
     <textarea id="share-text" readonly dir="rtl" aria-label="نص النتيجة للمشاركة"></textarea>
   </dialog>
-  <script>
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        var msg = document.getElementById('message');
-        if (msg && msg.textContent.includes('جارٍ تحميل')) {
-          msg.textContent = 'تعذّر بدء اللعبة. حدّث الصفحة، وإذا استمرت المشكلة أرسل صورة من وحدة التحكم (F12 → Console).';
-        }
-      }, 5000);
-    });
-  </script>
+
 </body>
 </html>
+
