@@ -75,7 +75,7 @@
     renderBoard(reveal);
     const status = G.roundStatus(round.guesses, entry.root);
     say(status === 'won' ? `أحسنت! الجذر هو ${[...entry.root].join(' ')}.` : status === 'lost' ? `انتهت المحاولات. الجذر هو ${[...entry.root].join(' ')}.` : `المحاولة ${(round.guesses.length + 1).toLocaleString('ar')} من ٦`);
-    $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
+    $('submit-guess').disabled = finished(); $('clear-guess').disabled = finished();\n    $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
     $('hints').replaceChildren();
     const wrong = round.guesses.filter(g => G.normalize(g) !== G.normalize(entry.root)).length;
     if (wrong >= 2) addHint('الوزن', entry.pattern);
@@ -142,7 +142,7 @@
     });
     $('stats-dialog').showModal();
   }
-  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
+  $('submit-guess').addEventListener('click', () => input('enter'));\n  $('clear-guess').addEventListener('click', () => { if (!finished() && !animating) { draft = ''; renderBoard(); } });\n  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
   $('stats-button').addEventListener('click', showStats);
   document.querySelectorAll('.close-dialog').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
   $('color-blind').checked = data.colorBlind;
@@ -159,7 +159,7 @@
   document.addEventListener('keydown', e => {
     if (document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input')) return;
     // Let focused buttons handle Enter/Space natively for accessible navigation.
-    if (e.key === 'Enter' && e.target.closest('button')) return;
+    if (e.key === 'Enter' && e.target.closest('button')) {\n      if (e.target.closest('#keyboard') || e.target.id === 'submit-guess') { e.preventDefault(); input('enter'); }\n      return;\n    }
     if (e.key === 'Enter' || e.key === 'Backspace' || /^[ء-غف-يأإآٱ]$/.test(e.key)) {
       e.preventDefault(); input(e.key === 'Enter' ? 'enter' : e.key === 'Backspace' ? 'delete' : e.key);
     }
