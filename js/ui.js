@@ -159,7 +159,10 @@
   document.addEventListener('keydown', e => {
     if (document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input')) return;
     // Let focused buttons handle Enter/Space natively for accessible navigation.
-    if (e.key === 'Enter' && e.target.closest('button')) {\n      if (e.target.id === 'submit-guess') { e.preventDefault(); input('enter'); }\n      return;\n    }
+    if (e.key === 'Enter' && e.target.closest('button')) {
+      if (e.target.id === 'submit-guess') { e.preventDefault(); input('enter'); }
+      return;
+    }
     if (e.key === 'Enter' || e.key === 'Backspace' || /^[ء-غف-يأإآٱ]$/.test(e.key)) {
       e.preventDefault(); input(e.key === 'Enter' ? 'enter' : e.key === 'Backspace' ? 'delete' : e.key);
     }
