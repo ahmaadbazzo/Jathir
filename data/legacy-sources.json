@@ -1,0 +1,482 @@
+[
+  {
+    "word": "يلبس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ساكن",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "محمول",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يجلس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مرسوم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "رافع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "غاسل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "خدمة",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مكسور",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يشرح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ناقل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يربط",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يزرع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مركبة",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "منقول",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يطلب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يجمع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحفظ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مخبز",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حافر",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ينقل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ينظم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ناشر",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مصنوع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "منظوم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحسب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يملك",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "لابس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مقطوع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ينشر",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مالك",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يكتب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "رسام",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "طابخ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يخبز",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مفتوح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "فاهم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "جالس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يغلق",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يسكن",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "دارس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يكسر",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يقطع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يسبح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مخبوز",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "محكوم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مطبخ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مشروح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مسكون",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يغسل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يعمل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حاكم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يطبخ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مفهوم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مسبح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حارس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "سابح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "منشور",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مدفوع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "قاطع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مزروع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحكم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حاسب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ملعب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "باحث",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "خادم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "زارع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "دافع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يلعب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مسموع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ملبوس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يدرس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "محفور",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مدروس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مرفوع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحرس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حافظ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "كاتب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "منحوت",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "محفوظ",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "فاتح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يفتح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "رابط",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يصنع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "لاعب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ينحت",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "انكسار",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مجلس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "سامع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حساب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مطلوب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "نظام",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحمل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يدفع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "إغلاق",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "شارح",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "ناحت",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يركب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "طالب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مكتوب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يفهم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "بحث",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "صانع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "محروس",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يسمع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يرسم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "راكب",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يحفر",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مربوط",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يخدم",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يرفع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "عامل",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مغلق",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مجموع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مملكة",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "جامع",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "معمول",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "يبحث",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "مغسول",
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "حامل",
+    "source": "legacy-jathir"
+  }
+]

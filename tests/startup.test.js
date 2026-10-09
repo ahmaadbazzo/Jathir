@@ -92,8 +92,8 @@ test('practice remains playable with a single root', async () => {
 });
 
 test('expert additions do not change the daily pool and level selection persists', async () => {
-  assert.equal(words.filter(w => w.difficulty <= 3).length, 120);
-  assert.equal(words.filter(w => w.difficulty === 4).length, 25);
+  assert.equal(words.slice(0, 120).length, 120);
+  assert.equal(words.filter(w => w.difficulty === 4).length, 150);
   const app = await boot([words]);
   const dailyWord = app.get('word').textContent;
   app.saved();

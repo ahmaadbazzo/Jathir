@@ -27,7 +27,7 @@
   function start(nextMode, freshPractice = false) {
     mode = nextMode; day = G.dayNumber(); draft = ''; animating = false;
     if (mode === 'daily') {
-      const index = words.indexOf(G.dailyWord(words.filter(w => w.difficulty <= 3), day));
+      const index = words.indexOf(G.dailyWord(words.slice(0, 120), day));
       round = restore(data.daily, index, day); data.daily = round;
     } else {
       const index = !freshPractice && Number.isInteger(data.practice?.index) && words[data.practice.index] && eligible(words[data.practice.index]) ? data.practice.index : randomIndex();
