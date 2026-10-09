@@ -26,7 +26,8 @@
     "retrieved": "2026-10-09",
     "authors": "Hermit Dave; OpenSubtitles contributors",
     "download": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ar/ar_50k.txt",
-    "notice": "استخدم ترتيب التكرار في الاختيار، ولا تمثل رتب الترجمات السينمائية شيوع العربية في جميع المجالات."
+    "notice": "استخدم ترتيب التكرار في الاختيار، ولا تمثل رتب الترجمات السينمائية شيوع العربية في جميع المجالات.",
+    "sha256": "bbe98b4b92902b392bdefa2e555a108fdb42a5dd79d261674be5ab666229e19f"
   },
   {
     "id": "legacy-jathir",

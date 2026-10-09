@@ -1,74 +1,44 @@
-# Jathr (جذر)
+# Jathr / جذر
 
-A mobile-first Arabic root-guessing game built with HTML, CSS and vanilla JavaScript. All gameplay and persistence run in the browser. No backend, dependencies, package installation or build step.
+Two mobile-first Arabic games, HTML/CSS/vanilla JS. **No dependencies, build, backend or installation required.** Run `python3 -m http.server 8000` and open http://localhost:8000. Any static host works (including GitHub Pages); `file://` does not support the JSON fetches. Google Fonts is optional; local font fallbacks and the local arabesque SVG work without it.
 
-## Run
+## Games and stability
 
-From this directory, serve the static files:
+- **Jathr:** infer the displayed word’s 3-letter root in six attempts. Hints reveal the pattern after two wrong guesses and a short meaning after four. 600 words, 150 at each level. Daily uses **only `words.slice(0, 120)`**. Those original objects/order are frozen in `tests/fixtures/original120.json`; never edit or reorder them. All additions are practice-only.
+- **Five-letter game:** its display name is defined only by `NAME` in `js/wordgame.js`. Guess a hidden word in six attempts. 1,000 source-attested solutions and 6,872 allowed guesses; invalid guesses do not consume an attempt. Solutions are noun/adjective/verb headwords, excluding explicit proper names and marked rare/archaic forms, ranked using subtitle frequency. This is a corpus-based commonness heuristic, not a certified grade for every speaker. The stored solution order is guarded by `data/words5-order.sha256`; never reorder it after release.
+- Both daily schedules use UTC, day 1 = 2026-01-01, and wrap within their fixed pool. Practice picks randomly without immediately repeating the current root (Jathr) or word (five-letter game). The single-item fallback is safe.
+- Exact matches consume letters first; yellow matches consume only remaining occurrences. Feedback always has distinct ● / ▲ / × shapes. Sharing contains only game/day, score and colored squares, never the answer. Clipboard failure opens a selectable text dialog.
 
-```sh
-python3 -m http.server 8000
-```
+## Difficulty and persistence
 
-Open **http://localhost:8000**. Any static web server or static host works. Opening `index.html` directly with `file://` is unsupported because browsers restrict fetching the JSON word list. The server only serves files; it performs no game logic. Tajawal is loaded from Google Fonts, with a sans-serif fallback if unavailable.
+Jathr practice has four persisted segments: **1 سهل** = very common, transparent simple patterns (فاعل، مفعول، فعل); **2 متوسط** = familiar derived forms (تفعيل، انفعال، مفعلة); **3 متقدم** = less frequent or longer patterns (استفعال، تفاعل، مفاعلة); **4 نخبة** = literary/less familiar words and less obvious roots. Ratings and meanings are editorial; historical entries retain their previous ratings. Daily ignores this selector. Legacy `all` migrates to the saved practice word’s level, or level 1 when there is no valid saved word.
 
-## Rules
+Existing `jathr.v1` rounds, stats and preferences remain compatible. The second game uses **`jathr.wordgame.v1`** exclusively, with separate daily/practice rounds and stats. In each game, stats combine its two modes; streak means consecutive completed wins, not calendar days. Unfinished games do not count. Data stays in this browser; there is no cross-device synchronization. Blocked/full storage shows a notice without preventing play. Mute, motion and color-shape preferences remain shared; audio starts only after interaction. Reduced-motion OS settings always take priority.
 
-- Guess the displayed Arabic word's three-letter root in up to six attempts. For example, **مكتبة → ك ت ب**.
-- Green means the letter and position match. Yellow means the letter appears elsewhere in the root. Gray means no unused occurrence of that letter remains. Exact matches are allocated first, so duplicate guesses never receive more matches than the root contains.
-- The morphological pattern appears after two wrong guesses; a short Arabic meaning appears after four.
-- Use the on-screen Arabic keyboard, or a physical keyboard with an Arabic layout. Enter submits and Backspace deletes. There is no text input that invokes a device keyboard.
-- أ, إ, آ, ا (and ٱ) compare as ا. Tashkeel, spaces and tatweel are ignored.
-- **Daily:** one shared puzzle per UTC date, starting with day 1 on January 1, 2026. Selection cycles through the original 120-entry list; the 25 appended expert entries are practice-only, preserving daily selection and saved indices. Daily attempts resume after refreshing; completed daily rounds cannot be replayed that day.
-- **Practice:** random puzzles, unlimited rounds. The next puzzle has a different root from the current one.
-- Statistics combine both modes: completed rounds, win percentage, consecutive winning rounds, best streak and winning guess distribution. An unfinished round is not counted. A loss resets the streak. Stats, active rounds and color-blind preference are saved to this browser's `localStorage`.
-- Sharing copies the day number, score and 🟩🟨⬜ grid without the word or root. Practice shares are labeled as practice. When clipboard access is unavailable, a selectable text dialog provides manual copying.
+## Letters and accessibility
 
-The interface is RTL throughout, with Arabic accessible labels, keyboard focus indicators, native dialogs, live feedback and reduced-motion support. Enable **تمييز بالأشكال** to add ● / ▲ / × markers and stripes alongside colors.
+Both games normalize NFC, remove tashkeel/tatweel/spaces, and map **أ إ آ ٱ → ا**. **ة ى ء ئ ؤ stay distinct.** A five-letter word means exactly five characters after normalization. Every accepted character is on the on-screen keyboard. Enter submits and Backspace deletes; Arabic physical keyboards work. Dialogs suppress game shortcuts. RTL, Arabic accessible names, visible focus, WCAG AA text contrast, reduced motion and a dedicated source-icon gutter are maintained. Root morphology validation additionally rejects weak/hamzated/doubled roots.
 
-## Validate and test
+## Sources and licensing
 
-Node.js 18 or later is sufficient; nothing needs to be installed.
+The corner book icon opens a native dialog generated from `data/sources.json`, including authors, license links, changes and per-game counts. New entries preserve `source` and `sourceWord` for their Wiktionary entry URL/history. See [data/LICENSE.md](data/LICENSE.md).
+
+- **Wiktionary via Kaikki**, CC BY-SA 4.0: 455 new root-game entries, 1,000 solutions and 6,872 allowed guesses. Actual snapshot: enwiktionary 2026-09-02, extracted 2026-10-03, downloaded 2026-10-09; SHA-256 recorded. Selected headwords, roots/patterns and short Arabic meanings were editorially reviewed; definitions were not copied verbatim. Inferred roots and language-knowledge curation are identified in `data/jathir-review.json`. Derived lexical data and selection are CC BY-SA 4.0; code licensing is separate.
+- **FrequencyWords / OpenSubtitles 2018**, CC BY-SA 4.0 content: used only to rank commonness, not to establish lexical validity. Download and fingerprint are recorded.
+- **Legacy 145 entries:** inherited from the linked repository revision, without prior individual dictionary citations or a stated data license. We do not invent retroactive citations or relicense them. To honor the immutable-original requirement, the first 120 source IDs live in `data/legacy-sources.json` rather than altering those objects. This is an explicitly disclosed provenance limitation.
+
+No commercial dictionary was used. An optional maintainer audit, `python3 scripts/audit-source.py /path/to/download.jsonl`, verifies the snapshot fingerprint and every new headword against the actual source (Python 3.11+ standard library only). This is not a runtime/build step.
+
+## Checks
+
+Node 18+; no install required:
 
 ```sh
 node --test tests/*.test.js
 node scripts/validate-words.js
+node scripts/validate-words5.js
 ```
 
-Tests cover positional feedback, duplicate letters (including doubled synthetic roots), hamza and diacritic normalization, invalid input, UTC daily selection, round completion and spoiler-free sharing.
+Both CI and Pages run all three commands before publishing. Tests cover feedback, duplicates, normalization, dates, selection, migration, corrupt storage, attribution, immutable daily data and source counts. UI adapter tests supplement pure logic tests.
 
-Startup tests also parse every browser script and run UI handlers against a minimal DOM adapter, covering loading, retry, invalid data, saved wins, practice, unavailable storage and clipboard fallback. These are not real-browser layout tests. GitHub Actions runs the checks on pushes and pull requests, and Pages deployment runs them before publishing.
-
-The data validator checks all required fields, difficulty 1–4, exactly three Arabic root letters, sound non-doubled roots, root letters occurring in order within each word, and duplicate normalized words. Shared roots are intentional: different derived words can share a root. The data contains the original 120 words plus 25 advanced practice words, with sound triliteral roots. Some advanced words include vowel marks for clarity; comparison ignores these marks.
-
-## Files
-
-```text
-index.html                 Arabic game interface
-css/style.css              Responsive styles, animation and shape feedback
-js/game.js                 Pure game logic; browser global and CommonJS export
-js/ui.js                   DOM, input, rounds, hints, statistics and sharing
-js/storage.js              Local storage and statistics updates
-data/words.json            Fixed word list (keep order stable for daily puzzles)
-scripts/validate-words.js   Node data validator
-tests/game.test.js          Node test runner tests
-```
-
-The same date and dataset produce the same daily puzzle for everyone. Changing the word list or its order changes daily selection. Data is public, so curious players can inspect solutions; there is no server-side anti-cheat. Storage is device-local and does not synchronize across browsers. Blocked or full storage is handled with an Arabic notice while play remains available.
-
-
-## Arabic experience
-
-The welcome screen opens daily play, practice, or the expert pool. Practice supports all levels or easy, medium, advanced and expert filters. The original daily pool stays unchanged. Sound effects are synthesized locally with Web Audio after user interaction; no audio files or autoplay are required. Mute and motion preferences persist. Reduced-motion system settings are honored. The geometric SVG ornament is local and remains available without Google Fonts.
-
-For real-browser regression checks, install Playwright in your development environment, start the static server above, and run `node tests/browser/experience.cjs`. Set `CHROMIUM_PATH` if Chromium is not at `/usr/bin/chromium`, and `JATHIR_URL` for another server URL. The script checks 320px/390px layouts, expert play, saved preferences and keyboard input.
-
-### Expanded practice lexicon
-
-600 entries: the original 120 objects and their order are immutable; all additions are practice-only. Daily selection uses `words.slice(0, 120)`, never a difficulty filter. New editorial rubric: **1 سهل** common, transparent words with simple patterns (فاعل، مفعول، فعل); **2 متوسط** familiar derived forms (تفعيل، انفعال، مفعلة); **3 متقدم** less frequent/longer derivations (استفعال، تفاعل، مفاعلة); **4 نخبة** literary or less familiar words with less obvious roots. Frequency is a selection aid, not a certified frequency grade. Existing entries retain their historical ratings for compatibility. New meanings are short editorial paraphrases. Attribution and data licensing: [data/LICENSE.md](data/LICENSE.md).
-
-### Five-letter game
-
-The name is defined once in `js/wordgame.js` (`NAME`). It has six guesses, its own `jathr.wordgame.v1` storage, daily UTC selection from a frozen 1000-word order, and random practice without immediate repeats. 6,872 source-attested guesses include every solution. Non-list guesses do not consume an attempt. Solutions are noun/adjective/verb headwords ranked by subtitle frequency, excluding explicit proper-name entries and marked archaic/rare forms; commonness is corpus-based, not a guarantee for every speaker.
-
-Normalization is NFC, no tashkeel/tatweel/spaces, and أ/إ/آ/ٱ → ا. ة, ى, ء, ئ and ؤ remain distinct. All are on the keyboard. Exactly five normalized Arabic letters are required. No transliteration is accepted. `data/words5-order.sha256` guards the daily order; never silently reorder it. Run `node scripts/validate-words5.js` as well as the existing checks; both CI workflows do so.
+If Playwright and Chromium are already available, run `JATHIR_URL=http://localhost:8000 node tests/browser/experience.cjs`. Optional `CHROMIUM_PATH` selects Chromium (default `/usr/bin/chromium`). This development-only script checks both games, 320/390/desktop layouts, retries, blocked storage, sharing, preference persistence, midnight rollover and the source gutter; screenshots go to `docs/screenshots/`. The site itself has no Playwright dependency.
