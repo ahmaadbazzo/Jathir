@@ -10,10 +10,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/game.js"></script>
-  <script defer src="js/storage.js"></script>
-  <script defer src="js/ui.js"></script>
+  <link rel="stylesheet" href="css/style.css?v=20261009-2">
+  <script defer src="js/game.js?v=20261009-2"></script>
+  <script defer src="js/storage.js?v=20261009-2"></script>
+  <script defer src="js/ui.js?v=20261009-2"></script>
 </head>
 <body>
   <div class="ambient-pattern" aria-hidden="true"></div>
@@ -74,5 +74,15 @@
     <p>تعذّر النسخ التلقائي. حدّد النص وانسخه:</p>
     <textarea id="share-text" readonly dir="rtl" aria-label="نص النتيجة للمشاركة"></textarea>
   </dialog>
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var msg = document.getElementById('message');
+        if (msg && msg.textContent.includes('جارٍ تحميل')) {
+          msg.textContent = 'تعذّر بدء اللعبة. حدّث الصفحة، وإذا استمرت المشكلة أرسل صورة من وحدة التحكم (F12 → Console).';
+        }
+      }, 5000);
+    });
+  </script>
 </body>
 </html>
