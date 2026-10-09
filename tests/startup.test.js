@@ -29,7 +29,7 @@ async function boot(responses, saved = null, blocked = false) {
   }
   const get = id => { if (!elements.has(id)) elements.set(id, new Element()); return elements.get(id); };
   const document = { getElementById: get, createElement: () => new Element(), body: new Element(),
-    querySelector: () => null, querySelectorAll: () => [], addEventListener() {} };
+    querySelector: selector => selector === '.play-actions' ? get('play-actions') : null, querySelectorAll: () => [], addEventListener() {} };
   let value = saved;
   const context = vm.createContext({ document, console, AbortController, location: { protocol: 'https:' }, navigator: {},
     localStorage: { getItem() { if (blocked) throw Error('blocked'); return value; }, setItem(k, v) { if (blocked) throw Error('blocked'); value = v; } },
@@ -92,13 +92,29 @@ test('practice remains playable with a single root', async () => {
 });
 
 test('expert additions do not change the daily pool and level selection persists', async () => {
-  assert.equal(words.filter(w => w.difficulty <= 3).length, 120);
-  assert.equal(words.filter(w => w.difficulty === 4).length, 25);
+  assert.equal(words.slice(0, 120).length, 120);
+  assert.equal(words.filter(w => w.difficulty === 4).length, 150);
   const app = await boot([words]);
   const dailyWord = app.get('word').textContent;
-  app.click('start-expert');
-  assert.equal(app.get('difficulty').textContent, 'النخبة ✦');
+  app.saved();
+  app.click('practice-mode');
+  app.click('level-4');
+  assert.equal(app.get('difficulty').textContent, 'نخبة');
   assert.equal(app.saved().practiceLevel, '4');
   app.click('daily-mode');
   assert.equal(app.get('word').textContent, dailyWord);
+});
+
+
+test('legacy all-level practice migrates to its saved difficulty without erasing guesses', async () => {
+  const app = await boot([words]);
+  const data = app.saved();
+  const index = words.findIndex(w => w.difficulty === 4);
+  data.practiceLevel = 'all';
+  data.practice = { index, day: null, guesses: ['كتب'], recorded: false };
+  const restored = await boot([words], JSON.stringify(data));
+  assert.equal(restored.saved().practiceLevel, '4');
+  restored.click('practice-mode');
+  assert.equal(restored.saved().practice.index, index);
+  assert.deepEqual(restored.saved().practice.guesses, ['كتب']);
 });

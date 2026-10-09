@@ -844,174 +844,4749 @@
     "root": "نبط",
     "pattern": "استفعال",
     "meaning": "استخراج المعنى الخفي بالتأمّل",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استدراك",
     "root": "درك",
     "pattern": "استفعال",
     "meaning": "تدارك ما فات أو تصحيح قول سابق",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "اضطراب",
     "root": "ضرب",
     "pattern": "افتعال",
     "meaning": "اختلال النظام وعدم الاستقرار",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "اصطبار",
     "root": "صبر",
     "pattern": "افتعال",
     "meaning": "التجلّد والمبالغة في الصبر",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "ازدحام",
     "root": "زحم",
     "pattern": "افتعال",
     "meaning": "تجمّع الناس وضيق المكان بهم",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "ادّخار",
     "root": "دخر",
     "pattern": "افتعال",
     "meaning": "حفظ الشيء لوقت الحاجة",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استشراف",
     "root": "شرف",
     "pattern": "استفعال",
     "meaning": "التطلّع إلى المستقبل ومحاولة استكشافه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استنفار",
     "root": "نفر",
     "pattern": "استفعال",
     "meaning": "الدعوة إلى الاستعداد والتحرّك",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استبسال",
     "root": "بسل",
     "pattern": "استفعال",
     "meaning": "إظهار الشجاعة والثبات في الشدائد",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استهجان",
     "root": "هجن",
     "pattern": "استفعال",
     "meaning": "استقباح الشيء وعدم استحسانه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استغراق",
     "root": "غرق",
     "pattern": "استفعال",
     "meaning": "الانشغال الكامل بشيء",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استطراد",
     "root": "طرد",
     "pattern": "استفعال",
     "meaning": "الانتقال إلى كلام متّصل بالموضوع ثم العودة إليه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استنكار",
     "root": "نكر",
     "pattern": "استفعال",
     "meaning": "رفض أمر واستقباحه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استحضار",
     "root": "حضر",
     "pattern": "استفعال",
     "meaning": "جلب الشيء إلى الذهن",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استجلاب",
     "root": "جلب",
     "pattern": "استفعال",
     "meaning": "طلب الشيء وجذبه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استكشاف",
     "root": "كشف",
     "pattern": "استفعال",
     "meaning": "السعي لمعرفة ما خفي",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استفحال",
     "root": "فحل",
     "pattern": "استفعال",
     "meaning": "اشتداد الأمر وتعاظمه",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استقطاب",
     "root": "قطب",
     "pattern": "استفعال",
     "meaning": "جذب الناس أو الأشياء نحو جهة",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استمطار",
     "root": "مطر",
     "pattern": "استفعال",
     "meaning": "طلب نزول المطر",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استعذاب",
     "root": "عذب",
     "pattern": "استفعال",
     "meaning": "وجدان الشيء عذبًا مستساغًا",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استعطاف",
     "root": "عطف",
     "pattern": "استفعال",
     "meaning": "طلب الرحمة والميل والشفقة",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استبطان",
     "root": "بطن",
     "pattern": "استفعال",
     "meaning": "تأمّل ما في النفس من أفكار ومشاعر",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "استحسان",
     "root": "حسن",
     "pattern": "استفعال",
     "meaning": "عدّ الشيء حسنًا",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "مُستَرسِل",
     "root": "رسل",
     "pattern": "مستفعل",
     "meaning": "ماضٍ في كلامه أو فعله دون تكلّف",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
   },
   {
     "word": "تَجَشُّم",
     "root": "جشم",
     "pattern": "تفعّل",
     "meaning": "تحمّل المشقّة والتكلّف",
-    "difficulty": 4
+    "difficulty": 4,
+    "source": "legacy-jathir"
+  },
+  {
+    "word": "نظيف",
+    "root": "نظف",
+    "pattern": "فعيل",
+    "meaning": "خال من الأوساخ",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "نظيف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جميع",
+    "root": "جمع",
+    "pattern": "فعيل",
+    "meaning": "كل الأفراد دون استثناء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جميع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كبير",
+    "root": "كبر",
+    "pattern": "فعيل",
+    "meaning": "عظيم الحجم",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كبير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خارج",
+    "root": "خرج",
+    "pattern": "فاعل",
+    "meaning": "الجهة غير الداخلية",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "خارج",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سعيد",
+    "root": "سعد",
+    "pattern": "فعيل",
+    "meaning": "يشعر بالفرح",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سعيد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جميل",
+    "root": "جمل",
+    "pattern": "فعيل",
+    "meaning": "حسن المنظر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جميل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عظيم",
+    "root": "عظم",
+    "pattern": "فعيل",
+    "meaning": "كبير الشأن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عظيم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طريق",
+    "root": "طرق",
+    "pattern": "فعيل",
+    "meaning": "مسلك للمرور",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "طريق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صباح",
+    "root": "صبح",
+    "pattern": "فعال",
+    "meaning": "أول النهار",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "صباح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "غريب",
+    "root": "غرب",
+    "pattern": "فعيل",
+    "meaning": "غير مألوف",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "غريب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حالك",
+    "root": "حلك",
+    "pattern": "فاعل",
+    "meaning": "شديد الظلمة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حالك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لطيف",
+    "root": "لطف",
+    "pattern": "فعيل",
+    "meaning": "رقيق المعاملة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "لطيف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "داخل",
+    "root": "دخل",
+    "pattern": "فاعل",
+    "meaning": "الجزء الباطن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "داخل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صديق",
+    "root": "صدق",
+    "pattern": "فعيل",
+    "meaning": "رفيق تثق به",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "صديق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فريق",
+    "root": "فرق",
+    "pattern": "فعيل",
+    "meaning": "جماعة تعمل معًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "فريق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صغير",
+    "root": "صغر",
+    "pattern": "فعيل",
+    "meaning": "قليل الحجم",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "صغير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قادم",
+    "root": "قدم",
+    "pattern": "فاعل",
+    "meaning": "مقبل نحوك",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قادم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جهاز",
+    "root": "جهز",
+    "pattern": "فعال",
+    "meaning": "أداة تؤدي مهمة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جهاز",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كامل",
+    "root": "كمل",
+    "pattern": "فاعل",
+    "meaning": "لا ينقصه شيء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كامل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عالم",
+    "root": "علم",
+    "pattern": "فاعل",
+    "meaning": "صاحب علم ومعرفة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عالم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كثير",
+    "root": "كثر",
+    "pattern": "فعيل",
+    "meaning": "وفير العدد",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كثير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جاهز",
+    "root": "جهز",
+    "pattern": "فاعل",
+    "meaning": "مستعد للاستعمال",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جاهز",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قاتل",
+    "root": "قتل",
+    "pattern": "فاعل",
+    "meaning": "من يزهق نفسًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قاتل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قريب",
+    "root": "قرب",
+    "pattern": "فعيل",
+    "meaning": "قليل المسافة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قريب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بعيد",
+    "root": "بعد",
+    "pattern": "فعيل",
+    "meaning": "طويل المسافة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "بعيد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صاحب",
+    "root": "صحب",
+    "pattern": "فاعل",
+    "meaning": "رفيق ومرافق",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "صاحب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سلاح",
+    "root": "سلح",
+    "pattern": "فعال",
+    "meaning": "أداة للدفاع أو القتال",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سلاح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سخيف",
+    "root": "سخف",
+    "pattern": "فعيل",
+    "meaning": "قليل القيمة والمعنى",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سخيف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سماع",
+    "root": "سمع",
+    "pattern": "فعال",
+    "meaning": "إدراك الأصوات بالأذن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سماع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كتاب",
+    "root": "كتب",
+    "pattern": "فعال",
+    "meaning": "صفحات تجمع نصوصًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كتاب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مريض",
+    "root": "مرض",
+    "pattern": "فعيل",
+    "meaning": "يشكو علة في بدنه",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مريض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جانب",
+    "root": "جنب",
+    "pattern": "فاعل",
+    "meaning": "طرف من أطراف الشيء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جانب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "هاتف",
+    "root": "هتف",
+    "pattern": "فاعل",
+    "meaning": "وسيلة للتواصل الصوتي",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "هاتف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طعام",
+    "root": "طعم",
+    "pattern": "فعال",
+    "meaning": "ما يؤكل للتغذي",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "طعام",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "باسم",
+    "root": "بسم",
+    "pattern": "فاعل",
+    "meaning": "تعلو وجهه ابتسامة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "باسم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بسيط",
+    "root": "بسط",
+    "pattern": "فعيل",
+    "meaning": "سهل غير معقد",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "بسيط",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شراب",
+    "root": "شرب",
+    "pattern": "فعال",
+    "meaning": "سائل صالح للشرب",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شراب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شارع",
+    "root": "شرع",
+    "pattern": "فاعل",
+    "meaning": "طريق بين المباني",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شارع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشغول",
+    "root": "شغل",
+    "pattern": "مفعول",
+    "meaning": "منصرف إلى عمل",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مشغول",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قادر",
+    "root": "قدر",
+    "pattern": "فاعل",
+    "meaning": "يملك الاستطاعة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قادر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خطير",
+    "root": "خطر",
+    "pattern": "فعيل",
+    "meaning": "قد يسبب ضررًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "خطير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شاهد",
+    "root": "شهد",
+    "pattern": "فاعل",
+    "meaning": "من رأى الواقعة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شاهد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عميل",
+    "root": "عمل",
+    "pattern": "فعيل",
+    "meaning": "زبون يتعامل مع جهة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عميل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لعين",
+    "root": "لعن",
+    "pattern": "فعيل",
+    "meaning": "مستحق للذم واللعن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "لعين",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "غاضب",
+    "root": "غضب",
+    "pattern": "فاعل",
+    "meaning": "ممتلئ بالغضب",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "غاضب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قديم",
+    "root": "قدم",
+    "pattern": "فعيل",
+    "meaning": "مضى عليه زمن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قديم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حادث",
+    "root": "حدث",
+    "pattern": "فاعل",
+    "meaning": "واقعة غير متوقعة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حادث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "غادر",
+    "root": "غدر",
+    "pattern": "فاعل",
+    "meaning": "ترك المكان ورحل",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "غادر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بارد",
+    "root": "برد",
+    "pattern": "فاعل",
+    "meaning": "قليل الحرارة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "بارد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سريع",
+    "root": "سرع",
+    "pattern": "فعيل",
+    "meaning": "يتحرك في وقت قصير",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سريع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كلام",
+    "root": "كلم",
+    "pattern": "فعال",
+    "meaning": "ألفاظ للتعبير",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كلام",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سابق",
+    "root": "سبق",
+    "pattern": "فاعل",
+    "meaning": "متقدم في الزمن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سابق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فظيع",
+    "root": "فظع",
+    "pattern": "فعيل",
+    "meaning": "شديد السوء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "فظيع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حاضر",
+    "root": "حضر",
+    "pattern": "فاعل",
+    "meaning": "موجود الآن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حاضر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ضابط",
+    "root": "ضبط",
+    "pattern": "فاعل",
+    "meaning": "صاحب رتبة عسكرية",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "ضابط",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معروف",
+    "root": "عرف",
+    "pattern": "مفعول",
+    "meaning": "معلوم لدى الناس",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "معروف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شابه",
+    "root": "شبه",
+    "pattern": "فاعل",
+    "meaning": "ماثل غيره في صفة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شابه",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشروع",
+    "root": "شرع",
+    "pattern": "مفعول",
+    "meaning": "عمل مخطط لتنفيذه",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مشروع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فخور",
+    "root": "فخر",
+    "pattern": "فعول",
+    "meaning": "معتز بما أنجز",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "فخور",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بارك",
+    "root": "برك",
+    "pattern": "فاعل",
+    "meaning": "دعا بالخير والبركة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "بارك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كريم",
+    "root": "كرم",
+    "pattern": "فعيل",
+    "meaning": "كثير العطاء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كريم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جمال",
+    "root": "جمل",
+    "pattern": "فعال",
+    "meaning": "حسن يسر الناظر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جمال",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عجوز",
+    "root": "عجز",
+    "pattern": "فعول",
+    "meaning": "امرأة متقدمة في العمر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عجوز",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فريد",
+    "root": "فرد",
+    "pattern": "فعيل",
+    "meaning": "لا مثيل له",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "فريد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معقول",
+    "root": "عقل",
+    "pattern": "مفعول",
+    "meaning": "يقبله العقل",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "معقول",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قابل",
+    "root": "قبل",
+    "pattern": "فاعل",
+    "meaning": "يمكنه قبول شيء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قابل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "رفيق",
+    "root": "رفق",
+    "pattern": "فعيل",
+    "meaning": "لطيف في التعامل",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "رفيق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شريك",
+    "root": "شرك",
+    "pattern": "فعيل",
+    "meaning": "مشارك في أمر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شريك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لاحق",
+    "root": "لحق",
+    "pattern": "فاعل",
+    "meaning": "آتيًا بعد غيره",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "لاحق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسموح",
+    "root": "سمح",
+    "pattern": "مفعول",
+    "meaning": "مأذون به",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مسموح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شريط",
+    "root": "شرط",
+    "pattern": "فعيل",
+    "meaning": "قطعة طويلة ضيقة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شريط",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "زعيم",
+    "root": "زعم",
+    "pattern": "فعيل",
+    "meaning": "قائد جماعة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "زعيم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قصير",
+    "root": "قصر",
+    "pattern": "فعيل",
+    "meaning": "قليل الطول",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قصير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مفقود",
+    "root": "فقد",
+    "pattern": "مفعول",
+    "meaning": "غائب لا يعرف موضعه",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مفقود",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ضعيف",
+    "root": "ضعف",
+    "pattern": "فعيل",
+    "meaning": "قليل القوة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "ضعيف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صالح",
+    "root": "صلح",
+    "pattern": "فاعل",
+    "meaning": "جيد يصلح للغرض",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "صالح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قارب",
+    "root": "قرب",
+    "pattern": "فاعل",
+    "meaning": "زورق صغير",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قارب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جنوب",
+    "root": "جنب",
+    "pattern": "فعول",
+    "meaning": "جهة تقابل الشمال",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جنوب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشروب",
+    "root": "شرب",
+    "pattern": "مفعول",
+    "meaning": "سائل يشرب",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مشروب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قتال",
+    "root": "قتل",
+    "pattern": "فعال",
+    "meaning": "مواجهة بالسلاح",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قتال",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "رخيص",
+    "root": "رخص",
+    "pattern": "فعيل",
+    "meaning": "منخفض الثمن",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "رخيص",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كاذب",
+    "root": "كذب",
+    "pattern": "فاعل",
+    "meaning": "لا يقول الصدق",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كاذب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قطار",
+    "root": "قطر",
+    "pattern": "فعال",
+    "meaning": "عربات تسير على سكة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "قطار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سباق",
+    "root": "سبق",
+    "pattern": "فعال",
+    "meaning": "تنافس للوصول أولًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سباق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ساعد",
+    "root": "سعد",
+    "pattern": "فاعل",
+    "meaning": "قدم العون",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "ساعد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عادل",
+    "root": "عدل",
+    "pattern": "فاعل",
+    "meaning": "يحكم بالإنصاف",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عادل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شمال",
+    "root": "شمل",
+    "pattern": "فعال",
+    "meaning": "جهة تقابل الجنوب",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "شمال",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "براد",
+    "root": "برد",
+    "pattern": "فعال",
+    "meaning": "جهاز لتبريد الطعام",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "براد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حديث",
+    "root": "حدث",
+    "pattern": "فعيل",
+    "meaning": "قريب العهد",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حديث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عصير",
+    "root": "عصر",
+    "pattern": "فعيل",
+    "meaning": "سائل يستخرج من الثمار",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عصير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حصان",
+    "root": "حصن",
+    "pattern": "فعال",
+    "meaning": "حيوان يركب ويجر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حصان",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حقير",
+    "root": "حقر",
+    "pattern": "فعيل",
+    "meaning": "دنيء القدر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حقير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عديم",
+    "root": "عدم",
+    "pattern": "فعيل",
+    "meaning": "فاقد لشيء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عديم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خاتم",
+    "root": "ختم",
+    "pattern": "فاعل",
+    "meaning": "حلية تحيط بالإصبع",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "خاتم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حكيم",
+    "root": "حكم",
+    "pattern": "فعيل",
+    "meaning": "صاحب رأي سديد",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حكيم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نطاق",
+    "root": "نطق",
+    "pattern": "فعال",
+    "meaning": "حدود الامتداد",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "نطاق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جدول",
+    "root": "جدل",
+    "pattern": "فعول",
+    "meaning": "مجرى ماء صغير",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جدول",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقبول",
+    "root": "قبل",
+    "pattern": "مفعول",
+    "meaning": "لقي رضا الآخرين",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مقبول",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كبار",
+    "root": "كبر",
+    "pattern": "فعال",
+    "meaning": "عظام السن أو الحجم",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "كبار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عميق",
+    "root": "عمق",
+    "pattern": "فعيل",
+    "meaning": "بعيد القعر",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "عميق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ركوب",
+    "root": "ركب",
+    "pattern": "فعول",
+    "meaning": "الاعتلاء للسير",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "ركوب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ممنوع",
+    "root": "منع",
+    "pattern": "مفعول",
+    "meaning": "غير مأذون به",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "ممنوع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حزين",
+    "root": "حزن",
+    "pattern": "فعيل",
+    "meaning": "يشعر بالأسى",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حزين",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مارس",
+    "root": "مرس",
+    "pattern": "فاعل",
+    "meaning": "زاول عملًا",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مارس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تابع",
+    "root": "تبع",
+    "pattern": "فاعل",
+    "meaning": "استمر في العمل",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "تابع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مانع",
+    "root": "منع",
+    "pattern": "فاعل",
+    "meaning": "حاجز يمنع المرور",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مانع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حريق",
+    "root": "حرق",
+    "pattern": "فعيل",
+    "meaning": "نار تلتهم الأشياء",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "حريق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جبان",
+    "root": "جبن",
+    "pattern": "فعال",
+    "meaning": "يخشى المواجهة",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "جبان",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سكان",
+    "root": "سكن",
+    "pattern": "فعال",
+    "meaning": "المقيمون في المكان",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "سكان",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مجهول",
+    "root": "جهل",
+    "pattern": "مفعول",
+    "meaning": "غير معلوم",
+    "difficulty": 1,
+    "source": "enwiktionary",
+    "sourceWord": "مجهول",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعرف",
+    "root": "عرف",
+    "pattern": "تفعل",
+    "meaning": "اكتسب معرفة بشخص",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تعرف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعلم",
+    "root": "علم",
+    "pattern": "تفعل",
+    "meaning": "اكتسب معرفة أو مهارة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تعلم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فكرة",
+    "root": "فكر",
+    "pattern": "فعلة",
+    "meaning": "خاطر يتشكل في الذهن",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "فكرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشكلة",
+    "root": "شكل",
+    "pattern": "مفعلة",
+    "meaning": "أمر يحتاج إلى حل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مشكلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كبيرة",
+    "root": "كبر",
+    "pattern": "فعيلة",
+    "meaning": "ذنب شديد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "كبيرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعمل",
+    "root": "عمل",
+    "pattern": "تفعل",
+    "meaning": "تكلف العمل وتعب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تعمل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "غرفة",
+    "root": "غرف",
+    "pattern": "فعلة",
+    "meaning": "حيز داخل مبنى",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "غرفة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طريقة",
+    "root": "طرق",
+    "pattern": "فعيلة",
+    "meaning": "أسلوب لإنجاز أمر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "طريقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لحظة",
+    "root": "لحظ",
+    "pattern": "فعلة",
+    "meaning": "وقت قصير جدًا",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "لحظة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فرصة",
+    "root": "فرص",
+    "pattern": "فعلة",
+    "meaning": "ظرف ملائم للعمل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "فرصة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "علاقة",
+    "root": "علق",
+    "pattern": "فعالة",
+    "meaning": "صلة تربط شيئين",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "علاقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صغيرة",
+    "root": "صغر",
+    "pattern": "فعيلة",
+    "meaning": "ذنب قليل الشأن",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "صغيرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منزل",
+    "root": "نزل",
+    "pattern": "مفعل",
+    "meaning": "مسكن يقيم فيه الناس",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "منزل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نظرة",
+    "root": "نظر",
+    "pattern": "فعلة",
+    "meaning": "توجيه البصر مرة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "نظرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كلمة",
+    "root": "كلم",
+    "pattern": "فعلة",
+    "meaning": "لفظ ذو معنى",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "كلمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفضل",
+    "root": "فضل",
+    "pattern": "تفعل",
+    "meaning": "أظهر لطفًا ومنّة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفضل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مكتب",
+    "root": "كتب",
+    "pattern": "مفعل",
+    "meaning": "موضع للكتابة والعمل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مكتب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحدث",
+    "root": "حدث",
+    "pattern": "تفعل",
+    "meaning": "نطق وتكلم",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تحدث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تذكر",
+    "root": "ذكر",
+    "pattern": "تفعل",
+    "meaning": "استعاد أمرًا في ذهنه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تذكر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لعبة",
+    "root": "لعب",
+    "pattern": "فعلة",
+    "meaning": "شيء يتسلى به",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "لعبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفكر",
+    "root": "فكر",
+    "pattern": "تفعل",
+    "meaning": "تأمل في أمر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفكر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصبح",
+    "root": "صبح",
+    "pattern": "تفعل",
+    "meaning": "نام في الصباح",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تصبح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفهم",
+    "root": "فهم",
+    "pattern": "تفعل",
+    "meaning": "أدرك المعنى بتأن",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفهم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حفلة",
+    "root": "حفل",
+    "pattern": "فعلة",
+    "meaning": "اجتماع للاحتفال",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "حفلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مدينة",
+    "root": "مدن",
+    "pattern": "فعيلة",
+    "meaning": "تجمع عمراني كبير",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مدينة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ممكن",
+    "root": "مكن",
+    "pattern": "مفعل",
+    "meaning": "قابل للحدوث",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "ممكن",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحمل",
+    "root": "حمل",
+    "pattern": "تفعل",
+    "meaning": "حمل عبئًا وصبر عليه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تحمل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شرطة",
+    "root": "شرط",
+    "pattern": "فعلة",
+    "meaning": "جهاز لحفظ الأمن",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "شرطة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عشرة",
+    "root": "عشر",
+    "pattern": "فعلة",
+    "meaning": "صحبة ومخالطة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عشرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جريمة",
+    "root": "جرم",
+    "pattern": "فعيلة",
+    "meaning": "فعل يعاقب عليه القانون",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "جريمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مضحك",
+    "root": "ضحك",
+    "pattern": "مفعل",
+    "meaning": "يبعث على الضحك",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مضحك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مركز",
+    "root": "ركز",
+    "pattern": "مفعل",
+    "meaning": "موضع تتجمع فيه الأنشطة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مركز",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قطعة",
+    "root": "قطع",
+    "pattern": "فعلة",
+    "meaning": "جزء منفصل من شيء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "قطعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحرك",
+    "root": "حرك",
+    "pattern": "تفعل",
+    "meaning": "انتقل من موضعه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تحرك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "لطيفة",
+    "root": "لطف",
+    "pattern": "فعيلة",
+    "meaning": "عبارة طريفة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "لطيفة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "رحلة",
+    "root": "رحل",
+    "pattern": "فعلة",
+    "meaning": "انتقال إلى مكان بعيد",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "رحلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تخرج",
+    "root": "خرج",
+    "pattern": "تفعل",
+    "meaning": "أتم الدراسة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تخرج",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نقطة",
+    "root": "نقط",
+    "pattern": "فعلة",
+    "meaning": "علامة صغيرة مستديرة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "نقطة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منطقة",
+    "root": "نطق",
+    "pattern": "مفعلة",
+    "meaning": "جزء محدد من الأرض",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "منطقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معظم",
+    "root": "عظم",
+    "pattern": "مفعل",
+    "meaning": "القسم الأكبر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "معظم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مذهل",
+    "root": "ذهل",
+    "pattern": "مفعل",
+    "meaning": "يثير الدهشة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مذهل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "غريبة",
+    "root": "غرب",
+    "pattern": "فعيلة",
+    "meaning": "حادثة غير مألوفة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "غريبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "درجة",
+    "root": "درج",
+    "pattern": "فعلة",
+    "meaning": "مرتبة في سلم",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "درجة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مدرسة",
+    "root": "درس",
+    "pattern": "مفعلة",
+    "meaning": "مكان للتعليم",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مدرسة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقدم",
+    "root": "قدم",
+    "pattern": "تفعل",
+    "meaning": "مضى إلى الأمام",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تقدم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تسمع",
+    "root": "سمع",
+    "pattern": "تفعل",
+    "meaning": "أنصت باهتمام",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تسمع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عظيمة",
+    "root": "عظم",
+    "pattern": "فعيلة",
+    "meaning": "مصيبة شديدة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "عظيمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تدخل",
+    "root": "دخل",
+    "pattern": "تفعل",
+    "meaning": "شارك في شأن غيره",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تدخل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حضرة",
+    "root": "حضر",
+    "pattern": "فعلة",
+    "meaning": "وجود شخص في مكان",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "حضرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صفقة",
+    "root": "صفق",
+    "pattern": "فعلة",
+    "meaning": "اتفاق على بيع أو شراء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "صفقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مناسب",
+    "root": "نسب",
+    "pattern": "مفاعل",
+    "meaning": "ملائم للغرض",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مناسب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تطلب",
+    "root": "طلب",
+    "pattern": "تفعل",
+    "meaning": "احتاج إلى شيء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تطلب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فرقة",
+    "root": "فرق",
+    "pattern": "فعلة",
+    "meaning": "مجموعة من الأشخاص",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "فرقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تلعب",
+    "root": "لعب",
+    "pattern": "تفعل",
+    "meaning": "انشغل باللعب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تلعب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكذب",
+    "root": "كذب",
+    "pattern": "تفعل",
+    "meaning": "تظاهر بالكذب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تكذب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عطلة",
+    "root": "عطل",
+    "pattern": "فعلة",
+    "meaning": "وقت راحة من العمل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عطلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفقد",
+    "root": "فقد",
+    "pattern": "تفعل",
+    "meaning": "فحص الشيء واطمأن إليه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفقد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حركة",
+    "root": "حرك",
+    "pattern": "فعلة",
+    "meaning": "انتقال أو تغير موضع",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "حركة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "علامة",
+    "root": "علم",
+    "pattern": "فعالة",
+    "meaning": "إشارة تدل على شيء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "علامة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصدق",
+    "root": "صدق",
+    "pattern": "تفعل",
+    "meaning": "أعطى المحتاج",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تصدق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقتل",
+    "root": "قتل",
+    "pattern": "تفعل",
+    "meaning": "قاتل بعضهم بعضًا",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تقتل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حقيبة",
+    "root": "حقب",
+    "pattern": "فعيلة",
+    "meaning": "وعاء لحمل الأغراض",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "حقيبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معجب",
+    "root": "عجب",
+    "pattern": "مفعل",
+    "meaning": "مسرور بما رأى",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "معجب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سفينة",
+    "root": "سفن",
+    "pattern": "فعيلة",
+    "meaning": "مركبة كبيرة في الماء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "سفينة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مطعم",
+    "root": "طعم",
+    "pattern": "مفعل",
+    "meaning": "مكان يقدم الطعام",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مطعم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متجر",
+    "root": "تجر",
+    "pattern": "مفعل",
+    "meaning": "مكان لبيع السلع",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "متجر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسرح",
+    "root": "سرح",
+    "pattern": "مفعل",
+    "meaning": "مكان لعرض التمثيل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مسرح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تترك",
+    "root": "ترك",
+    "pattern": "تفعل",
+    "meaning": "تشبه بالأتراك",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تترك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ضربة",
+    "root": "ضرب",
+    "pattern": "فعلة",
+    "meaning": "إصابة بجسم متحرك",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "ضربة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نسخة",
+    "root": "نسخ",
+    "pattern": "فعلة",
+    "meaning": "صورة مطابقة للأصل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "نسخة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مفتاح",
+    "root": "فتح",
+    "pattern": "مفعال",
+    "meaning": "أداة لفتح القفل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مفتاح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تخبر",
+    "root": "خبر",
+    "pattern": "تفعل",
+    "meaning": "سأل عن الأخبار",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تخبر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعرض",
+    "root": "عرض",
+    "pattern": "تفعل",
+    "meaning": "جعل نفسه عرضة لأمر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تعرض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ملكة",
+    "root": "ملك",
+    "pattern": "فعلة",
+    "meaning": "امرأة تتولى الحكم",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "ملكة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحضر",
+    "root": "حضر",
+    "pattern": "تفعل",
+    "meaning": "انتقل إلى حياة المدن",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تحضر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نتيجة",
+    "root": "نتج",
+    "pattern": "فعيلة",
+    "meaning": "ما ينشأ عن العمل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "نتيجة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عبارة",
+    "root": "عبر",
+    "pattern": "فعالة",
+    "meaning": "جملة تعبر عن معنى",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عبارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقبل",
+    "root": "قبل",
+    "pattern": "تفعل",
+    "meaning": "رضي بالشيء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تقبل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تمهل",
+    "root": "مهل",
+    "pattern": "تفعل",
+    "meaning": "تأنى ولم يستعجل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تمهل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكلم",
+    "root": "كلم",
+    "pattern": "تفعل",
+    "meaning": "عبّر بالكلمات",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تكلم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شجرة",
+    "root": "شجر",
+    "pattern": "فعلة",
+    "meaning": "نبات له جذع وفروع",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "شجرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقرف",
+    "root": "قرف",
+    "pattern": "مفعل",
+    "meaning": "يثير الاشمئزاز",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مقرف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معركة",
+    "root": "عرك",
+    "pattern": "مفعلة",
+    "meaning": "مواجهة بين فريقين",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "معركة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصرف",
+    "root": "صرف",
+    "pattern": "تفعل",
+    "meaning": "سلك سلوكًا معينًا",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تصرف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جماعة",
+    "root": "جمع",
+    "pattern": "فعالة",
+    "meaning": "عدد من الناس مجتمعين",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "جماعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جزيرة",
+    "root": "جزر",
+    "pattern": "فعيلة",
+    "meaning": "أرض يحيط بها الماء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "جزيرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عصابة",
+    "root": "عصب",
+    "pattern": "فعالة",
+    "meaning": "جماعة متحالفة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عصابة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خدعة",
+    "root": "خدع",
+    "pattern": "فعلة",
+    "meaning": "حيلة للإيهام",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "خدعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مرحلة",
+    "root": "رحل",
+    "pattern": "مفعلة",
+    "meaning": "جزء من مسار طويل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مرحلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قبلة",
+    "root": "قبل",
+    "pattern": "فعلة",
+    "meaning": "ملامسة بالشفتين للمودة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "قبلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "حديقة",
+    "root": "حدق",
+    "pattern": "فعيلة",
+    "meaning": "أرض تزرع للزينة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "حديقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تتبع",
+    "root": "تبع",
+    "pattern": "تفعل",
+    "meaning": "اقتفى الأثر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تتبع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقدار",
+    "root": "قدر",
+    "pattern": "مفعال",
+    "meaning": "كمية معلومة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مقدار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منظمة",
+    "root": "نظم",
+    "pattern": "مفعلة",
+    "meaning": "جهة لها أعضاء ونظام",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "منظمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مساعد",
+    "root": "سعد",
+    "pattern": "مفاعل",
+    "meaning": "من يقدم العون",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مساعد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تنجح",
+    "root": "نجح",
+    "pattern": "تفعل",
+    "meaning": "طلب نجاح الأمر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تنجح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "علبة",
+    "root": "علب",
+    "pattern": "فعلة",
+    "meaning": "وعاء لحفظ الأشياء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "علبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جلسة",
+    "root": "جلس",
+    "pattern": "فعلة",
+    "meaning": "اجتماع في وقت محدد",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "جلسة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كذبة",
+    "root": "كذب",
+    "pattern": "فعلة",
+    "meaning": "قول مخالف للحقيقة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "كذبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معقد",
+    "root": "عقد",
+    "pattern": "مفعل",
+    "meaning": "متشابك يصعب حله",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "معقد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محمد",
+    "root": "حمد",
+    "pattern": "مفعل",
+    "meaning": "كثير الخصال المحمودة",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "محمد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تهرب",
+    "root": "هرب",
+    "pattern": "تفعل",
+    "meaning": "حاول الإفلات",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تهرب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مذكرة",
+    "root": "ذكر",
+    "pattern": "مفعلة",
+    "meaning": "ورقة لتسجيل أمر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مذكرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصنع",
+    "root": "صنع",
+    "pattern": "تفعل",
+    "meaning": "تظاهر بما ليس فيه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تصنع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعب",
+    "root": "تعب",
+    "pattern": "مفعل",
+    "meaning": "يسبب الإرهاق",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "متعب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مذنب",
+    "root": "ذنب",
+    "pattern": "مفعل",
+    "meaning": "مرتكب خطأ",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مذنب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفسير",
+    "root": "فسر",
+    "pattern": "تفعيل",
+    "meaning": "شرح المعنى",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفسير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفتح",
+    "root": "فتح",
+    "pattern": "تفعل",
+    "meaning": "انفتح شيئًا فشيئًا",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "تفتح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عربة",
+    "root": "عرب",
+    "pattern": "فعلة",
+    "meaning": "مركبة تحمل الأشخاص أو الأشياء",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عربة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سلطة",
+    "root": "سلط",
+    "pattern": "فعلة",
+    "meaning": "قدرة على إصدار القرار",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "سلطة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مباشرة",
+    "root": "بشر",
+    "pattern": "مفاعلة",
+    "meaning": "دون وسيط",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مباشرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستكشف",
+    "root": "كشف",
+    "pattern": "مستفعل",
+    "meaning": "باحث عن أماكن مجهولة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستكشف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مختلف",
+    "root": "خلف",
+    "pattern": "مفتعل",
+    "meaning": "غير مشابه لغيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مختلف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تراجع",
+    "root": "رجع",
+    "pattern": "تفاعل",
+    "meaning": "عاد إلى الوراء",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تراجع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محتمل",
+    "root": "حمل",
+    "pattern": "مفتعل",
+    "meaning": "يجوز وقوعه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "محتمل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستقبل",
+    "root": "قبل",
+    "pattern": "مستفعل",
+    "meaning": "الزمن الآتي",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستقبل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متحمس",
+    "root": "حمس",
+    "pattern": "متفعل",
+    "meaning": "مقبل على الأمر بنشاط",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متحمس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشترك",
+    "root": "شرك",
+    "pattern": "مفتعل",
+    "meaning": "يجمع أكثر من طرف",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مشترك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تذاكر",
+    "root": "ذكر",
+    "pattern": "تفاعل",
+    "meaning": "راجعوا المعلومات معًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تذاكر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محترف",
+    "root": "حرف",
+    "pattern": "مفتعل",
+    "meaning": "يتقن عمله مهنة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "محترف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تبادل",
+    "root": "بدل",
+    "pattern": "تفاعل",
+    "meaning": "أعطى وأخذ بالمقابل",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تبادل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقابل",
+    "root": "قبل",
+    "pattern": "تفاعل",
+    "meaning": "واجه بعضهم بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقابل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مطاردة",
+    "root": "طرد",
+    "pattern": "مفاعلة",
+    "meaning": "السعي للحاق بالهارب",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مطاردة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تماسك",
+    "root": "مسك",
+    "pattern": "تفاعل",
+    "meaning": "ثبتت أجزاؤه معًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تماسك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منخفض",
+    "root": "خفض",
+    "pattern": "منفعل",
+    "meaning": "قليل الارتفاع",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منخفض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مجتمع",
+    "root": "جمع",
+    "pattern": "مفتعل",
+    "meaning": "جماعة تعيش معًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مجتمع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مختبر",
+    "root": "خبر",
+    "pattern": "مفتعل",
+    "meaning": "مكان لإجراء التجارب",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مختبر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مرتفع",
+    "root": "رفع",
+    "pattern": "مفتعل",
+    "meaning": "عال عن محيطه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مرتفع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعامل",
+    "root": "عمل",
+    "pattern": "تفاعل",
+    "meaning": "تبادل العمل مع غيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعامل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقاتل",
+    "root": "قتل",
+    "pattern": "تفاعل",
+    "meaning": "قاتل بعضهم بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقاتل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تجاهل",
+    "root": "جهل",
+    "pattern": "تفاعل",
+    "meaning": "تعمد عدم الاهتمام",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تجاهل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستحسن",
+    "root": "حسن",
+    "pattern": "مستفعل",
+    "meaning": "مرضي عنه ومفضل",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستحسن",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقاطع",
+    "root": "قطع",
+    "pattern": "تفاعل",
+    "meaning": "التقى مساران",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقاطع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "استرجاع",
+    "root": "رجع",
+    "pattern": "استفعال",
+    "meaning": "إعادة ما فقد",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "استرجاع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفاهم",
+    "root": "فهم",
+    "pattern": "تفاعل",
+    "meaning": "وصل إلى فهم مشترك",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تفاهم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تشارك",
+    "root": "شرك",
+    "pattern": "تفاعل",
+    "meaning": "عمل مع غيره في شيء",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تشارك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منحرف",
+    "root": "حرف",
+    "pattern": "منفعل",
+    "meaning": "مائل عن الطريق",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منحرف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تدافع",
+    "root": "دفع",
+    "pattern": "تفاعل",
+    "meaning": "دفع بعضهم بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تدافع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تلاعب",
+    "root": "لعب",
+    "pattern": "تفاعل",
+    "meaning": "عبث بقصد الخداع",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تلاعب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تظاهر",
+    "root": "ظهر",
+    "pattern": "تفاعل",
+    "meaning": "أظهر خلاف ما يبطن",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تظاهر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقتنع",
+    "root": "قنع",
+    "pattern": "مفتعل",
+    "meaning": "مؤمن بصحة أمر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مقتنع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مراهقة",
+    "root": "رهق",
+    "pattern": "مفاعلة",
+    "meaning": "مرحلة بين الطفولة والرشد",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مراهقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تناسب",
+    "root": "نسب",
+    "pattern": "تفاعل",
+    "meaning": "تلاءمت أجزاؤه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تناسب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعادل",
+    "root": "عدل",
+    "pattern": "تفاعل",
+    "meaning": "تساوت النتيجة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعادل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقاعد",
+    "root": "قعد",
+    "pattern": "تفاعل",
+    "meaning": "ترك العمل بعد الخدمة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقاعد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منتجع",
+    "root": "نجع",
+    "pattern": "مفتعل",
+    "meaning": "مكان للراحة والسياحة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منتجع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تمالك",
+    "root": "ملك",
+    "pattern": "تفاعل",
+    "meaning": "ضبط نفسه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تمالك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقاتلة",
+    "root": "قتل",
+    "pattern": "مفاعلة",
+    "meaning": "المشاركة في القتال",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مقاتلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحالف",
+    "root": "حلف",
+    "pattern": "تفاعل",
+    "meaning": "اتفقوا على التعاون",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تحالف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منتزه",
+    "root": "نزه",
+    "pattern": "مفتعل",
+    "meaning": "مكان للترويح",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منتزه",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متقاعد",
+    "root": "قعد",
+    "pattern": "متفاعل",
+    "meaning": "أنهى خدمته المهنية",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متقاعد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحارب",
+    "root": "حرب",
+    "pattern": "تفاعل",
+    "meaning": "شنوا حربًا متبادلة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تحارب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مرتبك",
+    "root": "ربك",
+    "pattern": "مفتعل",
+    "meaning": "حائر غير مستقر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مرتبك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متقدم",
+    "root": "قدم",
+    "pattern": "متفعل",
+    "meaning": "في مرتبة أمام غيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متقدم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستعجل",
+    "root": "عجل",
+    "pattern": "مستفعل",
+    "meaning": "يطلب الإسراع",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستعجل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تطارد",
+    "root": "طرد",
+    "pattern": "تفاعل",
+    "meaning": "لاحق بعضهم بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تطارد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تتابع",
+    "root": "تبع",
+    "pattern": "تفاعل",
+    "meaning": "جاء بعضه بعد بعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تتابع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متنزه",
+    "root": "نزه",
+    "pattern": "متفعل",
+    "meaning": "موضع للنزهة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متنزه",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستقطع",
+    "root": "قطع",
+    "pattern": "مستفعل",
+    "meaning": "محذوف من الكمية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستقطع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متخلف",
+    "root": "خلف",
+    "pattern": "متفعل",
+    "meaning": "متأخر عن غيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متخلف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منعطف",
+    "root": "عطف",
+    "pattern": "منفعل",
+    "meaning": "موضع انحناء الطريق",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منعطف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منشغل",
+    "root": "شغل",
+    "pattern": "منفعل",
+    "meaning": "مستغرق في عمل",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منشغل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تشابه",
+    "root": "شبه",
+    "pattern": "تفاعل",
+    "meaning": "تماثل في بعض الصفات",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تشابه",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تسريحة",
+    "root": "سرح",
+    "pattern": "تفعيلة",
+    "meaning": "هيئة ترتيب الشعر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تسريحة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منعزل",
+    "root": "عزل",
+    "pattern": "منفعل",
+    "meaning": "بعيد عن الاختلاط",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منعزل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مبتذل",
+    "root": "بذل",
+    "pattern": "مفتعل",
+    "meaning": "فقد قيمته لكثرة تكراره",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مبتذل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعمد",
+    "root": "عمد",
+    "pattern": "متفعل",
+    "meaning": "مقصود لا عرضي",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متعمد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستنقع",
+    "root": "نقع",
+    "pattern": "مستفعل",
+    "meaning": "أرض غارقة في الماء",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستنقع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تشكيلة",
+    "root": "شكل",
+    "pattern": "تفعيلة",
+    "meaning": "مجموعة متنوعة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تشكيلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعاقب",
+    "root": "عقب",
+    "pattern": "تفاعل",
+    "meaning": "جاء واحد بعد آخر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعاقب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصادم",
+    "root": "صدم",
+    "pattern": "تفاعل",
+    "meaning": "ارتطم بعضه ببعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تصادم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعارض",
+    "root": "عرض",
+    "pattern": "تفاعل",
+    "meaning": "تنافت وجهتا نظر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعارض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معتدل",
+    "root": "عدل",
+    "pattern": "مفتعل",
+    "meaning": "متوسط بلا إفراط",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "معتدل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستخدم",
+    "root": "خدم",
+    "pattern": "مستفعل",
+    "meaning": "من يستعمل شيئًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستخدم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منتشر",
+    "root": "نشر",
+    "pattern": "مفتعل",
+    "meaning": "موجود في مواضع كثيرة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منتشر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متبسم",
+    "root": "بسم",
+    "pattern": "متفعل",
+    "meaning": "تعلو وجهه ابتسامة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متبسم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفاعل",
+    "root": "فعل",
+    "pattern": "تفاعل",
+    "meaning": "أثر بعضه في بعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تفاعل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصادف",
+    "root": "صدف",
+    "pattern": "تفاعل",
+    "meaning": "التقى بغير موعد",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تصادف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منفرد",
+    "root": "فرد",
+    "pattern": "منفعل",
+    "meaning": "وحيد عن غيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "منفرد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعهد",
+    "root": "عهد",
+    "pattern": "متفعل",
+    "meaning": "ملتزم بتنفيذ عمل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متعهد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعاطف",
+    "root": "عطف",
+    "pattern": "تفاعل",
+    "meaning": "شعر بمعاناة الآخر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعاطف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستند",
+    "root": "سند",
+    "pattern": "مفتعل",
+    "meaning": "وثيقة يستند إليها",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستند",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقارن",
+    "root": "قرن",
+    "pattern": "تفاعل",
+    "meaning": "قارن بعضه ببعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقارن",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تناقش",
+    "root": "نقش",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الآراء",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تناقش",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محترق",
+    "root": "حرق",
+    "pattern": "مفتعل",
+    "meaning": "اشتعلت فيه النار",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "محترق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مفترق",
+    "root": "فرق",
+    "pattern": "مفتعل",
+    "meaning": "موضع تفرع الطرق",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مفترق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تساقط",
+    "root": "سقط",
+    "pattern": "تفاعل",
+    "meaning": "وقع تباعًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تساقط",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تنازل",
+    "root": "نزل",
+    "pattern": "تفاعل",
+    "meaning": "ترك حقًا لغيره",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تنازل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تضارب",
+    "root": "ضرب",
+    "pattern": "تفاعل",
+    "meaning": "تعارض واختلف",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تضارب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تداخل",
+    "root": "دخل",
+    "pattern": "تفاعل",
+    "meaning": "تشابكت أجزاؤه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تداخل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تنافس",
+    "root": "نفس",
+    "pattern": "تفاعل",
+    "meaning": "تسابق لنيل شيء",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تنافس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معتقل",
+    "root": "عقل",
+    "pattern": "مفتعل",
+    "meaning": "مكان لحجز الأشخاص",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "معتقل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "استنتاج",
+    "root": "نتج",
+    "pattern": "استفعال",
+    "meaning": "الوصول إلى حكم من مقدمات",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "استنتاج",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تناقض",
+    "root": "نقض",
+    "pattern": "تفاعل",
+    "meaning": "خالف بعضه بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تناقض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متسابق",
+    "root": "سبق",
+    "pattern": "متفاعل",
+    "meaning": "مشارك في السباق",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متسابق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تسامح",
+    "root": "سمح",
+    "pattern": "تفاعل",
+    "meaning": "تجاوز عن الخطأ",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تسامح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تجادل",
+    "root": "جدل",
+    "pattern": "تفاعل",
+    "meaning": "ناقش بحجة واعتراض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تجادل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعصب",
+    "root": "عصب",
+    "pattern": "متفعل",
+    "meaning": "متشدد لرأيه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متعصب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تضاعف",
+    "root": "ضعف",
+    "pattern": "تفاعل",
+    "meaning": "ازداد إلى مثليه",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تضاعف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متنقل",
+    "root": "نقل",
+    "pattern": "متفعل",
+    "meaning": "ينتقل بين الأماكن",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متنقل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متحدث",
+    "root": "حدث",
+    "pattern": "متفعل",
+    "meaning": "من يلقي الكلام",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متحدث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستعمل",
+    "root": "عمل",
+    "pattern": "مستفعل",
+    "meaning": "سبق استعماله",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستعمل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعلم",
+    "root": "علم",
+    "pattern": "متفعل",
+    "meaning": "اكتسب معرفة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متعلم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مساهمة",
+    "root": "سهم",
+    "pattern": "مفاعلة",
+    "meaning": "حصة في جهد مشترك",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مساهمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقاسم",
+    "root": "قسم",
+    "pattern": "تفاعل",
+    "meaning": "اقتسموا الشيء بينهم",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقاسم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصارع",
+    "root": "صرع",
+    "pattern": "تفاعل",
+    "meaning": "تغالب بالأجساد",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تصارع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متطرف",
+    "root": "طرف",
+    "pattern": "متفعل",
+    "meaning": "بعيد عن الاعتدال",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متطرف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصاعد",
+    "root": "صعد",
+    "pattern": "تفاعل",
+    "meaning": "ارتفع تدريجيًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تصاعد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تشاجر",
+    "root": "شجر",
+    "pattern": "تفاعل",
+    "meaning": "تنازع واحتد",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تشاجر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تلامس",
+    "root": "لمس",
+    "pattern": "تفاعل",
+    "meaning": "مس بعضه بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تلامس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متكامل",
+    "root": "كمل",
+    "pattern": "متفاعل",
+    "meaning": "تتم أجزاؤه بعضها",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متكامل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مرتعب",
+    "root": "رعب",
+    "pattern": "مفتعل",
+    "meaning": "شديد الخوف",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مرتعب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منفعل",
+    "root": "فعل",
+    "pattern": "منفعل",
+    "meaning": "متأثر بانفعال شديد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منفعل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعقب",
+    "root": "عقب",
+    "pattern": "متفعل",
+    "meaning": "يتبع الأثر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متعقب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متمرد",
+    "root": "مرد",
+    "pattern": "متفعل",
+    "meaning": "رافض للطاعة",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "متمرد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مخترق",
+    "root": "خرق",
+    "pattern": "مفتعل",
+    "meaning": "نافذ عبر حاجز",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مخترق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تناغم",
+    "root": "نغم",
+    "pattern": "تفاعل",
+    "meaning": "انسجم بعضه مع بعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تناغم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقارب",
+    "root": "قرب",
+    "pattern": "تفاعل",
+    "meaning": "دنا بعضه من بعض",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تقارب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستحضر",
+    "root": "حضر",
+    "pattern": "مستفعل",
+    "meaning": "مادة معدة للاستعمال",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستحضر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منطلق",
+    "root": "طلق",
+    "pattern": "منفعل",
+    "meaning": "أساس يبدأ منه التفكير",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منطلق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مندثر",
+    "root": "دثر",
+    "pattern": "منفعل",
+    "meaning": "زالت آثاره",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مندثر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جلابية",
+    "root": "جلب",
+    "pattern": "فعالية",
+    "meaning": "ثوب واسع طويل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "جلابية",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ممطرة",
+    "root": "مطر",
+    "pattern": "مفعلة",
+    "meaning": "لباس يقي المطر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "ممطرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قصيبة",
+    "root": "قصب",
+    "pattern": "فعيلة",
+    "meaning": "نبات يؤخذ منه الشوفان",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "قصيبة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ترافع",
+    "root": "رفع",
+    "pattern": "تفاعل",
+    "meaning": "احتكم بعضهم إلى القضاء",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "ترافع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقراب",
+    "root": "قرب",
+    "pattern": "مفعال",
+    "meaning": "أداة لرؤية البعيد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقراب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تراجم",
+    "root": "رجم",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الرمي بالحجارة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تراجم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكاتب",
+    "root": "كتب",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الرسائل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تكاتب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحاسب",
+    "root": "حسب",
+    "pattern": "تفاعل",
+    "meaning": "راجع الحساب مع غيره",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تحاسب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تسامع",
+    "root": "سمع",
+    "pattern": "تفاعل",
+    "meaning": "انتشر خبره بين الناس",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تسامع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تماثل",
+    "root": "مثل",
+    "pattern": "تفاعل",
+    "meaning": "تشابه وتوافق",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تماثل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقتضب",
+    "root": "قضب",
+    "pattern": "مفتعل",
+    "meaning": "قصير العبارة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقتضب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعارف",
+    "root": "عرف",
+    "pattern": "تفاعل",
+    "meaning": "عرف بعضهم بعضًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تعارف",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تعاكس",
+    "root": "عكس",
+    "pattern": "تفاعل",
+    "meaning": "اتجه في اتجاهين متضادين",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تعاكس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقاطر",
+    "root": "قطر",
+    "pattern": "تفاعل",
+    "meaning": "جاء في جماعات متتابعة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تقاطر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تخابر",
+    "root": "خبر",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الأخبار",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تخابر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تطارح",
+    "root": "طرح",
+    "pattern": "تفاعل",
+    "meaning": "تبادل طرح الأفكار",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تطارح",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تنافر",
+    "root": "نفر",
+    "pattern": "تفاعل",
+    "meaning": "ابتعد بعضه عن بعض",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تنافر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تباحث",
+    "root": "بحث",
+    "pattern": "تفاعل",
+    "meaning": "ناقش أمرًا مع غيره",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تباحث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تجامل",
+    "root": "جمل",
+    "pattern": "تفاعل",
+    "meaning": "أظهر الود واللطف",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تجامل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تخامر",
+    "root": "خمر",
+    "pattern": "تفاعل",
+    "meaning": "دبروا أمرًا في الخفاء",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تخامر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تشاغل",
+    "root": "شغل",
+    "pattern": "تفاعل",
+    "meaning": "تظاهر بالانشغال",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تشاغل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تبالد",
+    "root": "بلد",
+    "pattern": "تفاعل",
+    "meaning": "تظاهر بقلة الفهم",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تبالد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طحينة",
+    "root": "طحن",
+    "pattern": "فعيلة",
+    "meaning": "عجينة من السمسم المطحون",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "طحينة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستعمر",
+    "root": "عمر",
+    "pattern": "مستفعل",
+    "meaning": "خاضع لسيطرة أجنبية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستعمر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كفارة",
+    "root": "كفر",
+    "pattern": "فعالة",
+    "meaning": "عمل يمحو أثر الذنب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "كفارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكفير",
+    "root": "كفر",
+    "pattern": "تفعيل",
+    "meaning": "جبر خطأ بعمل صالح",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تكفير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مثقال",
+    "root": "ثقل",
+    "pattern": "مفعال",
+    "meaning": "مقدار يوزن به",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مثقال",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تبارك",
+    "root": "برك",
+    "pattern": "تفاعل",
+    "meaning": "تعاظم خيره وبركته",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تبارك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحادث",
+    "root": "حدث",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الحديث",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تحادث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تفارق",
+    "root": "فرق",
+    "pattern": "تفاعل",
+    "meaning": "ابتعد أحدهما عن الآخر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تفارق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحامل",
+    "root": "حمل",
+    "pattern": "تفاعل",
+    "meaning": "تكلف الحمل على مشقة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تحامل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكاثر",
+    "root": "كثر",
+    "pattern": "تفاعل",
+    "meaning": "ازداد عدده",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تكاثر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تساند",
+    "root": "سند",
+    "pattern": "تفاعل",
+    "meaning": "اعتمد بعضه على بعض",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تساند",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقارض",
+    "root": "قرض",
+    "pattern": "تفاعل",
+    "meaning": "جازى بعضهم بعضًا",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تقارض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "برادة",
+    "root": "برد",
+    "pattern": "فعالة",
+    "meaning": "فتات ينتج عن برد معدن",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "برادة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مجتهد",
+    "root": "جهد",
+    "pattern": "مفتعل",
+    "meaning": "يبذل جهدًا في عمله",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مجتهد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متزمت",
+    "root": "زمت",
+    "pattern": "متفعل",
+    "meaning": "متشدد في سلوكه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متزمت",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خبازة",
+    "root": "خبز",
+    "pattern": "فعالة",
+    "meaning": "صنعة إعداد الخبز",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "خبازة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تكالم",
+    "root": "كلم",
+    "pattern": "تفاعل",
+    "meaning": "تبادل الكلام",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تكالم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بشارة",
+    "root": "بشر",
+    "pattern": "فعالة",
+    "meaning": "خبر يسر سامعه",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "بشارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مرصاد",
+    "root": "رصد",
+    "pattern": "مفعال",
+    "meaning": "موضع للمراقبة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مرصاد",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مغرفة",
+    "root": "غرف",
+    "pattern": "مفعلة",
+    "meaning": "أداة لغرف الطعام",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مغرفة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عجينة",
+    "root": "عجن",
+    "pattern": "فعيلة",
+    "meaning": "دقيق ممزوج بسائل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "عجينة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فتاحة",
+    "root": "فتح",
+    "pattern": "فعالة",
+    "meaning": "أداة لفتح العلب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "فتاحة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "جرافة",
+    "root": "جرف",
+    "pattern": "فعالة",
+    "meaning": "آلة لجرف التراب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "جرافة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "زحافة",
+    "root": "زحف",
+    "pattern": "فعالة",
+    "meaning": "آلة تنزلق على الأرض",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "زحافة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بهيمة",
+    "root": "بهم",
+    "pattern": "فعيلة",
+    "meaning": "حيوان غير ناطق",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "بهيمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مطحنة",
+    "root": "طحن",
+    "pattern": "مفعلة",
+    "meaning": "مكان لطحن الحبوب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مطحنة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سليقة",
+    "root": "سلق",
+    "pattern": "فعيلة",
+    "meaning": "طبع فطري في الإنسان",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "سليقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مجسمة",
+    "root": "جسم",
+    "pattern": "مفعلة",
+    "meaning": "نموذج ذو أبعاد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مجسمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بطالة",
+    "root": "بطل",
+    "pattern": "فعالة",
+    "meaning": "انقطاع عن العمل",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "بطالة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "سليخة",
+    "root": "سلخ",
+    "pattern": "فعيلة",
+    "meaning": "قشر شجرة يشبه القرفة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "سليخة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مطمار",
+    "root": "طمر",
+    "pattern": "مفعال",
+    "meaning": "خيط بثقل لقياس الاستقامة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مطمار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "فتيلة",
+    "root": "فتل",
+    "pattern": "فعيلة",
+    "meaning": "خيط يشتعل في المصباح",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "فتيلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مجلخة",
+    "root": "جلخ",
+    "pattern": "مفعلة",
+    "meaning": "أداة لصقل المعدن",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مجلخة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مغلاق",
+    "root": "غلق",
+    "pattern": "مفعال",
+    "meaning": "ما يغلق به الباب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مغلاق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منفحة",
+    "root": "نفح",
+    "pattern": "مفعلة",
+    "meaning": "مادة لتخثير الحليب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منفحة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسلفة",
+    "root": "سلف",
+    "pattern": "مفعلة",
+    "meaning": "أداة لتسوية التربة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مسلفة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منقاش",
+    "root": "نقش",
+    "pattern": "مفعال",
+    "meaning": "أداة لحفر الزخارف",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منقاش",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معضدة",
+    "root": "عضد",
+    "pattern": "مفعلة",
+    "meaning": "حلية تلبس على العضد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "معضدة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منقار",
+    "root": "نقر",
+    "pattern": "مفعال",
+    "meaning": "فم الطائر الصلب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "منقار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مبخرة",
+    "root": "بخر",
+    "pattern": "مفعلة",
+    "meaning": "وعاء يحرق فيه البخور",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مبخرة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "استفسار",
+    "root": "فسر",
+    "pattern": "استفعال",
+    "meaning": "طلب بيان أمر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "استفسار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسطار",
+    "root": "سطر",
+    "pattern": "مفعال",
+    "meaning": "أداة لضبط استواء البناء",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مسطار",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مهراس",
+    "root": "هرس",
+    "pattern": "مفعال",
+    "meaning": "وعاء يدق فيه الطعام",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مهراس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متشكر",
+    "root": "شكر",
+    "pattern": "متفعل",
+    "meaning": "مظهر للامتنان",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متشكر",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محتشم",
+    "root": "حشم",
+    "pattern": "مفتعل",
+    "meaning": "متحفظ في مظهره وسلوكه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "محتشم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محدلة",
+    "root": "حدل",
+    "pattern": "مفعلة",
+    "meaning": "آلة لضغط الأرض وتسويتها",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "محدلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صراخة",
+    "root": "صرخ",
+    "pattern": "فعالة",
+    "meaning": "نبات يسمى لوف الحية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "صراخة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تصغير",
+    "root": "صغر",
+    "pattern": "تفعيل",
+    "meaning": "جعل الشيء أصغر",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تصغير",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقراض",
+    "root": "قرض",
+    "pattern": "مفعال",
+    "meaning": "أداة للقص",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقراض",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "محجمة",
+    "root": "حجم",
+    "pattern": "مفعلة",
+    "meaning": "إناء يستعمل في الحجامة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "محجمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عصارة",
+    "root": "عصر",
+    "pattern": "فعالة",
+    "meaning": "سائل يستخلص بالعصر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "عصارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طليعة",
+    "root": "طلع",
+    "pattern": "فعيلة",
+    "meaning": "أول القوم المتقدمين",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "طليعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقتتل",
+    "root": "قتل",
+    "pattern": "مفتعل",
+    "meaning": "موضع قتال",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقتتل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معترك",
+    "root": "عرك",
+    "pattern": "مفتعل",
+    "meaning": "ساحة صراع",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "معترك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "قطارة",
+    "root": "قطر",
+    "pattern": "فعالة",
+    "meaning": "أداة لإسقاط السائل قطرة قطرة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "قطارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مطبعة",
+    "root": "طبع",
+    "pattern": "مفعلة",
+    "meaning": "مكان لطباعة الكتب",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مطبعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستشرق",
+    "root": "شرق",
+    "pattern": "مستفعل",
+    "meaning": "باحث في ثقافات الشرق",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستشرق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "استشراق",
+    "root": "شرق",
+    "pattern": "استفعال",
+    "meaning": "دراسة لغات الشرق وثقافاته",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "استشراق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "بريمة",
+    "root": "برم",
+    "pattern": "فعيلة",
+    "meaning": "أداة ثقب لولبية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "بريمة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "خليقة",
+    "root": "خلق",
+    "pattern": "فعيلة",
+    "meaning": "طبع راسخ في النفس",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "خليقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منفاخ",
+    "root": "نفخ",
+    "pattern": "مفعال",
+    "meaning": "أداة لدفع الهواء",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منفاخ",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مثلجة",
+    "root": "ثلج",
+    "pattern": "مفعلة",
+    "meaning": "حجرة لحفظ الثلج",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مثلجة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تقانة",
+    "root": "تقن",
+    "pattern": "فعالة",
+    "meaning": "تطبيق المعرفة لصنع الأدوات",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تقانة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقصلة",
+    "root": "قصل",
+    "pattern": "مفعلة",
+    "meaning": "آلة ذات شفرة قاطعة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقصلة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستجمع",
+    "root": "جمع",
+    "pattern": "مستفعل",
+    "meaning": "حوض تتجمع فيه المياه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستجمع",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معراج",
+    "root": "عرج",
+    "pattern": "مفعال",
+    "meaning": "وسيلة للصعود",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "معراج",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تلاصق",
+    "root": "لصق",
+    "pattern": "تفاعل",
+    "meaning": "اتصلت سطوحه معًا",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تلاصق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "معزقة",
+    "root": "عزق",
+    "pattern": "مفعلة",
+    "meaning": "أداة لفلاحة الأرض",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "معزقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مصحنة",
+    "root": "صحن",
+    "pattern": "مفعلة",
+    "meaning": "إناء واسع مقعر",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مصحنة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستعرب",
+    "root": "عرب",
+    "pattern": "مستفعل",
+    "meaning": "متخصص في العربية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستعرب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مقعدة",
+    "root": "قعد",
+    "pattern": "مفعلة",
+    "meaning": "مكان الجلوس",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مقعدة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستنبت",
+    "root": "نبت",
+    "pattern": "مستفعل",
+    "meaning": "موضع لإنبات النباتات",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مستنبت",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "صرافة",
+    "root": "صرف",
+    "pattern": "فعالة",
+    "meaning": "تبديل العملات",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "صرافة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تدارك",
+    "root": "درك",
+    "pattern": "تفاعل",
+    "meaning": "لحق الأمر قبل فواته",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تدارك",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مدراس",
+    "root": "درس",
+    "pattern": "مفعال",
+    "meaning": "أداة لفصل الحب عن السنابل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مدراس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طبيقة",
+    "root": "طبق",
+    "pattern": "فعيلة",
+    "meaning": "رمح قصير للرمي",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "طبيقة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تغابن",
+    "root": "غبن",
+    "pattern": "تفاعل",
+    "meaning": "خدع بعضهم بعضًا في المعاملة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تغابن",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تغافل",
+    "root": "غفل",
+    "pattern": "تفاعل",
+    "meaning": "تظاهر بعدم الانتباه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تغافل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منبثق",
+    "root": "بثق",
+    "pattern": "منفعل",
+    "meaning": "صادر ومتدفق من أصل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منبثق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مدبغة",
+    "root": "دبغ",
+    "pattern": "مفعلة",
+    "meaning": "مكان لمعالجة الجلود",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مدبغة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "نشارة",
+    "root": "نشر",
+    "pattern": "فعالة",
+    "meaning": "فتات الخشب عند قطعه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "نشارة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسلاط",
+    "root": "سلط",
+    "pattern": "مفعال",
+    "meaning": "جهاز لعرض الصور",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مسلاط",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "عصيدة",
+    "root": "عصد",
+    "pattern": "فعيلة",
+    "meaning": "طعام من دقيق مطبوخ",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "عصيدة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مستغرب",
+    "root": "غرب",
+    "pattern": "مستفعل",
+    "meaning": "يشعر بالعجب",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "مستغرب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "انفرادي",
+    "root": "فرد",
+    "pattern": "انفعالي",
+    "meaning": "خاص بشخص واحد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "انفرادي",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مشروعية",
+    "root": "شرع",
+    "pattern": "مفعولية",
+    "meaning": "موافقة للقانون",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مشروعية",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تحاضن",
+    "root": "حضن",
+    "pattern": "تفاعل",
+    "meaning": "عانق بعضهم بعضًا",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تحاضن",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تهامس",
+    "root": "همس",
+    "pattern": "تفاعل",
+    "meaning": "تحدثوا بصوت خافت",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تهامس",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "كنافة",
+    "root": "كنف",
+    "pattern": "فعالة",
+    "meaning": "حلوى من خيوط العجين",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "كنافة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مسبحة",
+    "root": "سبح",
+    "pattern": "مفعلة",
+    "meaning": "خرز يعد به الذكر",
+    "difficulty": 2,
+    "source": "enwiktionary",
+    "sourceWord": "مسبحة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "متعرب",
+    "root": "عرب",
+    "pattern": "متفعل",
+    "meaning": "اكتسب اللغة والعادات العربية",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "متعرب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تساهم",
+    "root": "سهم",
+    "pattern": "تفاعل",
+    "meaning": "اقترعوا على الأنصبة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تساهم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "طريدة",
+    "root": "طرد",
+    "pattern": "فعيلة",
+    "meaning": "حيوان يطارده الصائد",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "طريدة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تزاحم",
+    "root": "زحم",
+    "pattern": "تفاعل",
+    "meaning": "تدافعوا في مكان ضيق",
+    "difficulty": 3,
+    "source": "enwiktionary",
+    "sourceWord": "تزاحم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تناسل",
+    "root": "نسل",
+    "pattern": "تفاعل",
+    "meaning": "أنجب نسلًا",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تناسل",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "شراعة",
+    "root": "شرع",
+    "pattern": "فعالة",
+    "meaning": "فتحة للنظر في الباب",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "شراعة",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تلاحم",
+    "root": "لحم",
+    "pattern": "تفاعل",
+    "meaning": "تماسك واتصل بقوة",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تلاحم",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تخابث",
+    "root": "خبث",
+    "pattern": "تفاعل",
+    "meaning": "أظهر المكر لغيره",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تخابث",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "ملتهب",
+    "root": "لهب",
+    "pattern": "مفتعل",
+    "meaning": "تشتعل فيه النار",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "ملتهب",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "منتعش",
+    "root": "نعش",
+    "pattern": "مفتعل",
+    "meaning": "استعاد نشاطه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "منتعش",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "مندلق",
+    "root": "دلق",
+    "pattern": "منفعل",
+    "meaning": "متدفق من وعائه",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "مندلق",
+    "frequencySource": "frequencywords"
+  },
+  {
+    "word": "تدشين",
+    "root": "دشن",
+    "pattern": "تفعيل",
+    "meaning": "افتتاح رسمي لعمل",
+    "difficulty": 4,
+    "source": "enwiktionary",
+    "sourceWord": "تدشين",
+    "frequencySource": "frequencywords"
   }
 ]

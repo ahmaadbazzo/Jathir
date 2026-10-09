@@ -14,3 +14,4 @@ jobs:
           node-version: 22
       - run: node --test tests/*.test.js
       - run: node scripts/validate-words.js
+      - run: node scripts/validate-words5.js

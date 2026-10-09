@@ -8,8 +8,8 @@
   function isRoot(text) { return /^[ء-غف-ي]{3}$/.test(normalize(text)); }
   function evaluateGuess(guess, root) {
     const g = [...normalize(guess)], r = [...normalize(root)];
-    if (!isRoot(guess) || !isRoot(root)) throw new Error('Expected three Arabic letters');
-    const result = Array(3).fill('absent'), remaining = new Map();
+    if (!g.length || g.length !== r.length || !/^[ء-غف-ي]+$/.test(g.join('')) || !/^[ء-غف-ي]+$/.test(r.join(''))) throw new Error('Expected equally long Arabic words');
+    const result = Array(g.length).fill('absent'), remaining = new Map();
     r.forEach((letter, i) => {
       if (g[i] === letter) result[i] = 'correct';
       else remaining.set(letter, (remaining.get(letter) || 0) + 1);

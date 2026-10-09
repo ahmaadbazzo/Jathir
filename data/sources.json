@@ -1,0 +1,42 @@
+[
+  {
+    "id": "enwiktionary",
+    "name": "Wiktionary · Kaikki",
+    "url": "https://kaikki.org/dictionary/Arabic/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseEvidence": "https://en.wiktionary.org/wiki/Wiktionary:Copyrights",
+    "used": "مداخل عربية وجذور؛ انتقاء ومراجعة صرفية ومعانٍ عربية بصياغة تحريرية، لا تعريفات منسوخة.",
+    "retrieved": "2026-10-09",
+    "authors": "Wiktionary contributors; extraction by Tatu Ylönen / Wiktextract",
+    "download": "https://kaikki.org/dictionary/Arabic/kaikki.org-dictionary-Arabic.jsonl",
+    "snapshot": "enwiktionary 2026-09-02; extracted 2026-10-03",
+    "sha256": "19985dbf8b729c2ac8827640b55ab57337681292e134f9527509a0ee88c5a1ac",
+    "notice": "المواد المعجمية المقتبسة والمعدّلة متاحة بالنسب والمشاركة بالمثل CC BY-SA 4.0. انتقينا المداخل وطبّعنا الحروف وصغنا المعاني وراجعنا الجذور والصعوبة تحريريًا؛ ليست مراجعة معجمية متخصصة.",
+    "entryUrl": "https://en.wiktionary.org/wiki/"
+  },
+  {
+    "id": "frequencywords",
+    "name": "FrequencyWords · OpenSubtitles 2018",
+    "url": "https://github.com/hermitdave/FrequencyWords",
+    "license": "CC BY-SA 4.0 (content)",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseEvidence": "https://github.com/hermitdave/FrequencyWords/blob/master/README.md#license",
+    "used": "ترجيح شيوع الكلمات فقط؛ ليست مصدر إثبات وجود الكلمة.",
+    "retrieved": "2026-10-09",
+    "authors": "Hermit Dave; OpenSubtitles contributors",
+    "download": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ar/ar_50k.txt",
+    "notice": "استخدم ترتيب التكرار في الاختيار، ولا تمثل رتب الترجمات السينمائية شيوع العربية في جميع المجالات.",
+    "sha256": "bbe98b4b92902b392bdefa2e555a108fdb42a5dd79d261674be5ab666229e19f"
+  },
+  {
+    "id": "legacy-jathir",
+    "name": "Jathr · الكلمات الموروثة",
+    "url": "https://github.com/ahmaadbazzo/Jathir/blob/0659ed2528c531f445345fdbf11eaf6ecab0b8a1/data/words.json",
+    "license": "لم يحدد المستودع ترخيص البيانات الأصلية",
+    "licenseUrl": null,
+    "used": "الكلمات الـ١٤٥ الموجودة قبل هذا التغيير؛ صيغت تحريريًا في النسخة السابقة ولم يكن لها توثيق معجمي فردي.",
+    "retrieved": "2026-10-09",
+    "notice": "لم نختلق توثيقًا للكلمات الموروثة. لم تُعدّل الكلمات اليومية الـ١٢٠؛ نسبتها محفوظة في ملف جانبي. الترخيص الجديد لا يعيد ترخيص المواد السابقة."
+  }
+]

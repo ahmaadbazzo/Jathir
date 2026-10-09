@@ -6,8 +6,12 @@ const { normalize, isRoot } = require('../js/game.js');
 function validate(words) {
   if (!Array.isArray(words) || !words.length) return ['Expected a nonempty array'];
   const errors = [], seen = new Set();
+  const sources = new Set(require('../data/sources.json').map(s => s.id));
+  const original = require('../tests/fixtures/original120.json');
+  if (words.length >= 120 && JSON.stringify(words.slice(0, 120)) !== JSON.stringify(original)) errors.push('Original daily words must not change');
   words.forEach((entry, index) => {
     const label = `Entry ${index + 1}`;
+    if (index >= 120 && !sources.has(entry?.source)) errors.push(`${label}: missing or unknown source`);
     if (!entry || typeof entry !== 'object') { errors.push(`${label}: expected object`); return; }
     for (const field of ['word', 'root', 'pattern', 'meaning']) {
       if (typeof entry[field] !== 'string' || !entry[field].trim()) errors.push(`${label}: missing ${field}`);
@@ -15,7 +19,7 @@ function validate(words) {
     if (![1, 2, 3, 4].includes(entry.difficulty)) errors.push(`${label}: difficulty must be 1–4`);
     if (!isRoot(entry.root || '')) errors.push(`${label}: root must contain exactly 3 Arabic letters`);
     const root = normalize(entry.root || ''), word = normalize(entry.word || '');
-    if (/[اويءؤئ]/.test(root) || new Set(root).size !== 3) errors.push(`${label}: expected a sound, non-doubled root`);
+    if (/[اويىءؤئة]/.test(root) || new Set(root).size !== 3) errors.push(`${label}: expected a sound, non-doubled root`);
     let cursor = 0;
     for (const letter of word) if (letter === root[cursor]) cursor++;
     if (cursor !== 3) errors.push(`${label}: root letters must appear in order in the word`);

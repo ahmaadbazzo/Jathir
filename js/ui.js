@@ -16,7 +16,7 @@
     }
     return { index, day: date, guesses: [], recorded: false };
   }
-  function eligible(w) { return data.practiceLevel === 'all' || w.difficulty === Number(data.practiceLevel); }
+  function eligible(w) { return w.difficulty === Number(data.practiceLevel); }
   function randomIndex() {
     // Exclude the current root so a new practice round offers a different puzzle.
     let candidates = words.map((w, i) => i).filter(i => eligible(words[i]) && (!entry || G.normalize(words[i].root) !== G.normalize(entry.root)));
@@ -27,7 +27,7 @@
   function start(nextMode, freshPractice = false) {
     mode = nextMode; day = G.dayNumber(); draft = ''; animating = false;
     if (mode === 'daily') {
-      const index = words.indexOf(G.dailyWord(words.filter(w => w.difficulty <= 3), day));
+      const index = words.indexOf(G.dailyWord(words.slice(0, 120), day));
       round = restore(data.daily, index, day); data.daily = round;
     } else {
       const index = !freshPractice && Number.isInteger(data.practice?.index) && words[data.practice.index] && eligible(words[data.practice.index]) ? data.practice.index : randomIndex();
@@ -35,11 +35,12 @@
     }
     entry = words[round.index];
     $('word').textContent = entry.word;
-    $('round-label').textContent = mode === 'daily' ? `التحدّي #${day.toLocaleString('ar', { useGrouping: false })} · التوقيت العالمي` : 'تدريب حرّ · بلا حدود';
-    $('difficulty').textContent = ['سهل', 'متوسط', 'متقدّم', 'النخبة ✦'][entry.difficulty - 1];
+    $('round-label').textContent = mode === 'daily' ? `#${day.toLocaleString('ar', { useGrouping: false })}` : '∞';
+    $('difficulty').textContent = ['سهل', 'متوسط', 'متقدم', 'نخبة'][entry.difficulty - 1];
     $('daily-mode').setAttribute('aria-pressed', String(mode === 'daily'));
     $('practice-mode').setAttribute('aria-pressed', String(mode === 'practice'));
     $('practice-options').hidden = mode !== 'practice';
+    for (let level = 1; level <= 4; level++) $('level-' + level).setAttribute('aria-pressed', String(data.practiceLevel === String(level)));
     recordResult(); render(); persist();
   }
   function recordResult() {
@@ -78,11 +79,13 @@
   function render(reveal = false) {
     renderBoard(reveal);
     const status = G.roundStatus(round.guesses, entry.root);
-    say(status === 'won' ? `أحسنت! الجذر هو ${[...entry.root].join(' ')}.` : status === 'lost' ? `انتهت المحاولات. الجذر هو ${[...entry.root].join(' ')}.` : `المحاولة ${(round.guesses.length + 1).toLocaleString('ar')} من ٦`);
+    say(status === 'won' ? `أحسنت! ${[...entry.root].join(' ')}` : status === 'lost' ? `الجذر: ${[...entry.root].join(' ')}` : `${(round.guesses.length + 1).toLocaleString('ar')} / ٦`);
     $('submit-guess').disabled = finished(); $('clear-guess').disabled = finished(); $('delete-letter').disabled = finished();
     $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
-    $('root-story').textContent = finished() ? `${entry.word} · ${entry.meaning} — الوزن: ${entry.pattern}` : '';
-    $('welcome-status').textContent = data.daily?.recorded ? 'أنجزت تحدّي اليوم. رحلة جديدة تنتظرك في التدريب.' : 'تحدٍّ واحد كل يوم، ورحلة جديدة مع كل كلمة.';
+    $('root-story').textContent = finished() ? entry.meaning : '';
+    $('game-screen').classList.toggle('won', status === 'won');
+    document.querySelector('.play-actions').hidden = finished();
+    $('welcome-status').textContent = '';
     $('hints').replaceChildren();
     const wrong = round.guesses.filter(g => G.normalize(g) !== G.normalize(entry.root)).length;
     if (wrong >= 2) addHint('الوزن', entry.pattern);
@@ -130,6 +133,7 @@
   }
 
   function showStats() {
+    $('stats-title').textContent = 'جذر · إنجازاتك';
     const s = data.stats, content = $('stats-content'); content.replaceChildren();
     const numbers = document.createElement('div'); numbers.className = 'stat-numbers';
     for (const [value, label] of [[s.played, 'جولات'], [s.played ? Math.round(s.wins / s.played * 100) : 0, '٪ فوز'], [s.streak, 'السلسلة'], [s.best, 'أفضل سلسلة']]) {
@@ -148,8 +152,17 @@
   $('delete-letter').addEventListener('click', () => input('delete'));
   $('submit-guess').addEventListener('click', () => input('enter'));
   $('clear-guess').addEventListener('click', () => { if (words && !checkDate() && !finished() && !animating) { draft = ''; renderBoard(); } });
-  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
-  $('stats-button').addEventListener('click', showStats);
+  $('settings-button').addEventListener('click', () => $('settings-dialog').showModal());
+  $('help-button').addEventListener('click', () => {
+    const lines = document.body.dataset.game === 'word' ? ['خمّن كلمة من خمسة أحرف في ست محاولات.', '● صحيح · ▲ مكان آخر · × غير موجود.', 'تُقبل الكلمات الموجودة في قائمة المعجم فقط.', 'اليومي يتجدّد منتصف الليل بالتوقيت العالمي.'] : ['اكتشف الجذر بثلاثة أحرف، في ست محاولات.', '● صحيح · ▲ مكان آخر · × غير موجود.', 'الوزن بعد محاولتين، والمعنى بعد أربع.', 'اليومي يتجدّد منتصف الليل بالتوقيت العالمي.'];
+    $('rules-content').replaceChildren();
+    lines.forEach(text => { const p = document.createElement('p'); p.textContent = text; $('rules-content').append(p); });
+    $('help-dialog').showModal();
+  });
+  $('stats-button').addEventListener('click', () => {
+    if (document.body.dataset.game === 'word' && globalThis.JathrWordUI) globalThis.JathrWordUI.showStats();
+    else showStats();
+  });
   document.querySelectorAll('.close-dialog').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
   $('color-blind').checked = data.colorBlind;
   document.body.classList.toggle('color-blind', data.colorBlind);
@@ -163,7 +176,7 @@
     catch (_) { $('share-text').value = text; $('share-dialog').showModal(); $('share-text').focus(); $('share-text').select(); }
   });
   document.addEventListener('keydown', e => {
-    if (document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input, select') || !$('welcome-screen').hidden) return;
+    if ($('game-screen').hidden || document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input, select') || !$('welcome-screen').hidden) return;
     // Let focused buttons handle Enter/Space natively for accessible navigation.
     if (e.key === 'Enter' && e.target.closest('button')) {
       if (e.target.id === 'submit-guess' || e.target.closest('#keyboard')) { e.preventDefault(); input('enter'); }
@@ -189,8 +202,12 @@
         G.isRoot(w.root) && [1, 2, 3, 4].includes(w.difficulty))) throw new Error('Invalid word data');
       if (!loaded.some(w => w.difficulty <= 3)) throw new Error('Daily pool unavailable');
       words = loaded.map(w => ({ ...w, root: G.normalize(w.root) }));
+      if (data.practiceLevel === 'all') {
+        const savedWord = words[data.practice?.index];
+        data.practiceLevel = String(savedWord?.difficulty || 1);
+      }
       buildKeyboard(); start('daily');
-      ['daily-mode', 'practice-mode', 'start-daily', 'start-practice', 'start-expert'].forEach(id => { $(id).disabled = false; });
+      ['daily-mode', 'practice-mode', 'start-daily'].forEach(id => { $(id).disabled = false; });
     } catch (_) {
       words = null;
       $('keyboard').replaceChildren();
@@ -204,29 +221,37 @@
   A.setEnabled(data.sound);
   function soundLabel() {
     $('sound-button').setAttribute('aria-pressed', String(data.sound));
-    $('sound-button').textContent = data.sound ? '♪ الصوت مفعّل' : '♪ الصوت مكتوم';
+    $('sound-button').setAttribute('aria-label', data.sound ? 'كتم الصوت' : 'تشغيل الصوت');
+    $('sound-button').classList.toggle('muted', !data.sound);
   }
   soundLabel();
   $('sound-button').addEventListener('click', () => { data.sound = !data.sound; A.setEnabled(data.sound); soundLabel(); persist(); A.play('tap'); });
   $('reduce-motion').checked = data.reduceMotion;
   document.body.classList.toggle('motion-off', data.reduceMotion);
   $('reduce-motion').addEventListener('change', e => { data.reduceMotion = e.target.checked; document.body.classList.toggle('motion-off', data.reduceMotion); persist(); });
-  $('practice-level').value = data.practiceLevel;
-  $('practice-level').addEventListener('change', e => { data.practiceLevel = e.target.value; start('practice', true); A.play('start'); });
-  function openGame(nextMode, expert = false) {
+  for (let level = 1; level <= 4; level++) {
+    $('level-' + level).addEventListener('click', () => {
+      if (!words || mode !== 'practice' || data.practiceLevel === String(level)) return;
+      data.practiceLevel = String(level); start('practice', true); A.play('start');
+    });
+  }
+  function openGame(nextMode) {
     if (!words) return;
-    if (expert) { data.practiceLevel = '4'; $('practice-level').value = '4'; }
+    document.body.dataset.game = 'jathr';
+    $('wordgame-screen').hidden = true; $('stats-button').hidden = false;
     $('welcome-screen').hidden = true; $('game-screen').hidden = false;
     start(nextMode); A.play('start'); $('word').focus();
   }
-  function home() { $('welcome-screen').hidden = false; $('game-screen').hidden = true; $('start-daily').focus(); }
+  function home() { $('welcome-screen').hidden = false; $('game-screen').hidden = true; $('wordgame-screen').hidden = true; $('stats-button').hidden = true; $('start-daily').focus(); }
   $('home-button').addEventListener('click', home);
   $('back-home').addEventListener('click', home);
   $('start-daily').addEventListener('click', () => openGame('daily'));
-  $('start-practice').addEventListener('click', () => openGame('practice'));
-  $('start-expert').addEventListener('click', () => openGame('practice', true));
+
+
 
   $('retry-load').addEventListener('click', loadWords);
+  globalThis.JathrUI = { home };
+  $('stats-button').hidden = true;
   await loadWords();
 })();
 
