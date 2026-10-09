@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="description" content="جذر: لعبة عربية يومية لاكتشاف الجذر الثلاثي في ست محاولات.">
+  <title>جذر — لعبة الجذور العربية</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23295343'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='40' fill='%23f6f3eb'%3Eج%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/game.js"></script>
+  <script defer src="js/storage.js"></script>
+  <script defer src="js/ui.js"></script>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <a class="brand" href="./" aria-label="جذر، الصفحة الرئيسية">جذر<span class="brand-dot" aria-hidden="true">.</span></a>
+      <div class="header-actions">
+        <button class="icon-button" id="help-button" aria-label="طريقة اللعب">؟</button>
+        <button class="icon-button" id="stats-button" aria-label="عرض الإحصاءات"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 20V12M12 20V4M19 20V8"/></svg></button>
+      </div>
+    </header>
+    <nav class="modes" aria-label="نمط اللعب">
+      <button id="daily-mode" aria-pressed="true">تحدّي اليوم</button>
+      <button id="practice-mode" aria-pressed="false">تدريب حرّ</button>
+    </nav>
+    <section class="puzzle" aria-labelledby="word">
+      <div class="round-meta"><span id="round-label">تحدّي اليوم</span><span id="difficulty"></span></div>
+      <p class="prompt">ما الجذر الثلاثي لكلمة</p>
+      <h1 id="word">…</h1>
+      <p class="subtitle">ثلاثة أحرف. ستّ محاولات.</p>
+      <div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div>
+      <p id="message" class="message" role="status" aria-live="polite">جارٍ تحميل الكلمات…</p>
+      <div id="hints" class="hints" aria-live="polite"></div>
+      <div class="result-actions" id="result-actions" hidden>
+        <button id="share-button" class="primary">مشاركة النتيجة <span aria-hidden="true">↗</span></button>
+        <button id="next-button" class="secondary" hidden>كلمة جديدة</button>
+      </div>
+    </section>
+    <section id="keyboard" class="keyboard" aria-label="لوحة المفاتيح العربية"></section>
+    <footer>
+      <div class="legend" aria-label="دليل التقييم">
+        <span><i class="correct" aria-hidden="true">●</i>حرف ومكان صحيحان</span>
+        <span><i class="present" aria-hidden="true">▲</i>مكان آخر</span>
+        <span><i class="absent" aria-hidden="true">×</i>غير موجود</span>
+      </div>
+      <label class="color-option"><input type="checkbox" id="color-blind"> تمييز بالأشكال</label>
+      <p class="storage-note" id="storage-note" hidden>التخزين غير متاح؛ لن تُحفظ نتائجك بعد إغلاق الصفحة.</p>
+    </footer>
+  </main>
+  <dialog id="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-header"><h2 id="help-title">ارجع إلى أصل الكلمة</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
+    <p>اكتشف الجذر الثلاثي للكلمة في ستّ محاولات. مثلًا: جذر «مكتبة» هو «ك ت ب».</p>
+    <div class="example" aria-label="مثال: كاف وتاء وباء، كلها صحيحة"><span class="tile correct">ك</span><span class="tile correct">ت</span><span class="tile correct">ب</span></div>
+    <p>الأخضر: حرف في مكانه. الأصفر: حرف موجود في مكان آخر. الرمادي: حرف غير موجود. يُقيَّم كل تكرار للحرف بحسب عدد مرات وجوده في الجذر.</p>
+    <p>بعد محاولتين خاطئتين يظهر الوزن، وبعد أربع يظهر المعنى. تُعامل أ، إ، آ، ا كحرف واحد، وتُهمل الحركات.</p>
+    <p>استخدم الأزرار أو لوحة مفاتيح عربية، ثم Enter للتأكيد وBackspace للحذف.</p>
+    <p>تحدّي اليوم واحد للجميع ويتغيّر عند منتصف الليل بتوقيت UTC. التدريب يتيح كلمات عشوائية بلا حد.</p>
+  </dialog>
+  <dialog id="stats-dialog" aria-labelledby="stats-title">
+    <div class="dialog-header"><h2 id="stats-title">إحصاءاتك</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
+    <div id="stats-content"></div>
+    <p class="stats-note">تشمل التحدّي اليومي والتدريب. السلسلة هي عدد الجولات الفائزة المتتالية. تُحفظ على هذا المتصفح.</p>
+  </dialog>
+  <dialog id="share-dialog" aria-labelledby="share-title">
+    <div class="dialog-header"><h2 id="share-title">انسخ نتيجتك</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
+    <p>تعذّر النسخ التلقائي. حدّد النص وانسخه:</p>
+    <textarea id="share-text" readonly dir="rtl" aria-label="نص النتيجة للمشاركة"></textarea>
+  </dialog>
+</body>
+</html>
