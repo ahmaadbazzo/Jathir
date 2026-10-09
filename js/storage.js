@@ -1,7 +1,7 @@
 (function (global) {
   'use strict';
   const KEY = 'jathr.v1';
-  const fresh = () => ({ stats: { played: 0, wins: 0, streak: 0, best: 0, distribution: [0, 0, 0, 0, 0, 0] }, daily: null, practice: null, colorBlind: false });
+  const fresh = () => ({ stats: { played: 0, wins: 0, streak: 0, best: 0, distribution: [0, 0, 0, 0, 0, 0] }, daily: null, practice: null, colorBlind: false, sound: true, reduceMotion: false, practiceLevel: 'all' });
   let available = true;
   function load() {
     try {
@@ -9,7 +9,7 @@
       if (!saved) return fresh();
       const s = saved.stats;
       if (!s || !['played', 'wins', 'streak', 'best'].every(k => Number.isInteger(s[k]) && s[k] >= 0) || s.wins > s.played || !Array.isArray(s.distribution) || s.distribution.length !== 6 || !s.distribution.every(n => Number.isInteger(n) && n >= 0)) return fresh();
-      return { ...fresh(), ...saved, colorBlind: saved.colorBlind === true };
+      return { ...fresh(), ...saved, colorBlind: saved.colorBlind === true, sound: saved.sound !== false, reduceMotion: saved.reduceMotion === true, practiceLevel: ['all', '1', '2', '3', '4'].includes(saved.practiceLevel) ? saved.practiceLevel : 'all' };
     } catch (_) { available = false; return fresh(); }
   }
   function save(data) {

@@ -12,7 +12,7 @@ function validate(words) {
     for (const field of ['word', 'root', 'pattern', 'meaning']) {
       if (typeof entry[field] !== 'string' || !entry[field].trim()) errors.push(`${label}: missing ${field}`);
     }
-    if (![1, 2, 3].includes(entry.difficulty)) errors.push(`${label}: difficulty must be 1–3`);
+    if (![1, 2, 3, 4].includes(entry.difficulty)) errors.push(`${label}: difficulty must be 1–4`);
     if (!isRoot(entry.root || '')) errors.push(`${label}: root must contain exactly 3 Arabic letters`);
     const root = normalize(entry.root || ''), word = normalize(entry.word || '');
     if (/[اويءؤئ]/.test(root) || new Set(root).size !== 3) errors.push(`${label}: expected a sound, non-doubled root`);

@@ -1,81 +1,48 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f3eb">
-  <meta name="description" content="جذر: لعبة عربية يومية لاكتشاف الجذر الثلاثي في ست محاولات.">
-  <title>جذر — لعبة الجذور العربية</title>
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23295343'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='40' fill='%23f6f3eb'%3Eج%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20261009-3">
-  <script defer src="js/game.js?v=20261009-3"></script>
-  <script defer src="js/storage.js?v=20261009-3"></script>
-  <script defer src="js/ui.js?v=20261009-3"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123f3b"><meta name="description" content="جذر، رحلة عربية إلى أصول الكلمات. تحدٍّ يومي وتدريب ومستوى النخبة.">
+<title>جذر — لكل كلمة حكاية</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23123f3b'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-size='42' fill='%23ead4a3'%3Eج%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=20261009-4">
+<script defer src="js/game.js?v=20261009-4"></script><script defer src="js/storage.js?v=20261009-4"></script><script defer src="js/audio.js?v=20261009-4"></script><script defer src="js/ui.js?v=20261009-4"></script>
 </head>
 <body>
-  <div class="ambient-pattern" aria-hidden="true"></div>
-  <main class="app">
-    <header class="header">
-      <a class="brand" href="./" aria-label="جذر، الصفحة الرئيسية">جذر<span class="brand-dot" aria-hidden="true">.</span></a>
-      <div class="header-actions">
-        <button class="icon-button" id="help-button" aria-label="طريقة اللعب">؟</button>
-        <button class="icon-button" id="stats-button" aria-label="عرض الإحصاءات"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 20V12M12 20V4M19 20V8"/></svg></button>
-      </div>
-    </header>
-    <nav class="modes" aria-label="نمط اللعب">
-      <button id="daily-mode" disabled aria-pressed="true">تحدّي اليوم</button>
-      <button id="practice-mode" disabled aria-pressed="false">تدريب حرّ</button>
-    </nav>
-    <section class="puzzle" aria-labelledby="word">
-      <div class="eyebrow">✦ رحلة إلى أصول الكلمات ✦</div>
-      <div class="round-meta"><span id="round-label">تحدّي اليوم</span><span id="difficulty"></span></div>
-      <p class="prompt">ما الجذر الثلاثي لكلمة</p>
-      <h1 id="word">…</h1>
-      <p class="subtitle">ثلاثة أحرف. ستّ محاولات.</p>
-      <div class="board-frame"><div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div></div>
-      <p id="message" class="message" role="status" aria-live="polite">جارٍ تحميل الكلمات…</p>
-      <button type="button" id="retry-load" class="secondary" hidden>إعادة المحاولة</button>
-      <div class="play-actions"><button type="button" id="submit-guess" disabled class="primary submit-guess" aria-label="تأكيد التخمين">تأكيد الجذر ↵</button><button type="button" id="clear-guess" disabled class="secondary clear-guess" aria-label="مسح الحروف">مسح الحروف</button></div>
-      <div id="hints" class="hints" aria-live="polite"></div>
-      <div class="result-actions" id="result-actions" hidden>
-        <button id="share-button" class="primary">مشاركة النتيجة <span aria-hidden="true">↗</span></button>
-        <button id="next-button" class="secondary" hidden>كلمة جديدة</button>
-      </div>
-    </section>
-    <section id="keyboard" class="keyboard" aria-label="لوحة المفاتيح العربية"></section>
-    <footer>
-      <div class="legend" aria-label="دليل التقييم">
-        <span><i class="correct" aria-hidden="true">●</i>حرف ومكان صحيحان</span>
-        <span><i class="present" aria-hidden="true">▲</i>مكان آخر</span>
-        <span><i class="absent" aria-hidden="true">×</i>غير موجود</span>
-      </div>
-      <label class="color-option"><input type="checkbox" id="color-blind"> تمييز بالأشكال</label>
-      <p class="storage-note" id="storage-note" hidden>التخزين غير متاح؛ لن تُحفظ نتائجك بعد إغلاق الصفحة.</p>
-    </footer>
-  </main>
-  <dialog id="help-dialog" aria-labelledby="help-title">
-    <div class="dialog-header"><h2 id="help-title">ارجع إلى أصل الكلمة</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
-    <p>اكتشف الجذر الثلاثي للكلمة في ستّ محاولات. مثلًا: جذر «مكتبة» هو «ك ت ب».</p>
-    <div class="example" aria-label="مثال: كاف وتاء وباء، كلها صحيحة"><span class="tile correct">ك</span><span class="tile correct">ت</span><span class="tile correct">ب</span></div>
-    <p>الأخضر: حرف في مكانه. الأصفر: حرف موجود في مكان آخر. الرمادي: حرف غير موجود. يُقيَّم كل تكرار للحرف بحسب عدد مرات وجوده في الجذر.</p>
-    <p>بعد محاولتين خاطئتين يظهر الوزن، وبعد أربع يظهر المعنى. تُعامل أ، إ، آ، ا كحرف واحد، وتُهمل الحركات.</p>
-    <p>استخدم الأزرار أو لوحة مفاتيح عربية، ثم Enter للتأكيد وBackspace للحذف.</p>
-    <p>تحدّي اليوم واحد للجميع ويتغيّر عند منتصف الليل بتوقيت UTC. التدريب يتيح كلمات عشوائية بلا حد.</p>
-  </dialog>
-  <dialog id="stats-dialog" aria-labelledby="stats-title">
-    <div class="dialog-header"><h2 id="stats-title">إحصاءاتك</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
-    <div id="stats-content"></div>
-    <p class="stats-note">تشمل التحدّي اليومي والتدريب. السلسلة هي عدد الجولات الفائزة المتتالية. تُحفظ على هذا المتصفح.</p>
-  </dialog>
-  <dialog id="share-dialog" aria-labelledby="share-title">
-    <div class="dialog-header"><h2 id="share-title">انسخ نتيجتك</h2><button class="icon-button close-dialog" aria-label="إغلاق">×</button></div>
-    <p>تعذّر النسخ التلقائي. حدّد النص وانسخه:</p>
-    <textarea id="share-text" readonly dir="rtl" aria-label="نص النتيجة للمشاركة"></textarea>
-  </dialog>
-
-</body>
-</html>
-
+<div class="ambient-pattern" aria-hidden="true"></div>
+<div class="site-shell">
+<header class="header">
+<button class="brand" id="home-button" aria-label="جذر، العودة إلى البداية">جذر<span class="brand-dot">.</span><span class="brand-caption">لِكُلّ كلمةٍ حكاية</span></button>
+<div class="header-actions"><button class="utility-button" id="sound-button" aria-pressed="true">♪ <span>الصوت مفعّل</span></button><button class="utility-button" id="stats-button">▥ <span>إنجازاتك</span></button><button class="utility-button" id="help-button">؟ <span>كيف ألعب؟</span></button></div>
+</header>
+<main>
+<section id="welcome-screen" class="welcome" aria-labelledby="welcome-title">
+<div class="hero-copy"><span class="eyebrow"><i></i> لعبة من روح لغتنا</span><h1 id="welcome-title">وراء كلّ كلمة،<br><em>جذرٌ ينتظرك.</em></h1><p class="hero-description">تأمّل الكلمة، تتبّع حروفها، واكتشف أصلها.<br>رحلة قصيرة في جمال العربية، وتحدٍّ يتجدّد كل يوم.</p>
+<div class="hero-actions"><button id="start-daily" class="primary" disabled>ابدأ تحدّي اليوم <span aria-hidden="true">←</span></button><button id="start-practice" class="secondary" disabled>تدرّب على مهل</button></div>
+<p id="welcome-status" class="welcome-status" role="status">نحضّر لك الكلمات…</p>
+<div class="hero-facts"><span><b>٣</b> أحرف في الجذر</span><span><b>٦</b> فرص للاكتشاف</span><span><b>∞</b> فضول لا ينتهي</span></div>
+</div>
+<div class="hero-art" aria-hidden="true"><div class="art-corner corner-one">✦</div><div class="art-corner corner-two">✦</div><div class="arch"><div class="arch-inner"><span class="art-kicker">من الحرف تبدأ الحكاية</span><div class="calligraphy">جُذُور</div><div class="art-rule">✧</div><p>لغةٌ تضربُ في المعنى جذورًا</p><div class="sample-tiles"><span>ج</span><span>ذ</span><span>ر</span></div></div></div><span class="art-footer">تأمّل · اكتشف · تعلّم</span></div>
+<div class="journey-strip"><span class="section-caption">كيف تبدأ الرحلة؟</span><div><b>٠١</b><span>اقرأ الكلمة<small>كلّ اشتقاق يقود إلى أصل.</small></span></div><div><b>٠٢</b><span>جرّب ثلاثة أحرف<small>الألوان ترشدك إلى الجذر.</small></span></div><div><b>٠٣</b><span>اكتشف المعنى<small>تلميحات تظهر مع المحاولات.</small></span></div></div>
+<button class="expert-invite" id="start-expert" disabled><span class="expert-symbol" aria-hidden="true">✦</span><span><strong>لأهل الفصاحة… تحدّي النخبة</strong><small>اشتقاقات أدقّ وكلمات تختبر معرفتك بالعربية.</small></span><span aria-hidden="true">←</span></button>
+</section>
+<section id="game-screen" hidden aria-label="ساحة اللعب">
+<div class="game-topline"><button id="back-home" class="text-button">→ العودة إلى البداية</button><span>رحلتك مع اللغة، حرفًا حرفًا</span></div>
+<div class="game-layout"><aside class="game-aside"><span class="eyebrow">مساحة للاكتشاف</span><h2>عُد إلى<br><em>أصل الحكاية.</em></h2><p>جرّب الجذر الثلاثي، ودع الحروف تدلّك على الطريق.</p><div class="legend"><span><i class="correct">●</i><span>في مكانه<small>حرف صحيح في الموضع الصحيح</small></span></span><span><i class="present">▲</i><span>قريب من المعنى<small>حرف موجود، جرّب مكانًا آخر</small></span></span><span><i class="absent">×</i><span>طريق آخر<small>هذا الحرف غير موجود في الجذر</small></span></span></div><div class="aside-note">✧<p>بعد محاولتين يظهر الوزن،<br>وبعد أربع يقترب المعنى.</p></div></aside>
+<div class="game-card"><nav class="modes" aria-label="نمط اللعب"><button id="daily-mode" disabled aria-pressed="true">تحدّي اليوم</button><button id="practice-mode" disabled aria-pressed="false">تدريب حرّ</button></nav>
+<div id="practice-options" class="practice-options" hidden><label for="practice-level">مستوى الكلمات</label><select id="practice-level"><option value="all">جميع المستويات</option><option value="1">سهل</option><option value="2">متوسط</option><option value="3">متقدّم</option><option value="4">النخبة ✦</option></select></div>
+<section class="puzzle" aria-labelledby="word"><div class="round-meta"><span id="round-label">تحدّي اليوم</span><span id="difficulty"></span></div><p class="prompt">ما الجذر الثلاثي لكلمة</p><h2 id="word" tabindex="-1">…</h2><div class="word-ornament" aria-hidden="true">◆</div><div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div><p id="message" class="message" role="status" aria-live="polite">جارٍ تحميل الكلمات…</p><div id="hints" class="hints" aria-live="polite"></div>
+<div class="play-actions"><button id="submit-guess" class="primary" disabled>تأكيد الجذر <span aria-hidden="true">↵</span></button><button id="delete-letter" class="secondary" disabled aria-label="حذف آخر حرف">حذف حرف ⌫</button><button id="clear-guess" class="text-button" disabled>مسح الكل</button></div>
+<div class="result-actions" id="result-actions" hidden><button id="share-button" class="primary">شارك إنجازك ↗</button><button id="next-button" class="secondary" hidden>كلمة جديدة ←</button><div id="root-story" class="root-story"></div></div></section>
+<section id="keyboard" class="keyboard" aria-label="لوحة المفاتيح العربية"></section><p class="keyboard-note">اختر الحروف أعلاه أو استخدم لوحة مفاتيح عربية</p></div></div></section>
+<div class="load-recovery"><button type="button" id="retry-load" class="secondary" hidden>إعادة تحميل الكلمات ↻</button></div>
+</main>
+<footer><span class="footer-signature">جذر <i>✦</i> حروف قليلة، ومعانٍ كثيرة</span><div class="preferences"><label><input type="checkbox" id="color-blind"> تمييز بالأشكال</label><label><input type="checkbox" id="reduce-motion"> إيقاف الحركة</label></div><p class="storage-note" id="storage-note" hidden>التخزين غير متاح؛ لن تُحفظ نتائجك بعد إغلاق الصفحة.</p></footer>
+</div>
+<dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-header"><h2 id="help-title">كلّ كلمة لها أصل</h2><button class="close-dialog" aria-label="إغلاق">×</button></div><p>اكتشف الجذر الثلاثي في ستّ محاولات. مثلًا، جذر «مكتبة» هو:</p><div class="example"><span class="tile correct">ك</span><span class="tile correct">ت</span><span class="tile correct">ب</span></div><p>الأخضر: حرف في مكانه. الذهبي: حرف موجود في مكان آخر. الرمادي: حرف غير موجود. كلّ تكرار يُقيّم بحسب عدد مرات وجوده في الجذر.</p><p>بعد محاولتين خاطئتين يظهر الوزن، وبعد أربع يظهر المعنى. تُعامل أ، إ، آ، ا كحرف واحد، وتُهمل الحركات.</p><p>استخدم لوحة الحروف أو لوحة مفاتيح عربية. مفتاح الإدخال يؤكّد الجذر، ومفتاح المسح يحذف آخر حرف.</p><p>التحدّي اليومي يتغيّر عند منتصف الليل بالتوقيت العالمي. اختر التدريب ومستوى «النخبة» لاشتقاقات أصعب، أو مستوى آخر لتتدرّج على مهلك.</p></dialog>
+<dialog id="stats-dialog" aria-labelledby="stats-title"><div class="dialog-header"><h2 id="stats-title">حصاد رحلتك</h2><button class="close-dialog" aria-label="إغلاق">×</button></div><div id="stats-content"></div><p class="stats-note">تشمل التحدّي اليومي والتدريب. السلسلة عدد الجولات الفائزة المتتالية، وتُحفظ على هذا المتصفح.</p></dialog>
+<dialog id="share-dialog" aria-labelledby="share-title"><div class="dialog-header"><h2 id="share-title">شارك حكاية فوزك</h2><button class="close-dialog" aria-label="إغلاق">×</button></div><p>انسخ نتيجتك وشارك التحدّي مع أصدقائك:</p><textarea id="share-text" readonly dir="rtl" aria-label="نص النتيجة للمشاركة"></textarea></dialog>
+<noscript><p class="noscript">تحتاج اللعبة إلى تفعيل جافاسكربت في المتصفح.</p></noscript>
+</body></html>

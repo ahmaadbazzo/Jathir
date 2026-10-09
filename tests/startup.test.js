@@ -35,7 +35,7 @@ async function boot(responses, saved = null, blocked = false) {
     localStorage: { getItem() { if (blocked) throw Error('blocked'); return value; }, setItem(k, v) { if (blocked) throw Error('blocked'); value = v; } },
     setTimeout: () => 1, clearTimeout() {}, setInterval() {},
     fetch: async () => { const next = responses.shift(); if (next instanceof Error) throw next; return { ok: true, json: async () => next }; } });
-  for (const file of ['js/game.js', 'js/storage.js', 'js/ui.js']) await vm.runInContext(source(file), context);
+  for (const file of ['js/game.js', 'js/storage.js', 'js/audio.js', 'js/ui.js']) await vm.runInContext(source(file), context);
   return { get, context, saved: () => JSON.parse(value), click: id => get(id).handlers.click(),
     type: text => { for (const letter of text) get('keyboard').children.flatMap(row => row.children).find(b => b.dataset.letter === letter).handlers.click(); } };
 }
@@ -89,4 +89,16 @@ test('practice remains playable with a single root', async () => {
   assert.equal(app.get('word').textContent, words[0].word);
   app.click('next-button');
   assert.equal(app.get('board').children.length, 6);
+});
+
+test('expert additions do not change the daily pool and level selection persists', async () => {
+  assert.equal(words.filter(w => w.difficulty <= 3).length, 120);
+  assert.equal(words.filter(w => w.difficulty === 4).length, 25);
+  const app = await boot([words]);
+  const dailyWord = app.get('word').textContent;
+  app.click('start-expert');
+  assert.equal(app.get('difficulty').textContent, 'النخبة ✦');
+  assert.equal(app.saved().practiceLevel, '4');
+  app.click('daily-mode');
+  assert.equal(app.get('word').textContent, dailyWord);
 });
