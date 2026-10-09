@@ -16,7 +16,7 @@
     }
     return { index, day: date, guesses: [], recorded: false };
   }
-  function eligible(w) { return data.practiceLevel === 'all' || w.difficulty === Number(data.practiceLevel); }
+  function eligible(w) { return w.difficulty === Number(data.practiceLevel); }
   function randomIndex() {
     // Exclude the current root so a new practice round offers a different puzzle.
     let candidates = words.map((w, i) => i).filter(i => eligible(words[i]) && (!entry || G.normalize(words[i].root) !== G.normalize(entry.root)));
@@ -40,6 +40,7 @@
     $('daily-mode').setAttribute('aria-pressed', String(mode === 'daily'));
     $('practice-mode').setAttribute('aria-pressed', String(mode === 'practice'));
     $('practice-options').hidden = mode !== 'practice';
+    for (let level = 1; level <= 4; level++) $('level-' + level).setAttribute('aria-pressed', String(data.practiceLevel === String(level)));
     recordResult(); render(); persist();
   }
   function recordResult() {
@@ -192,6 +193,10 @@
         G.isRoot(w.root) && [1, 2, 3, 4].includes(w.difficulty))) throw new Error('Invalid word data');
       if (!loaded.some(w => w.difficulty <= 3)) throw new Error('Daily pool unavailable');
       words = loaded.map(w => ({ ...w, root: G.normalize(w.root) }));
+      if (data.practiceLevel === 'all') {
+        const savedWord = words[data.practice?.index];
+        data.practiceLevel = String(savedWord?.difficulty || 1);
+      }
       buildKeyboard(); start('daily');
       ['daily-mode', 'practice-mode', 'start-daily'].forEach(id => { $(id).disabled = false; });
     } catch (_) {
@@ -215,11 +220,14 @@
   $('reduce-motion').checked = data.reduceMotion;
   document.body.classList.toggle('motion-off', data.reduceMotion);
   $('reduce-motion').addEventListener('change', e => { data.reduceMotion = e.target.checked; document.body.classList.toggle('motion-off', data.reduceMotion); persist(); });
-  $('practice-level').value = data.practiceLevel;
-  $('practice-level').addEventListener('change', e => { data.practiceLevel = e.target.value; start('practice', true); A.play('start'); });
-  function openGame(nextMode, expert = false) {
+  for (let level = 1; level <= 4; level++) {
+    $('level-' + level).addEventListener('click', () => {
+      if (!words || mode !== 'practice' || data.practiceLevel === String(level)) return;
+      data.practiceLevel = String(level); start('practice', true); A.play('start');
+    });
+  }
+  function openGame(nextMode) {
     if (!words) return;
-    if (expert) { data.practiceLevel = '4'; $('practice-level').value = '4'; }
     $('welcome-screen').hidden = true; $('game-screen').hidden = false;
     start(nextMode); A.play('start'); $('word').focus();
   }

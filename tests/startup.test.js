@@ -97,9 +97,24 @@ test('expert additions do not change the daily pool and level selection persists
   const app = await boot([words]);
   const dailyWord = app.get('word').textContent;
   app.saved();
-  app.get('practice-level').handlers.change({ target: { value: '4' } });
+  app.click('practice-mode');
+  app.click('level-4');
   assert.equal(app.get('difficulty').textContent, 'نخبة');
   assert.equal(app.saved().practiceLevel, '4');
   app.click('daily-mode');
   assert.equal(app.get('word').textContent, dailyWord);
+});
+
+
+test('legacy all-level practice migrates to its saved difficulty without erasing guesses', async () => {
+  const app = await boot([words]);
+  const data = app.saved();
+  const index = words.findIndex(w => w.difficulty === 4);
+  data.practiceLevel = 'all';
+  data.practice = { index, day: null, guesses: ['كتب'], recorded: false };
+  const restored = await boot([words], JSON.stringify(data));
+  assert.equal(restored.saved().practiceLevel, '4');
+  restored.click('practice-mode');
+  assert.equal(restored.saved().practice.index, index);
+  assert.deepEqual(restored.saved().practice.guesses, ['كتب']);
 });

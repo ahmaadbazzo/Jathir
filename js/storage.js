@@ -1,7 +1,7 @@
 (function (global) {
   'use strict';
   const KEY = 'jathr.v1';
-  const fresh = () => ({ stats: { played: 0, wins: 0, streak: 0, best: 0, distribution: [0, 0, 0, 0, 0, 0] }, daily: null, practice: null, colorBlind: false, sound: true, reduceMotion: false, practiceLevel: 'all' });
+  const fresh = () => ({ stats: { played: 0, wins: 0, streak: 0, best: 0, distribution: [0, 0, 0, 0, 0, 0] }, daily: null, practice: null, colorBlind: false, sound: true, reduceMotion: false, practiceLevel: '1' });
   let available = true;
   function load() {
     try {
