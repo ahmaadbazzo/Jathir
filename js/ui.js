@@ -12,13 +12,14 @@
   function restore(saved, index, date) {
     if (saved && saved.index === index && saved.day === date && Array.isArray(saved.guesses) && saved.guesses.length <= 6 && saved.guesses.every(g => G.isRoot(g))) {
       const winIndex = saved.guesses.findIndex(g => G.normalize(g) === G.normalize(words[index].root));
-      if (winIndex < 0 || winIndex === saved.guesses.length - 1) return { index, day: date, guesses: saved.guesses.map(G.normalize), recorded: saved.recorded === true };
+      if (winIndex < 0 || winIndex === saved.guesses.length - 1) return { index, day: date, guesses: saved.guesses.map(G.normalize), recorded: saved.recorded === true && G.roundStatus(saved.guesses, words[index].root) !== 'playing' };
     }
     return { index, day: date, guesses: [], recorded: false };
   }
   function randomIndex() {
     // Exclude the current root so a new practice round offers a different puzzle.
-    const candidates = words.map((w, i) => i).filter(i => !entry || words[i].root !== entry.root);
+    let candidates = words.map((w, i) => i).filter(i => !entry || G.normalize(words[i].root) !== G.normalize(entry.root));
+    if (!candidates.length) candidates = words.map((w, i) => i);
     return candidates[Math.floor(Math.random() * candidates.length)];
   }
   function start(nextMode, freshPractice = false) {
@@ -75,7 +76,8 @@
     renderBoard(reveal);
     const status = G.roundStatus(round.guesses, entry.root);
     say(status === 'won' ? `أحسنت! الجذر هو ${[...entry.root].join(' ')}.` : status === 'lost' ? `انتهت المحاولات. الجذر هو ${[...entry.root].join(' ')}.` : `المحاولة ${(round.guesses.length + 1).toLocaleString('ar')} من ٦`);
-    $('submit-guess').disabled = finished(); $('clear-guess').disabled = finished();\n    $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
+    $('submit-guess').disabled = finished(); $('clear-guess').disabled = finished();
+    $('result-actions').hidden = !finished(); $('next-button').hidden = mode !== 'practice';
     $('hints').replaceChildren();
     const wrong = round.guesses.filter(g => G.normalize(g) !== G.normalize(entry.root)).length;
     if (wrong >= 2) addHint('الوزن', entry.pattern);
@@ -142,7 +144,9 @@
     });
     $('stats-dialog').showModal();
   }
-  $('submit-guess').addEventListener('click', () => input('enter'));\n  $('clear-guess').addEventListener('click', () => { if (!finished() && !animating) { draft = ''; renderBoard(); } });\n  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
+  $('submit-guess').addEventListener('click', () => input('enter'));
+  $('clear-guess').addEventListener('click', () => { if (words && !checkDate() && !finished() && !animating) { draft = ''; renderBoard(); } });
+  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
   $('stats-button').addEventListener('click', showStats);
   document.querySelectorAll('.close-dialog').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
   $('color-blind').checked = data.colorBlind;
@@ -160,7 +164,7 @@
     if (document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input')) return;
     // Let focused buttons handle Enter/Space natively for accessible navigation.
     if (e.key === 'Enter' && e.target.closest('button')) {
-      if (e.target.id === 'submit-guess') { e.preventDefault(); input('enter'); }
+      if (e.target.id === 'submit-guess' || e.target.closest('#keyboard')) { e.preventDefault(); input('enter'); }
       return;
     }
     if (e.key === 'Enter' || e.key === 'Backspace' || /^[ء-غف-يأإآٱ]$/.test(e.key)) {
@@ -169,11 +173,30 @@
   });
   document.addEventListener('visibilitychange', () => { if (!document.hidden && words) checkDate(); });
   setInterval(() => { if (words && !document.hidden) checkDate(); }, 30000);
-  try {
-    const response = await fetch('data/words.json');
-    if (!response.ok) throw new Error('Word data unavailable');
-    words = await response.json();
-    if (!Array.isArray(words) || !words.length) throw new Error('Empty word data');
-    buildKeyboard(); start('daily');
-  } catch (_) { say('تعذّر تحميل الكلمات. أعد تحميل الصفحة عبر خادم ملفات محلي.'); }
+  async function loadWords() {
+    say('جارٍ تحميل الكلمات…');
+    $('retry-load').hidden = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch('data/words.json', { signal: controller.signal });
+      if (!response.ok) throw new Error('Word data unavailable');
+      const loaded = await response.json();
+      if (!Array.isArray(loaded) || !loaded.length || !loaded.every(w => w &&
+        ['word', 'root', 'pattern', 'meaning'].every(k => typeof w[k] === 'string' && w[k].trim()) &&
+        G.isRoot(w.root) && [1, 2, 3].includes(w.difficulty))) throw new Error('Invalid word data');
+      words = loaded.map(w => ({ ...w, root: G.normalize(w.root) }));
+      buildKeyboard(); start('daily');
+      $('daily-mode').disabled = $('practice-mode').disabled = false;
+    } catch (_) {
+      words = null;
+      $('keyboard').replaceChildren();
+      $('submit-guess').disabled = $('clear-guess').disabled = true;
+      say(location.protocol === 'file:' ? 'افتح اللعبة عبر خادم محلي أو رابط الموقع لتتمكّن من تحميل الكلمات.' : 'تعذّر تحميل الكلمات. تحقّق من اتصالك ثم حاول مجددًا.');
+      $('retry-load').hidden = false;
+    } finally { clearTimeout(timeout); }
+  }
+  $('retry-load').addEventListener('click', loadWords);
+  await loadWords();
 })();
+
