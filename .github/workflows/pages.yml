@@ -30,6 +30,7 @@ jobs:
         run: |
           node --test tests/*.test.js
           node scripts/validate-words.js
+          node scripts/validate-words5.js
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload site

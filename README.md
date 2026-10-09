@@ -66,3 +66,9 @@ For real-browser regression checks, install Playwright in your development envir
 ### Expanded practice lexicon
 
 600 entries: the original 120 objects and their order are immutable; all additions are practice-only. Daily selection uses `words.slice(0, 120)`, never a difficulty filter. New editorial rubric: **1 سهل** common, transparent words with simple patterns (فاعل، مفعول، فعل); **2 متوسط** familiar derived forms (تفعيل، انفعال، مفعلة); **3 متقدم** less frequent/longer derivations (استفعال، تفاعل، مفاعلة); **4 نخبة** literary or less familiar words with less obvious roots. Frequency is a selection aid, not a certified frequency grade. Existing entries retain their historical ratings for compatibility. New meanings are short editorial paraphrases. Attribution and data licensing: [data/LICENSE.md](data/LICENSE.md).
+
+### Five-letter game
+
+The name is defined once in `js/wordgame.js` (`NAME`). It has six guesses, its own `jathr.wordgame.v1` storage, daily UTC selection from a frozen 1000-word order, and random practice without immediate repeats. 6,872 source-attested guesses include every solution. Non-list guesses do not consume an attempt. Solutions are noun/adjective/verb headwords ranked by subtitle frequency, excluding explicit proper-name entries and marked archaic/rare forms; commonness is corpus-based, not a guarantee for every speaker.
+
+Normalization is NFC, no tashkeel/tatweel/spaces, and أ/إ/آ/ٱ → ا. ة, ى, ء, ئ and ؤ remain distinct. All are on the keyboard. Exactly five normalized Arabic letters are required. No transliteration is accepted. `data/words5-order.sha256` guards the daily order; never silently reorder it. Run `node scripts/validate-words5.js` as well as the existing checks; both CI workflows do so.

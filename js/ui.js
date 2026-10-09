@@ -133,6 +133,7 @@
   }
 
   function showStats() {
+    $('stats-title').textContent = 'جذر · إنجازاتك';
     const s = data.stats, content = $('stats-content'); content.replaceChildren();
     const numbers = document.createElement('div'); numbers.className = 'stat-numbers';
     for (const [value, label] of [[s.played, 'جولات'], [s.played ? Math.round(s.wins / s.played * 100) : 0, '٪ فوز'], [s.streak, 'السلسلة'], [s.best, 'أفضل سلسلة']]) {
@@ -152,8 +153,16 @@
   $('submit-guess').addEventListener('click', () => input('enter'));
   $('clear-guess').addEventListener('click', () => { if (words && !checkDate() && !finished() && !animating) { draft = ''; renderBoard(); } });
   $('settings-button').addEventListener('click', () => $('settings-dialog').showModal());
-  $('help-button').addEventListener('click', () => $('help-dialog').showModal());
-  $('stats-button').addEventListener('click', showStats);
+  $('help-button').addEventListener('click', () => {
+    const lines = document.body.dataset.game === 'word' ? ['خمّن كلمة من خمسة أحرف في ست محاولات.', '● صحيح · ▲ مكان آخر · × غير موجود.', 'تُقبل الكلمات الموجودة في قائمة المعجم فقط.', 'اليومي يتجدّد منتصف الليل بالتوقيت العالمي.'] : ['اكتشف الجذر بثلاثة أحرف، في ست محاولات.', '● صحيح · ▲ مكان آخر · × غير موجود.', 'الوزن بعد محاولتين، والمعنى بعد أربع.', 'اليومي يتجدّد منتصف الليل بالتوقيت العالمي.'];
+    $('rules-content').replaceChildren();
+    lines.forEach(text => { const p = document.createElement('p'); p.textContent = text; $('rules-content').append(p); });
+    $('help-dialog').showModal();
+  });
+  $('stats-button').addEventListener('click', () => {
+    if (document.body.dataset.game === 'word' && globalThis.JathrWordUI) globalThis.JathrWordUI.showStats();
+    else showStats();
+  });
   document.querySelectorAll('.close-dialog').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
   $('color-blind').checked = data.colorBlind;
   document.body.classList.toggle('color-blind', data.colorBlind);
@@ -167,7 +176,7 @@
     catch (_) { $('share-text').value = text; $('share-dialog').showModal(); $('share-text').focus(); $('share-text').select(); }
   });
   document.addEventListener('keydown', e => {
-    if (document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input, select') || !$('welcome-screen').hidden) return;
+    if ($('game-screen').hidden || document.querySelector('dialog[open]') || e.ctrlKey || e.metaKey || e.altKey || e.target.matches('textarea, input, select') || !$('welcome-screen').hidden) return;
     // Let focused buttons handle Enter/Space natively for accessible navigation.
     if (e.key === 'Enter' && e.target.closest('button')) {
       if (e.target.id === 'submit-guess' || e.target.closest('#keyboard')) { e.preventDefault(); input('enter'); }
@@ -228,10 +237,12 @@
   }
   function openGame(nextMode) {
     if (!words) return;
+    document.body.dataset.game = 'jathr';
+    $('wordgame-screen').hidden = true; $('stats-button').hidden = false;
     $('welcome-screen').hidden = true; $('game-screen').hidden = false;
     start(nextMode); A.play('start'); $('word').focus();
   }
-  function home() { $('welcome-screen').hidden = false; $('game-screen').hidden = true; $('start-daily').focus(); }
+  function home() { $('welcome-screen').hidden = false; $('game-screen').hidden = true; $('wordgame-screen').hidden = true; $('stats-button').hidden = true; $('start-daily').focus(); }
   $('home-button').addEventListener('click', home);
   $('back-home').addEventListener('click', home);
   $('start-daily').addEventListener('click', () => openGame('daily'));
@@ -239,6 +250,8 @@
 
 
   $('retry-load').addEventListener('click', loadWords);
+  globalThis.JathrUI = { home };
+  $('stats-button').hidden = true;
   await loadWords();
 })();
 
