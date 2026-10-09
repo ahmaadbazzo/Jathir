@@ -16,6 +16,7 @@
   <script defer src="js/ui.js"></script>
 </head>
 <body>
+  <div class="ambient-pattern" aria-hidden="true"></div>
   <main class="app">
     <header class="header">
       <a class="brand" href="./" aria-label="جذر، الصفحة الرئيسية">جذر<span class="brand-dot" aria-hidden="true">.</span></a>
@@ -29,12 +30,14 @@
       <button id="practice-mode" aria-pressed="false">تدريب حرّ</button>
     </nav>
     <section class="puzzle" aria-labelledby="word">
+      <div class="eyebrow">✦ رحلة إلى أصول الكلمات ✦</div>
       <div class="round-meta"><span id="round-label">تحدّي اليوم</span><span id="difficulty"></span></div>
       <p class="prompt">ما الجذر الثلاثي لكلمة</p>
       <h1 id="word">…</h1>
       <p class="subtitle">ثلاثة أحرف. ستّ محاولات.</p>
-      <div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div>
+      <div class="board-frame"><div id="board" class="board" role="group" aria-label="محاولات تخمين الجذر"></div></div>
       <p id="message" class="message" role="status" aria-live="polite">جارٍ تحميل الكلمات…</p>
+      <div class="play-actions"><button type="button" id="submit-guess" class="primary submit-guess" aria-label="تأكيد التخمين">تأكيد الجذر ↵</button><button type="button" id="clear-guess" class="secondary clear-guess" aria-label="مسح الحروف">مسح الحروف</button></div>
       <div id="hints" class="hints" aria-live="polite"></div>
       <div class="result-actions" id="result-actions" hidden>
         <button id="share-button" class="primary">مشاركة النتيجة <span aria-hidden="true">↗</span></button>
