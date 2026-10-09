@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="css/style.css?v=20261009-5">
 <script defer src="js/game.js?v=20261009-5"></script><script defer src="js/storage.js?v=20261009-5"></script><script defer src="js/audio.js?v=20261009-5"></script><script defer src="js/ui.js?v=20261009-5"></script>
 <script defer src="js/wordgame.js?v=20261009-5"></script><script defer src="js/wordstorage.js?v=20261009-5"></script><script defer src="js/wordui.js?v=20261009-5"></script>
+<script defer src="js/sources.js?v=20261009-5"></script>
 </head>
 <body>
 <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -47,4 +48,6 @@
 <dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-header"><h2 id="help-title">القواعد</h2><button class="close-dialog icon-button" aria-label="إغلاق القواعد">×</button></div><div id="rules-content"><p>اكتشف الجذر بثلاثة أحرف، في ست محاولات.</p><p>● صحيح · ▲ مكان آخر · × غير موجود.</p><p>الوزن بعد محاولتين، والمعنى بعد أربع.</p><p>اليومي يتجدّد منتصف الليل بالتوقيت العالمي.</p></div></dialog>
 <dialog id="stats-dialog" aria-labelledby="stats-title"><div class="dialog-header"><h2 id="stats-title">إنجازاتك</h2><button class="close-dialog icon-button" aria-label="إغلاق الإحصاءات">×</button></div><div id="stats-content"></div></dialog>
 <dialog id="share-dialog" aria-labelledby="share-title"><div class="dialog-header"><h2 id="share-title">مشاركة</h2><button class="close-dialog icon-button" aria-label="إغلاق المشاركة">×</button></div><textarea id="share-text" readonly dir="rtl" aria-label="انسخ نص النتيجة للمشاركة"></textarea></dialog>
+<button id="sources-button" class="icon-button sources-button" aria-label="المصادر والتراخيص"><svg aria-hidden="true"><use href="#i-book"/></svg></button>
+<dialog id="sources-dialog" aria-labelledby="sources-title"><div class="dialog-header"><h2 id="sources-title">المصادر</h2><button class="close-dialog icon-button" aria-label="إغلاق المصادر">×</button></div><div id="sources-content" aria-live="polite"></div><button id="sources-retry" class="secondary" hidden aria-label="إعادة تحميل المصادر">إعادة</button></dialog>
 <noscript><p>فعّل جافاسكربت للعب.</p></noscript></body></html>

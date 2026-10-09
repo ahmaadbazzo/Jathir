@@ -1046,7 +1046,8 @@
     "meaning": "خال من الأوساخ",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "نظيف"
+    "sourceWord": "نظيف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جميع",
@@ -1055,7 +1056,8 @@
     "meaning": "كل الأفراد دون استثناء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جميع"
+    "sourceWord": "جميع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كبير",
@@ -1064,7 +1066,8 @@
     "meaning": "عظيم الحجم",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كبير"
+    "sourceWord": "كبير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خارج",
@@ -1073,7 +1076,8 @@
     "meaning": "الجهة غير الداخلية",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "خارج"
+    "sourceWord": "خارج",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سعيد",
@@ -1082,7 +1086,8 @@
     "meaning": "يشعر بالفرح",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سعيد"
+    "sourceWord": "سعيد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جميل",
@@ -1091,7 +1096,8 @@
     "meaning": "حسن المنظر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جميل"
+    "sourceWord": "جميل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عظيم",
@@ -1100,7 +1106,8 @@
     "meaning": "كبير الشأن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عظيم"
+    "sourceWord": "عظيم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طريق",
@@ -1109,7 +1116,8 @@
     "meaning": "مسلك للمرور",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "طريق"
+    "sourceWord": "طريق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صباح",
@@ -1118,7 +1126,8 @@
     "meaning": "أول النهار",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "صباح"
+    "sourceWord": "صباح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "غريب",
@@ -1127,7 +1136,8 @@
     "meaning": "غير مألوف",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "غريب"
+    "sourceWord": "غريب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حالك",
@@ -1136,7 +1146,8 @@
     "meaning": "شديد الظلمة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حالك"
+    "sourceWord": "حالك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لطيف",
@@ -1145,7 +1156,8 @@
     "meaning": "رقيق المعاملة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "لطيف"
+    "sourceWord": "لطيف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "داخل",
@@ -1154,7 +1166,8 @@
     "meaning": "الجزء الباطن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "داخل"
+    "sourceWord": "داخل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صديق",
@@ -1163,7 +1176,8 @@
     "meaning": "رفيق تثق به",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "صديق"
+    "sourceWord": "صديق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فريق",
@@ -1172,7 +1186,8 @@
     "meaning": "جماعة تعمل معًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "فريق"
+    "sourceWord": "فريق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صغير",
@@ -1181,7 +1196,8 @@
     "meaning": "قليل الحجم",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "صغير"
+    "sourceWord": "صغير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قادم",
@@ -1190,7 +1206,8 @@
     "meaning": "مقبل نحوك",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قادم"
+    "sourceWord": "قادم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جهاز",
@@ -1199,7 +1216,8 @@
     "meaning": "أداة تؤدي مهمة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جهاز"
+    "sourceWord": "جهاز",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كامل",
@@ -1208,7 +1226,8 @@
     "meaning": "لا ينقصه شيء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كامل"
+    "sourceWord": "كامل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عالم",
@@ -1217,7 +1236,8 @@
     "meaning": "صاحب علم ومعرفة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عالم"
+    "sourceWord": "عالم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كثير",
@@ -1226,7 +1246,8 @@
     "meaning": "وفير العدد",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كثير"
+    "sourceWord": "كثير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جاهز",
@@ -1235,7 +1256,8 @@
     "meaning": "مستعد للاستعمال",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جاهز"
+    "sourceWord": "جاهز",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قاتل",
@@ -1244,7 +1266,8 @@
     "meaning": "من يزهق نفسًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قاتل"
+    "sourceWord": "قاتل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قريب",
@@ -1253,7 +1276,8 @@
     "meaning": "قليل المسافة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قريب"
+    "sourceWord": "قريب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بعيد",
@@ -1262,7 +1286,8 @@
     "meaning": "طويل المسافة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "بعيد"
+    "sourceWord": "بعيد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صاحب",
@@ -1271,7 +1296,8 @@
     "meaning": "رفيق ومرافق",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "صاحب"
+    "sourceWord": "صاحب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سلاح",
@@ -1280,7 +1306,8 @@
     "meaning": "أداة للدفاع أو القتال",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سلاح"
+    "sourceWord": "سلاح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سخيف",
@@ -1289,7 +1316,8 @@
     "meaning": "قليل القيمة والمعنى",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سخيف"
+    "sourceWord": "سخيف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سماع",
@@ -1298,7 +1326,8 @@
     "meaning": "إدراك الأصوات بالأذن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سماع"
+    "sourceWord": "سماع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كتاب",
@@ -1307,7 +1336,8 @@
     "meaning": "صفحات تجمع نصوصًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كتاب"
+    "sourceWord": "كتاب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مريض",
@@ -1316,7 +1346,8 @@
     "meaning": "يشكو علة في بدنه",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مريض"
+    "sourceWord": "مريض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جانب",
@@ -1325,7 +1356,8 @@
     "meaning": "طرف من أطراف الشيء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جانب"
+    "sourceWord": "جانب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "هاتف",
@@ -1334,7 +1366,8 @@
     "meaning": "وسيلة للتواصل الصوتي",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "هاتف"
+    "sourceWord": "هاتف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طعام",
@@ -1343,7 +1376,8 @@
     "meaning": "ما يؤكل للتغذي",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "طعام"
+    "sourceWord": "طعام",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "باسم",
@@ -1352,7 +1386,8 @@
     "meaning": "تعلو وجهه ابتسامة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "باسم"
+    "sourceWord": "باسم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بسيط",
@@ -1361,7 +1396,8 @@
     "meaning": "سهل غير معقد",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "بسيط"
+    "sourceWord": "بسيط",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شراب",
@@ -1370,7 +1406,8 @@
     "meaning": "سائل صالح للشرب",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شراب"
+    "sourceWord": "شراب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شارع",
@@ -1379,7 +1416,8 @@
     "meaning": "طريق بين المباني",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شارع"
+    "sourceWord": "شارع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشغول",
@@ -1388,7 +1426,8 @@
     "meaning": "منصرف إلى عمل",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مشغول"
+    "sourceWord": "مشغول",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قادر",
@@ -1397,7 +1436,8 @@
     "meaning": "يملك الاستطاعة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قادر"
+    "sourceWord": "قادر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خطير",
@@ -1406,7 +1446,8 @@
     "meaning": "قد يسبب ضررًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "خطير"
+    "sourceWord": "خطير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شاهد",
@@ -1415,7 +1456,8 @@
     "meaning": "من رأى الواقعة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شاهد"
+    "sourceWord": "شاهد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عميل",
@@ -1424,7 +1466,8 @@
     "meaning": "زبون يتعامل مع جهة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عميل"
+    "sourceWord": "عميل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لعين",
@@ -1433,7 +1476,8 @@
     "meaning": "مستحق للذم واللعن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "لعين"
+    "sourceWord": "لعين",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "غاضب",
@@ -1442,7 +1486,8 @@
     "meaning": "ممتلئ بالغضب",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "غاضب"
+    "sourceWord": "غاضب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قديم",
@@ -1451,7 +1496,8 @@
     "meaning": "مضى عليه زمن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قديم"
+    "sourceWord": "قديم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حادث",
@@ -1460,7 +1506,8 @@
     "meaning": "واقعة غير متوقعة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حادث"
+    "sourceWord": "حادث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "غادر",
@@ -1469,7 +1516,8 @@
     "meaning": "ترك المكان ورحل",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "غادر"
+    "sourceWord": "غادر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بارد",
@@ -1478,7 +1526,8 @@
     "meaning": "قليل الحرارة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "بارد"
+    "sourceWord": "بارد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سريع",
@@ -1487,7 +1536,8 @@
     "meaning": "يتحرك في وقت قصير",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سريع"
+    "sourceWord": "سريع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كلام",
@@ -1496,7 +1546,8 @@
     "meaning": "ألفاظ للتعبير",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كلام"
+    "sourceWord": "كلام",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سابق",
@@ -1505,7 +1556,8 @@
     "meaning": "متقدم في الزمن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سابق"
+    "sourceWord": "سابق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فظيع",
@@ -1514,7 +1566,8 @@
     "meaning": "شديد السوء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "فظيع"
+    "sourceWord": "فظيع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حاضر",
@@ -1523,7 +1576,8 @@
     "meaning": "موجود الآن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حاضر"
+    "sourceWord": "حاضر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ضابط",
@@ -1532,7 +1586,8 @@
     "meaning": "صاحب رتبة عسكرية",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "ضابط"
+    "sourceWord": "ضابط",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معروف",
@@ -1541,7 +1596,8 @@
     "meaning": "معلوم لدى الناس",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "معروف"
+    "sourceWord": "معروف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شابه",
@@ -1550,7 +1606,8 @@
     "meaning": "ماثل غيره في صفة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شابه"
+    "sourceWord": "شابه",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشروع",
@@ -1559,7 +1616,8 @@
     "meaning": "عمل مخطط لتنفيذه",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مشروع"
+    "sourceWord": "مشروع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فخور",
@@ -1568,7 +1626,8 @@
     "meaning": "معتز بما أنجز",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "فخور"
+    "sourceWord": "فخور",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بارك",
@@ -1577,7 +1636,8 @@
     "meaning": "دعا بالخير والبركة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "بارك"
+    "sourceWord": "بارك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كريم",
@@ -1586,7 +1646,8 @@
     "meaning": "كثير العطاء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كريم"
+    "sourceWord": "كريم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جمال",
@@ -1595,7 +1656,8 @@
     "meaning": "حسن يسر الناظر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جمال"
+    "sourceWord": "جمال",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عجوز",
@@ -1604,7 +1666,8 @@
     "meaning": "امرأة متقدمة في العمر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عجوز"
+    "sourceWord": "عجوز",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فريد",
@@ -1613,7 +1676,8 @@
     "meaning": "لا مثيل له",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "فريد"
+    "sourceWord": "فريد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معقول",
@@ -1622,7 +1686,8 @@
     "meaning": "يقبله العقل",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "معقول"
+    "sourceWord": "معقول",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قابل",
@@ -1631,7 +1696,8 @@
     "meaning": "يمكنه قبول شيء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قابل"
+    "sourceWord": "قابل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "رفيق",
@@ -1640,7 +1706,8 @@
     "meaning": "لطيف في التعامل",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "رفيق"
+    "sourceWord": "رفيق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شريك",
@@ -1649,7 +1716,8 @@
     "meaning": "مشارك في أمر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شريك"
+    "sourceWord": "شريك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لاحق",
@@ -1658,7 +1726,8 @@
     "meaning": "آتيًا بعد غيره",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "لاحق"
+    "sourceWord": "لاحق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسموح",
@@ -1667,7 +1736,8 @@
     "meaning": "مأذون به",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مسموح"
+    "sourceWord": "مسموح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شريط",
@@ -1676,7 +1746,8 @@
     "meaning": "قطعة طويلة ضيقة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شريط"
+    "sourceWord": "شريط",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "زعيم",
@@ -1685,7 +1756,8 @@
     "meaning": "قائد جماعة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "زعيم"
+    "sourceWord": "زعيم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قصير",
@@ -1694,7 +1766,8 @@
     "meaning": "قليل الطول",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قصير"
+    "sourceWord": "قصير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مفقود",
@@ -1703,7 +1776,8 @@
     "meaning": "غائب لا يعرف موضعه",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مفقود"
+    "sourceWord": "مفقود",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ضعيف",
@@ -1712,7 +1786,8 @@
     "meaning": "قليل القوة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "ضعيف"
+    "sourceWord": "ضعيف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صالح",
@@ -1721,7 +1796,8 @@
     "meaning": "جيد يصلح للغرض",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "صالح"
+    "sourceWord": "صالح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قارب",
@@ -1730,7 +1806,8 @@
     "meaning": "زورق صغير",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قارب"
+    "sourceWord": "قارب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جنوب",
@@ -1739,7 +1816,8 @@
     "meaning": "جهة تقابل الشمال",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جنوب"
+    "sourceWord": "جنوب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشروب",
@@ -1748,7 +1826,8 @@
     "meaning": "سائل يشرب",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مشروب"
+    "sourceWord": "مشروب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قتال",
@@ -1757,7 +1836,8 @@
     "meaning": "مواجهة بالسلاح",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قتال"
+    "sourceWord": "قتال",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "رخيص",
@@ -1766,7 +1846,8 @@
     "meaning": "منخفض الثمن",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "رخيص"
+    "sourceWord": "رخيص",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كاذب",
@@ -1775,7 +1856,8 @@
     "meaning": "لا يقول الصدق",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كاذب"
+    "sourceWord": "كاذب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قطار",
@@ -1784,7 +1866,8 @@
     "meaning": "عربات تسير على سكة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "قطار"
+    "sourceWord": "قطار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سباق",
@@ -1793,7 +1876,8 @@
     "meaning": "تنافس للوصول أولًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سباق"
+    "sourceWord": "سباق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ساعد",
@@ -1802,7 +1886,8 @@
     "meaning": "قدم العون",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "ساعد"
+    "sourceWord": "ساعد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عادل",
@@ -1811,7 +1896,8 @@
     "meaning": "يحكم بالإنصاف",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عادل"
+    "sourceWord": "عادل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شمال",
@@ -1820,7 +1906,8 @@
     "meaning": "جهة تقابل الجنوب",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "شمال"
+    "sourceWord": "شمال",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "براد",
@@ -1829,7 +1916,8 @@
     "meaning": "جهاز لتبريد الطعام",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "براد"
+    "sourceWord": "براد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حديث",
@@ -1838,7 +1926,8 @@
     "meaning": "قريب العهد",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حديث"
+    "sourceWord": "حديث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عصير",
@@ -1847,7 +1936,8 @@
     "meaning": "سائل يستخرج من الثمار",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عصير"
+    "sourceWord": "عصير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حصان",
@@ -1856,7 +1946,8 @@
     "meaning": "حيوان يركب ويجر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حصان"
+    "sourceWord": "حصان",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حقير",
@@ -1865,7 +1956,8 @@
     "meaning": "دنيء القدر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حقير"
+    "sourceWord": "حقير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عديم",
@@ -1874,7 +1966,8 @@
     "meaning": "فاقد لشيء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عديم"
+    "sourceWord": "عديم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خاتم",
@@ -1883,7 +1976,8 @@
     "meaning": "حلية تحيط بالإصبع",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "خاتم"
+    "sourceWord": "خاتم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حكيم",
@@ -1892,7 +1986,8 @@
     "meaning": "صاحب رأي سديد",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حكيم"
+    "sourceWord": "حكيم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نطاق",
@@ -1901,7 +1996,8 @@
     "meaning": "حدود الامتداد",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "نطاق"
+    "sourceWord": "نطاق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جدول",
@@ -1910,7 +2006,8 @@
     "meaning": "مجرى ماء صغير",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جدول"
+    "sourceWord": "جدول",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقبول",
@@ -1919,7 +2016,8 @@
     "meaning": "لقي رضا الآخرين",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مقبول"
+    "sourceWord": "مقبول",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كبار",
@@ -1928,7 +2026,8 @@
     "meaning": "عظام السن أو الحجم",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "كبار"
+    "sourceWord": "كبار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عميق",
@@ -1937,7 +2036,8 @@
     "meaning": "بعيد القعر",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "عميق"
+    "sourceWord": "عميق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ركوب",
@@ -1946,7 +2046,8 @@
     "meaning": "الاعتلاء للسير",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "ركوب"
+    "sourceWord": "ركوب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ممنوع",
@@ -1955,7 +2056,8 @@
     "meaning": "غير مأذون به",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "ممنوع"
+    "sourceWord": "ممنوع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حزين",
@@ -1964,7 +2066,8 @@
     "meaning": "يشعر بالأسى",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حزين"
+    "sourceWord": "حزين",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مارس",
@@ -1973,7 +2076,8 @@
     "meaning": "زاول عملًا",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مارس"
+    "sourceWord": "مارس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تابع",
@@ -1982,7 +2086,8 @@
     "meaning": "استمر في العمل",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "تابع"
+    "sourceWord": "تابع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مانع",
@@ -1991,7 +2096,8 @@
     "meaning": "حاجز يمنع المرور",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مانع"
+    "sourceWord": "مانع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حريق",
@@ -2000,7 +2106,8 @@
     "meaning": "نار تلتهم الأشياء",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "حريق"
+    "sourceWord": "حريق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جبان",
@@ -2009,7 +2116,8 @@
     "meaning": "يخشى المواجهة",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "جبان"
+    "sourceWord": "جبان",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سكان",
@@ -2018,7 +2126,8 @@
     "meaning": "المقيمون في المكان",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "سكان"
+    "sourceWord": "سكان",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مجهول",
@@ -2027,7 +2136,8 @@
     "meaning": "غير معلوم",
     "difficulty": 1,
     "source": "enwiktionary",
-    "sourceWord": "مجهول"
+    "sourceWord": "مجهول",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعرف",
@@ -2036,7 +2146,8 @@
     "meaning": "اكتسب معرفة بشخص",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تعرف"
+    "sourceWord": "تعرف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعلم",
@@ -2045,7 +2156,8 @@
     "meaning": "اكتسب معرفة أو مهارة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تعلم"
+    "sourceWord": "تعلم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فكرة",
@@ -2054,7 +2166,8 @@
     "meaning": "خاطر يتشكل في الذهن",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "فكرة"
+    "sourceWord": "فكرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشكلة",
@@ -2063,7 +2176,8 @@
     "meaning": "أمر يحتاج إلى حل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مشكلة"
+    "sourceWord": "مشكلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كبيرة",
@@ -2072,7 +2186,8 @@
     "meaning": "ذنب شديد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "كبيرة"
+    "sourceWord": "كبيرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعمل",
@@ -2081,7 +2196,8 @@
     "meaning": "تكلف العمل وتعب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تعمل"
+    "sourceWord": "تعمل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "غرفة",
@@ -2090,7 +2206,8 @@
     "meaning": "حيز داخل مبنى",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "غرفة"
+    "sourceWord": "غرفة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طريقة",
@@ -2099,7 +2216,8 @@
     "meaning": "أسلوب لإنجاز أمر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "طريقة"
+    "sourceWord": "طريقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لحظة",
@@ -2108,7 +2226,8 @@
     "meaning": "وقت قصير جدًا",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "لحظة"
+    "sourceWord": "لحظة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فرصة",
@@ -2117,7 +2236,8 @@
     "meaning": "ظرف ملائم للعمل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "فرصة"
+    "sourceWord": "فرصة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "علاقة",
@@ -2126,7 +2246,8 @@
     "meaning": "صلة تربط شيئين",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "علاقة"
+    "sourceWord": "علاقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صغيرة",
@@ -2135,7 +2256,8 @@
     "meaning": "ذنب قليل الشأن",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "صغيرة"
+    "sourceWord": "صغيرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منزل",
@@ -2144,7 +2266,8 @@
     "meaning": "مسكن يقيم فيه الناس",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "منزل"
+    "sourceWord": "منزل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نظرة",
@@ -2153,7 +2276,8 @@
     "meaning": "توجيه البصر مرة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "نظرة"
+    "sourceWord": "نظرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كلمة",
@@ -2162,7 +2286,8 @@
     "meaning": "لفظ ذو معنى",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "كلمة"
+    "sourceWord": "كلمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفضل",
@@ -2171,7 +2296,8 @@
     "meaning": "أظهر لطفًا ومنّة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفضل"
+    "sourceWord": "تفضل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مكتب",
@@ -2180,7 +2306,8 @@
     "meaning": "موضع للكتابة والعمل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مكتب"
+    "sourceWord": "مكتب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحدث",
@@ -2189,7 +2316,8 @@
     "meaning": "نطق وتكلم",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تحدث"
+    "sourceWord": "تحدث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تذكر",
@@ -2198,7 +2326,8 @@
     "meaning": "استعاد أمرًا في ذهنه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تذكر"
+    "sourceWord": "تذكر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لعبة",
@@ -2207,7 +2336,8 @@
     "meaning": "شيء يتسلى به",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "لعبة"
+    "sourceWord": "لعبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفكر",
@@ -2216,7 +2346,8 @@
     "meaning": "تأمل في أمر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفكر"
+    "sourceWord": "تفكر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصبح",
@@ -2225,7 +2356,8 @@
     "meaning": "نام في الصباح",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تصبح"
+    "sourceWord": "تصبح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفهم",
@@ -2234,7 +2366,8 @@
     "meaning": "أدرك المعنى بتأن",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفهم"
+    "sourceWord": "تفهم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حفلة",
@@ -2243,7 +2376,8 @@
     "meaning": "اجتماع للاحتفال",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "حفلة"
+    "sourceWord": "حفلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مدينة",
@@ -2252,7 +2386,8 @@
     "meaning": "تجمع عمراني كبير",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مدينة"
+    "sourceWord": "مدينة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ممكن",
@@ -2261,7 +2396,8 @@
     "meaning": "قابل للحدوث",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "ممكن"
+    "sourceWord": "ممكن",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحمل",
@@ -2270,7 +2406,8 @@
     "meaning": "حمل عبئًا وصبر عليه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تحمل"
+    "sourceWord": "تحمل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شرطة",
@@ -2279,7 +2416,8 @@
     "meaning": "جهاز لحفظ الأمن",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "شرطة"
+    "sourceWord": "شرطة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عشرة",
@@ -2288,7 +2426,8 @@
     "meaning": "صحبة ومخالطة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عشرة"
+    "sourceWord": "عشرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جريمة",
@@ -2297,7 +2436,8 @@
     "meaning": "فعل يعاقب عليه القانون",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "جريمة"
+    "sourceWord": "جريمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مضحك",
@@ -2306,7 +2446,8 @@
     "meaning": "يبعث على الضحك",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مضحك"
+    "sourceWord": "مضحك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مركز",
@@ -2315,7 +2456,8 @@
     "meaning": "موضع تتجمع فيه الأنشطة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مركز"
+    "sourceWord": "مركز",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قطعة",
@@ -2324,7 +2466,8 @@
     "meaning": "جزء منفصل من شيء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "قطعة"
+    "sourceWord": "قطعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحرك",
@@ -2333,7 +2476,8 @@
     "meaning": "انتقل من موضعه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تحرك"
+    "sourceWord": "تحرك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "لطيفة",
@@ -2342,7 +2486,8 @@
     "meaning": "عبارة طريفة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "لطيفة"
+    "sourceWord": "لطيفة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "رحلة",
@@ -2351,7 +2496,8 @@
     "meaning": "انتقال إلى مكان بعيد",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "رحلة"
+    "sourceWord": "رحلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تخرج",
@@ -2360,7 +2506,8 @@
     "meaning": "أتم الدراسة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تخرج"
+    "sourceWord": "تخرج",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نقطة",
@@ -2369,7 +2516,8 @@
     "meaning": "علامة صغيرة مستديرة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "نقطة"
+    "sourceWord": "نقطة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منطقة",
@@ -2378,7 +2526,8 @@
     "meaning": "جزء محدد من الأرض",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "منطقة"
+    "sourceWord": "منطقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معظم",
@@ -2387,7 +2536,8 @@
     "meaning": "القسم الأكبر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "معظم"
+    "sourceWord": "معظم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مذهل",
@@ -2396,7 +2546,8 @@
     "meaning": "يثير الدهشة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مذهل"
+    "sourceWord": "مذهل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "غريبة",
@@ -2405,7 +2556,8 @@
     "meaning": "حادثة غير مألوفة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "غريبة"
+    "sourceWord": "غريبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "درجة",
@@ -2414,7 +2566,8 @@
     "meaning": "مرتبة في سلم",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "درجة"
+    "sourceWord": "درجة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مدرسة",
@@ -2423,7 +2576,8 @@
     "meaning": "مكان للتعليم",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مدرسة"
+    "sourceWord": "مدرسة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقدم",
@@ -2432,7 +2586,8 @@
     "meaning": "مضى إلى الأمام",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تقدم"
+    "sourceWord": "تقدم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تسمع",
@@ -2441,7 +2596,8 @@
     "meaning": "أنصت باهتمام",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تسمع"
+    "sourceWord": "تسمع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عظيمة",
@@ -2450,7 +2606,8 @@
     "meaning": "مصيبة شديدة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "عظيمة"
+    "sourceWord": "عظيمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تدخل",
@@ -2459,7 +2616,8 @@
     "meaning": "شارك في شأن غيره",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تدخل"
+    "sourceWord": "تدخل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حضرة",
@@ -2468,7 +2626,8 @@
     "meaning": "وجود شخص في مكان",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "حضرة"
+    "sourceWord": "حضرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صفقة",
@@ -2477,7 +2636,8 @@
     "meaning": "اتفاق على بيع أو شراء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "صفقة"
+    "sourceWord": "صفقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مناسب",
@@ -2486,7 +2646,8 @@
     "meaning": "ملائم للغرض",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مناسب"
+    "sourceWord": "مناسب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تطلب",
@@ -2495,7 +2656,8 @@
     "meaning": "احتاج إلى شيء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تطلب"
+    "sourceWord": "تطلب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فرقة",
@@ -2504,7 +2666,8 @@
     "meaning": "مجموعة من الأشخاص",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "فرقة"
+    "sourceWord": "فرقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تلعب",
@@ -2513,7 +2676,8 @@
     "meaning": "انشغل باللعب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تلعب"
+    "sourceWord": "تلعب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكذب",
@@ -2522,7 +2686,8 @@
     "meaning": "تظاهر بالكذب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تكذب"
+    "sourceWord": "تكذب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عطلة",
@@ -2531,7 +2696,8 @@
     "meaning": "وقت راحة من العمل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عطلة"
+    "sourceWord": "عطلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفقد",
@@ -2540,7 +2706,8 @@
     "meaning": "فحص الشيء واطمأن إليه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفقد"
+    "sourceWord": "تفقد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حركة",
@@ -2549,7 +2716,8 @@
     "meaning": "انتقال أو تغير موضع",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "حركة"
+    "sourceWord": "حركة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "علامة",
@@ -2558,7 +2726,8 @@
     "meaning": "إشارة تدل على شيء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "علامة"
+    "sourceWord": "علامة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصدق",
@@ -2567,7 +2736,8 @@
     "meaning": "أعطى المحتاج",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تصدق"
+    "sourceWord": "تصدق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقتل",
@@ -2576,7 +2746,8 @@
     "meaning": "قاتل بعضهم بعضًا",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تقتل"
+    "sourceWord": "تقتل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حقيبة",
@@ -2585,7 +2756,8 @@
     "meaning": "وعاء لحمل الأغراض",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "حقيبة"
+    "sourceWord": "حقيبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معجب",
@@ -2594,7 +2766,8 @@
     "meaning": "مسرور بما رأى",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "معجب"
+    "sourceWord": "معجب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سفينة",
@@ -2603,7 +2776,8 @@
     "meaning": "مركبة كبيرة في الماء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "سفينة"
+    "sourceWord": "سفينة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مطعم",
@@ -2612,7 +2786,8 @@
     "meaning": "مكان يقدم الطعام",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مطعم"
+    "sourceWord": "مطعم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متجر",
@@ -2621,7 +2796,8 @@
     "meaning": "مكان لبيع السلع",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "متجر"
+    "sourceWord": "متجر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسرح",
@@ -2630,7 +2806,8 @@
     "meaning": "مكان لعرض التمثيل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مسرح"
+    "sourceWord": "مسرح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تترك",
@@ -2639,7 +2816,8 @@
     "meaning": "تشبه بالأتراك",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تترك"
+    "sourceWord": "تترك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ضربة",
@@ -2648,7 +2826,8 @@
     "meaning": "إصابة بجسم متحرك",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "ضربة"
+    "sourceWord": "ضربة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نسخة",
@@ -2657,7 +2836,8 @@
     "meaning": "صورة مطابقة للأصل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "نسخة"
+    "sourceWord": "نسخة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مفتاح",
@@ -2666,7 +2846,8 @@
     "meaning": "أداة لفتح القفل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مفتاح"
+    "sourceWord": "مفتاح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تخبر",
@@ -2675,7 +2856,8 @@
     "meaning": "سأل عن الأخبار",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تخبر"
+    "sourceWord": "تخبر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعرض",
@@ -2684,7 +2866,8 @@
     "meaning": "جعل نفسه عرضة لأمر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تعرض"
+    "sourceWord": "تعرض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ملكة",
@@ -2693,7 +2876,8 @@
     "meaning": "امرأة تتولى الحكم",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "ملكة"
+    "sourceWord": "ملكة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحضر",
@@ -2702,7 +2886,8 @@
     "meaning": "انتقل إلى حياة المدن",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تحضر"
+    "sourceWord": "تحضر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نتيجة",
@@ -2711,7 +2896,8 @@
     "meaning": "ما ينشأ عن العمل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "نتيجة"
+    "sourceWord": "نتيجة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عبارة",
@@ -2720,7 +2906,8 @@
     "meaning": "جملة تعبر عن معنى",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عبارة"
+    "sourceWord": "عبارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقبل",
@@ -2729,7 +2916,8 @@
     "meaning": "رضي بالشيء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تقبل"
+    "sourceWord": "تقبل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تمهل",
@@ -2738,7 +2926,8 @@
     "meaning": "تأنى ولم يستعجل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تمهل"
+    "sourceWord": "تمهل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكلم",
@@ -2747,7 +2936,8 @@
     "meaning": "عبّر بالكلمات",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تكلم"
+    "sourceWord": "تكلم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شجرة",
@@ -2756,7 +2946,8 @@
     "meaning": "نبات له جذع وفروع",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "شجرة"
+    "sourceWord": "شجرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقرف",
@@ -2765,7 +2956,8 @@
     "meaning": "يثير الاشمئزاز",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مقرف"
+    "sourceWord": "مقرف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معركة",
@@ -2774,7 +2966,8 @@
     "meaning": "مواجهة بين فريقين",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "معركة"
+    "sourceWord": "معركة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصرف",
@@ -2783,7 +2976,8 @@
     "meaning": "سلك سلوكًا معينًا",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تصرف"
+    "sourceWord": "تصرف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جماعة",
@@ -2792,7 +2986,8 @@
     "meaning": "عدد من الناس مجتمعين",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "جماعة"
+    "sourceWord": "جماعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جزيرة",
@@ -2801,7 +2996,8 @@
     "meaning": "أرض يحيط بها الماء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "جزيرة"
+    "sourceWord": "جزيرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عصابة",
@@ -2810,7 +3006,8 @@
     "meaning": "جماعة متحالفة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عصابة"
+    "sourceWord": "عصابة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خدعة",
@@ -2819,7 +3016,8 @@
     "meaning": "حيلة للإيهام",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "خدعة"
+    "sourceWord": "خدعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مرحلة",
@@ -2828,7 +3026,8 @@
     "meaning": "جزء من مسار طويل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مرحلة"
+    "sourceWord": "مرحلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قبلة",
@@ -2837,7 +3036,8 @@
     "meaning": "ملامسة بالشفتين للمودة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "قبلة"
+    "sourceWord": "قبلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "حديقة",
@@ -2846,7 +3046,8 @@
     "meaning": "أرض تزرع للزينة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "حديقة"
+    "sourceWord": "حديقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تتبع",
@@ -2855,7 +3056,8 @@
     "meaning": "اقتفى الأثر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تتبع"
+    "sourceWord": "تتبع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقدار",
@@ -2864,7 +3066,8 @@
     "meaning": "كمية معلومة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مقدار"
+    "sourceWord": "مقدار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منظمة",
@@ -2873,7 +3076,8 @@
     "meaning": "جهة لها أعضاء ونظام",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "منظمة"
+    "sourceWord": "منظمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مساعد",
@@ -2882,7 +3086,8 @@
     "meaning": "من يقدم العون",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مساعد"
+    "sourceWord": "مساعد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تنجح",
@@ -2891,7 +3096,8 @@
     "meaning": "طلب نجاح الأمر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تنجح"
+    "sourceWord": "تنجح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "علبة",
@@ -2900,7 +3106,8 @@
     "meaning": "وعاء لحفظ الأشياء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "علبة"
+    "sourceWord": "علبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جلسة",
@@ -2909,7 +3116,8 @@
     "meaning": "اجتماع في وقت محدد",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "جلسة"
+    "sourceWord": "جلسة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كذبة",
@@ -2918,7 +3126,8 @@
     "meaning": "قول مخالف للحقيقة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "كذبة"
+    "sourceWord": "كذبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معقد",
@@ -2927,7 +3136,8 @@
     "meaning": "متشابك يصعب حله",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "معقد"
+    "sourceWord": "معقد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محمد",
@@ -2936,7 +3146,8 @@
     "meaning": "كثير الخصال المحمودة",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "محمد"
+    "sourceWord": "محمد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تهرب",
@@ -2945,7 +3156,8 @@
     "meaning": "حاول الإفلات",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تهرب"
+    "sourceWord": "تهرب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مذكرة",
@@ -2954,7 +3166,8 @@
     "meaning": "ورقة لتسجيل أمر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مذكرة"
+    "sourceWord": "مذكرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصنع",
@@ -2963,7 +3176,8 @@
     "meaning": "تظاهر بما ليس فيه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تصنع"
+    "sourceWord": "تصنع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعب",
@@ -2972,7 +3186,8 @@
     "meaning": "يسبب الإرهاق",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "متعب"
+    "sourceWord": "متعب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مذنب",
@@ -2981,7 +3196,8 @@
     "meaning": "مرتكب خطأ",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مذنب"
+    "sourceWord": "مذنب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفسير",
@@ -2990,7 +3206,8 @@
     "meaning": "شرح المعنى",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفسير"
+    "sourceWord": "تفسير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفتح",
@@ -2999,7 +3216,8 @@
     "meaning": "انفتح شيئًا فشيئًا",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "تفتح"
+    "sourceWord": "تفتح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عربة",
@@ -3008,7 +3226,8 @@
     "meaning": "مركبة تحمل الأشخاص أو الأشياء",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عربة"
+    "sourceWord": "عربة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سلطة",
@@ -3017,7 +3236,8 @@
     "meaning": "قدرة على إصدار القرار",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "سلطة"
+    "sourceWord": "سلطة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مباشرة",
@@ -3026,7 +3246,8 @@
     "meaning": "دون وسيط",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مباشرة"
+    "sourceWord": "مباشرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستكشف",
@@ -3035,7 +3256,8 @@
     "meaning": "باحث عن أماكن مجهولة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستكشف"
+    "sourceWord": "مستكشف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مختلف",
@@ -3044,7 +3266,8 @@
     "meaning": "غير مشابه لغيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مختلف"
+    "sourceWord": "مختلف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تراجع",
@@ -3053,7 +3276,8 @@
     "meaning": "عاد إلى الوراء",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تراجع"
+    "sourceWord": "تراجع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محتمل",
@@ -3062,7 +3286,8 @@
     "meaning": "يجوز وقوعه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "محتمل"
+    "sourceWord": "محتمل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستقبل",
@@ -3071,7 +3296,8 @@
     "meaning": "الزمن الآتي",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستقبل"
+    "sourceWord": "مستقبل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متحمس",
@@ -3080,7 +3306,8 @@
     "meaning": "مقبل على الأمر بنشاط",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متحمس"
+    "sourceWord": "متحمس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشترك",
@@ -3089,7 +3316,8 @@
     "meaning": "يجمع أكثر من طرف",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مشترك"
+    "sourceWord": "مشترك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تذاكر",
@@ -3098,7 +3326,8 @@
     "meaning": "راجعوا المعلومات معًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تذاكر"
+    "sourceWord": "تذاكر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محترف",
@@ -3107,7 +3336,8 @@
     "meaning": "يتقن عمله مهنة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "محترف"
+    "sourceWord": "محترف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تبادل",
@@ -3116,7 +3346,8 @@
     "meaning": "أعطى وأخذ بالمقابل",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تبادل"
+    "sourceWord": "تبادل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقابل",
@@ -3125,7 +3356,8 @@
     "meaning": "واجه بعضهم بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقابل"
+    "sourceWord": "تقابل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مطاردة",
@@ -3134,7 +3366,8 @@
     "meaning": "السعي للحاق بالهارب",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مطاردة"
+    "sourceWord": "مطاردة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تماسك",
@@ -3143,7 +3376,8 @@
     "meaning": "ثبتت أجزاؤه معًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تماسك"
+    "sourceWord": "تماسك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منخفض",
@@ -3152,7 +3386,8 @@
     "meaning": "قليل الارتفاع",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منخفض"
+    "sourceWord": "منخفض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مجتمع",
@@ -3161,7 +3396,8 @@
     "meaning": "جماعة تعيش معًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مجتمع"
+    "sourceWord": "مجتمع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مختبر",
@@ -3170,7 +3406,8 @@
     "meaning": "مكان لإجراء التجارب",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مختبر"
+    "sourceWord": "مختبر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مرتفع",
@@ -3179,7 +3416,8 @@
     "meaning": "عال عن محيطه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مرتفع"
+    "sourceWord": "مرتفع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعامل",
@@ -3188,7 +3426,8 @@
     "meaning": "تبادل العمل مع غيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعامل"
+    "sourceWord": "تعامل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقاتل",
@@ -3197,7 +3436,8 @@
     "meaning": "قاتل بعضهم بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقاتل"
+    "sourceWord": "تقاتل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تجاهل",
@@ -3206,7 +3446,8 @@
     "meaning": "تعمد عدم الاهتمام",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تجاهل"
+    "sourceWord": "تجاهل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستحسن",
@@ -3215,7 +3456,8 @@
     "meaning": "مرضي عنه ومفضل",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستحسن"
+    "sourceWord": "مستحسن",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقاطع",
@@ -3224,7 +3466,8 @@
     "meaning": "التقى مساران",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقاطع"
+    "sourceWord": "تقاطع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "استرجاع",
@@ -3233,7 +3476,8 @@
     "meaning": "إعادة ما فقد",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "استرجاع"
+    "sourceWord": "استرجاع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفاهم",
@@ -3242,7 +3486,8 @@
     "meaning": "وصل إلى فهم مشترك",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تفاهم"
+    "sourceWord": "تفاهم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تشارك",
@@ -3251,7 +3496,8 @@
     "meaning": "عمل مع غيره في شيء",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تشارك"
+    "sourceWord": "تشارك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منحرف",
@@ -3260,7 +3506,8 @@
     "meaning": "مائل عن الطريق",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منحرف"
+    "sourceWord": "منحرف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تدافع",
@@ -3269,7 +3516,8 @@
     "meaning": "دفع بعضهم بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تدافع"
+    "sourceWord": "تدافع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تلاعب",
@@ -3278,7 +3526,8 @@
     "meaning": "عبث بقصد الخداع",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تلاعب"
+    "sourceWord": "تلاعب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تظاهر",
@@ -3287,7 +3536,8 @@
     "meaning": "أظهر خلاف ما يبطن",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تظاهر"
+    "sourceWord": "تظاهر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقتنع",
@@ -3296,7 +3546,8 @@
     "meaning": "مؤمن بصحة أمر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مقتنع"
+    "sourceWord": "مقتنع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مراهقة",
@@ -3305,7 +3556,8 @@
     "meaning": "مرحلة بين الطفولة والرشد",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مراهقة"
+    "sourceWord": "مراهقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تناسب",
@@ -3314,7 +3566,8 @@
     "meaning": "تلاءمت أجزاؤه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تناسب"
+    "sourceWord": "تناسب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعادل",
@@ -3323,7 +3576,8 @@
     "meaning": "تساوت النتيجة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعادل"
+    "sourceWord": "تعادل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقاعد",
@@ -3332,7 +3586,8 @@
     "meaning": "ترك العمل بعد الخدمة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقاعد"
+    "sourceWord": "تقاعد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منتجع",
@@ -3341,7 +3596,8 @@
     "meaning": "مكان للراحة والسياحة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منتجع"
+    "sourceWord": "منتجع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تمالك",
@@ -3350,7 +3606,8 @@
     "meaning": "ضبط نفسه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تمالك"
+    "sourceWord": "تمالك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقاتلة",
@@ -3359,7 +3616,8 @@
     "meaning": "المشاركة في القتال",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مقاتلة"
+    "sourceWord": "مقاتلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحالف",
@@ -3368,7 +3626,8 @@
     "meaning": "اتفقوا على التعاون",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تحالف"
+    "sourceWord": "تحالف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منتزه",
@@ -3377,7 +3636,8 @@
     "meaning": "مكان للترويح",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منتزه"
+    "sourceWord": "منتزه",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متقاعد",
@@ -3386,7 +3646,8 @@
     "meaning": "أنهى خدمته المهنية",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متقاعد"
+    "sourceWord": "متقاعد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحارب",
@@ -3395,7 +3656,8 @@
     "meaning": "شنوا حربًا متبادلة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تحارب"
+    "sourceWord": "تحارب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مرتبك",
@@ -3404,7 +3666,8 @@
     "meaning": "حائر غير مستقر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مرتبك"
+    "sourceWord": "مرتبك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متقدم",
@@ -3413,7 +3676,8 @@
     "meaning": "في مرتبة أمام غيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متقدم"
+    "sourceWord": "متقدم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستعجل",
@@ -3422,7 +3686,8 @@
     "meaning": "يطلب الإسراع",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستعجل"
+    "sourceWord": "مستعجل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تطارد",
@@ -3431,7 +3696,8 @@
     "meaning": "لاحق بعضهم بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تطارد"
+    "sourceWord": "تطارد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تتابع",
@@ -3440,7 +3706,8 @@
     "meaning": "جاء بعضه بعد بعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تتابع"
+    "sourceWord": "تتابع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متنزه",
@@ -3449,7 +3716,8 @@
     "meaning": "موضع للنزهة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متنزه"
+    "sourceWord": "متنزه",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستقطع",
@@ -3458,7 +3726,8 @@
     "meaning": "محذوف من الكمية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستقطع"
+    "sourceWord": "مستقطع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متخلف",
@@ -3467,7 +3736,8 @@
     "meaning": "متأخر عن غيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متخلف"
+    "sourceWord": "متخلف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منعطف",
@@ -3476,7 +3746,8 @@
     "meaning": "موضع انحناء الطريق",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منعطف"
+    "sourceWord": "منعطف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منشغل",
@@ -3485,7 +3756,8 @@
     "meaning": "مستغرق في عمل",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منشغل"
+    "sourceWord": "منشغل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تشابه",
@@ -3494,7 +3766,8 @@
     "meaning": "تماثل في بعض الصفات",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تشابه"
+    "sourceWord": "تشابه",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تسريحة",
@@ -3503,7 +3776,8 @@
     "meaning": "هيئة ترتيب الشعر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تسريحة"
+    "sourceWord": "تسريحة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منعزل",
@@ -3512,7 +3786,8 @@
     "meaning": "بعيد عن الاختلاط",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منعزل"
+    "sourceWord": "منعزل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مبتذل",
@@ -3521,7 +3796,8 @@
     "meaning": "فقد قيمته لكثرة تكراره",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مبتذل"
+    "sourceWord": "مبتذل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعمد",
@@ -3530,7 +3806,8 @@
     "meaning": "مقصود لا عرضي",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متعمد"
+    "sourceWord": "متعمد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستنقع",
@@ -3539,7 +3816,8 @@
     "meaning": "أرض غارقة في الماء",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستنقع"
+    "sourceWord": "مستنقع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تشكيلة",
@@ -3548,7 +3826,8 @@
     "meaning": "مجموعة متنوعة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تشكيلة"
+    "sourceWord": "تشكيلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعاقب",
@@ -3557,7 +3836,8 @@
     "meaning": "جاء واحد بعد آخر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعاقب"
+    "sourceWord": "تعاقب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصادم",
@@ -3566,7 +3846,8 @@
     "meaning": "ارتطم بعضه ببعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تصادم"
+    "sourceWord": "تصادم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعارض",
@@ -3575,7 +3856,8 @@
     "meaning": "تنافت وجهتا نظر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعارض"
+    "sourceWord": "تعارض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معتدل",
@@ -3584,7 +3866,8 @@
     "meaning": "متوسط بلا إفراط",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "معتدل"
+    "sourceWord": "معتدل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستخدم",
@@ -3593,7 +3876,8 @@
     "meaning": "من يستعمل شيئًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستخدم"
+    "sourceWord": "مستخدم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منتشر",
@@ -3602,7 +3886,8 @@
     "meaning": "موجود في مواضع كثيرة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منتشر"
+    "sourceWord": "منتشر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متبسم",
@@ -3611,7 +3896,8 @@
     "meaning": "تعلو وجهه ابتسامة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متبسم"
+    "sourceWord": "متبسم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفاعل",
@@ -3620,7 +3906,8 @@
     "meaning": "أثر بعضه في بعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تفاعل"
+    "sourceWord": "تفاعل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصادف",
@@ -3629,7 +3916,8 @@
     "meaning": "التقى بغير موعد",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تصادف"
+    "sourceWord": "تصادف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منفرد",
@@ -3638,7 +3926,8 @@
     "meaning": "وحيد عن غيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "منفرد"
+    "sourceWord": "منفرد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعهد",
@@ -3647,7 +3936,8 @@
     "meaning": "ملتزم بتنفيذ عمل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متعهد"
+    "sourceWord": "متعهد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعاطف",
@@ -3656,7 +3946,8 @@
     "meaning": "شعر بمعاناة الآخر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعاطف"
+    "sourceWord": "تعاطف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستند",
@@ -3665,7 +3956,8 @@
     "meaning": "وثيقة يستند إليها",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستند"
+    "sourceWord": "مستند",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقارن",
@@ -3674,7 +3966,8 @@
     "meaning": "قارن بعضه ببعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقارن"
+    "sourceWord": "تقارن",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تناقش",
@@ -3683,7 +3976,8 @@
     "meaning": "تبادل الآراء",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تناقش"
+    "sourceWord": "تناقش",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محترق",
@@ -3692,7 +3986,8 @@
     "meaning": "اشتعلت فيه النار",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "محترق"
+    "sourceWord": "محترق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مفترق",
@@ -3701,7 +3996,8 @@
     "meaning": "موضع تفرع الطرق",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مفترق"
+    "sourceWord": "مفترق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تساقط",
@@ -3710,7 +4006,8 @@
     "meaning": "وقع تباعًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تساقط"
+    "sourceWord": "تساقط",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تنازل",
@@ -3719,7 +4016,8 @@
     "meaning": "ترك حقًا لغيره",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تنازل"
+    "sourceWord": "تنازل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تضارب",
@@ -3728,7 +4026,8 @@
     "meaning": "تعارض واختلف",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تضارب"
+    "sourceWord": "تضارب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تداخل",
@@ -3737,7 +4036,8 @@
     "meaning": "تشابكت أجزاؤه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تداخل"
+    "sourceWord": "تداخل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تنافس",
@@ -3746,7 +4046,8 @@
     "meaning": "تسابق لنيل شيء",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تنافس"
+    "sourceWord": "تنافس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معتقل",
@@ -3755,7 +4056,8 @@
     "meaning": "مكان لحجز الأشخاص",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "معتقل"
+    "sourceWord": "معتقل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "استنتاج",
@@ -3764,7 +4066,8 @@
     "meaning": "الوصول إلى حكم من مقدمات",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "استنتاج"
+    "sourceWord": "استنتاج",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تناقض",
@@ -3773,7 +4076,8 @@
     "meaning": "خالف بعضه بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تناقض"
+    "sourceWord": "تناقض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متسابق",
@@ -3782,7 +4086,8 @@
     "meaning": "مشارك في السباق",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متسابق"
+    "sourceWord": "متسابق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تسامح",
@@ -3791,7 +4096,8 @@
     "meaning": "تجاوز عن الخطأ",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تسامح"
+    "sourceWord": "تسامح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تجادل",
@@ -3800,7 +4106,8 @@
     "meaning": "ناقش بحجة واعتراض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تجادل"
+    "sourceWord": "تجادل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعصب",
@@ -3809,7 +4116,8 @@
     "meaning": "متشدد لرأيه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متعصب"
+    "sourceWord": "متعصب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تضاعف",
@@ -3818,7 +4126,8 @@
     "meaning": "ازداد إلى مثليه",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تضاعف"
+    "sourceWord": "تضاعف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متنقل",
@@ -3827,7 +4136,8 @@
     "meaning": "ينتقل بين الأماكن",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متنقل"
+    "sourceWord": "متنقل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متحدث",
@@ -3836,7 +4146,8 @@
     "meaning": "من يلقي الكلام",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متحدث"
+    "sourceWord": "متحدث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستعمل",
@@ -3845,7 +4156,8 @@
     "meaning": "سبق استعماله",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستعمل"
+    "sourceWord": "مستعمل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعلم",
@@ -3854,7 +4166,8 @@
     "meaning": "اكتسب معرفة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متعلم"
+    "sourceWord": "متعلم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مساهمة",
@@ -3863,7 +4176,8 @@
     "meaning": "حصة في جهد مشترك",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مساهمة"
+    "sourceWord": "مساهمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقاسم",
@@ -3872,7 +4186,8 @@
     "meaning": "اقتسموا الشيء بينهم",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقاسم"
+    "sourceWord": "تقاسم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصارع",
@@ -3881,7 +4196,8 @@
     "meaning": "تغالب بالأجساد",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تصارع"
+    "sourceWord": "تصارع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متطرف",
@@ -3890,7 +4206,8 @@
     "meaning": "بعيد عن الاعتدال",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متطرف"
+    "sourceWord": "متطرف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصاعد",
@@ -3899,7 +4216,8 @@
     "meaning": "ارتفع تدريجيًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تصاعد"
+    "sourceWord": "تصاعد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تشاجر",
@@ -3908,7 +4226,8 @@
     "meaning": "تنازع واحتد",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تشاجر"
+    "sourceWord": "تشاجر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تلامس",
@@ -3917,7 +4236,8 @@
     "meaning": "مس بعضه بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تلامس"
+    "sourceWord": "تلامس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متكامل",
@@ -3926,7 +4246,8 @@
     "meaning": "تتم أجزاؤه بعضها",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متكامل"
+    "sourceWord": "متكامل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مرتعب",
@@ -3935,7 +4256,8 @@
     "meaning": "شديد الخوف",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مرتعب"
+    "sourceWord": "مرتعب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منفعل",
@@ -3944,7 +4266,8 @@
     "meaning": "متأثر بانفعال شديد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منفعل"
+    "sourceWord": "منفعل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعقب",
@@ -3953,7 +4276,8 @@
     "meaning": "يتبع الأثر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متعقب"
+    "sourceWord": "متعقب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متمرد",
@@ -3962,7 +4286,8 @@
     "meaning": "رافض للطاعة",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "متمرد"
+    "sourceWord": "متمرد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مخترق",
@@ -3971,7 +4296,8 @@
     "meaning": "نافذ عبر حاجز",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مخترق"
+    "sourceWord": "مخترق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تناغم",
@@ -3980,7 +4306,8 @@
     "meaning": "انسجم بعضه مع بعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تناغم"
+    "sourceWord": "تناغم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقارب",
@@ -3989,7 +4316,8 @@
     "meaning": "دنا بعضه من بعض",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تقارب"
+    "sourceWord": "تقارب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستحضر",
@@ -3998,7 +4326,8 @@
     "meaning": "مادة معدة للاستعمال",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستحضر"
+    "sourceWord": "مستحضر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منطلق",
@@ -4007,7 +4336,8 @@
     "meaning": "أساس يبدأ منه التفكير",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منطلق"
+    "sourceWord": "منطلق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مندثر",
@@ -4016,7 +4346,8 @@
     "meaning": "زالت آثاره",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مندثر"
+    "sourceWord": "مندثر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جلابية",
@@ -4025,7 +4356,8 @@
     "meaning": "ثوب واسع طويل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "جلابية"
+    "sourceWord": "جلابية",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ممطرة",
@@ -4034,7 +4366,8 @@
     "meaning": "لباس يقي المطر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "ممطرة"
+    "sourceWord": "ممطرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قصيبة",
@@ -4043,7 +4376,8 @@
     "meaning": "نبات يؤخذ منه الشوفان",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "قصيبة"
+    "sourceWord": "قصيبة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ترافع",
@@ -4052,7 +4386,8 @@
     "meaning": "احتكم بعضهم إلى القضاء",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "ترافع"
+    "sourceWord": "ترافع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقراب",
@@ -4061,7 +4396,8 @@
     "meaning": "أداة لرؤية البعيد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقراب"
+    "sourceWord": "مقراب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تراجم",
@@ -4070,7 +4406,8 @@
     "meaning": "تبادل الرمي بالحجارة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تراجم"
+    "sourceWord": "تراجم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكاتب",
@@ -4079,7 +4416,8 @@
     "meaning": "تبادل الرسائل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تكاتب"
+    "sourceWord": "تكاتب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحاسب",
@@ -4088,7 +4426,8 @@
     "meaning": "راجع الحساب مع غيره",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تحاسب"
+    "sourceWord": "تحاسب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تسامع",
@@ -4097,7 +4436,8 @@
     "meaning": "انتشر خبره بين الناس",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تسامع"
+    "sourceWord": "تسامع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تماثل",
@@ -4106,7 +4446,8 @@
     "meaning": "تشابه وتوافق",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تماثل"
+    "sourceWord": "تماثل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقتضب",
@@ -4115,7 +4456,8 @@
     "meaning": "قصير العبارة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقتضب"
+    "sourceWord": "مقتضب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعارف",
@@ -4124,7 +4466,8 @@
     "meaning": "عرف بعضهم بعضًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تعارف"
+    "sourceWord": "تعارف",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تعاكس",
@@ -4133,7 +4476,8 @@
     "meaning": "اتجه في اتجاهين متضادين",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تعاكس"
+    "sourceWord": "تعاكس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقاطر",
@@ -4142,7 +4486,8 @@
     "meaning": "جاء في جماعات متتابعة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تقاطر"
+    "sourceWord": "تقاطر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تخابر",
@@ -4151,7 +4496,8 @@
     "meaning": "تبادل الأخبار",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تخابر"
+    "sourceWord": "تخابر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تطارح",
@@ -4160,7 +4506,8 @@
     "meaning": "تبادل طرح الأفكار",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تطارح"
+    "sourceWord": "تطارح",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تنافر",
@@ -4169,7 +4516,8 @@
     "meaning": "ابتعد بعضه عن بعض",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تنافر"
+    "sourceWord": "تنافر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تباحث",
@@ -4178,7 +4526,8 @@
     "meaning": "ناقش أمرًا مع غيره",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تباحث"
+    "sourceWord": "تباحث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تجامل",
@@ -4187,7 +4536,8 @@
     "meaning": "أظهر الود واللطف",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تجامل"
+    "sourceWord": "تجامل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تخامر",
@@ -4196,7 +4546,8 @@
     "meaning": "دبروا أمرًا في الخفاء",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تخامر"
+    "sourceWord": "تخامر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تشاغل",
@@ -4205,7 +4556,8 @@
     "meaning": "تظاهر بالانشغال",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تشاغل"
+    "sourceWord": "تشاغل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تبالد",
@@ -4214,7 +4566,8 @@
     "meaning": "تظاهر بقلة الفهم",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تبالد"
+    "sourceWord": "تبالد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طحينة",
@@ -4223,7 +4576,8 @@
     "meaning": "عجينة من السمسم المطحون",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "طحينة"
+    "sourceWord": "طحينة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستعمر",
@@ -4232,7 +4586,8 @@
     "meaning": "خاضع لسيطرة أجنبية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستعمر"
+    "sourceWord": "مستعمر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كفارة",
@@ -4241,7 +4596,8 @@
     "meaning": "عمل يمحو أثر الذنب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "كفارة"
+    "sourceWord": "كفارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكفير",
@@ -4250,7 +4606,8 @@
     "meaning": "جبر خطأ بعمل صالح",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تكفير"
+    "sourceWord": "تكفير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مثقال",
@@ -4259,7 +4616,8 @@
     "meaning": "مقدار يوزن به",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مثقال"
+    "sourceWord": "مثقال",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تبارك",
@@ -4268,7 +4626,8 @@
     "meaning": "تعاظم خيره وبركته",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تبارك"
+    "sourceWord": "تبارك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحادث",
@@ -4277,7 +4636,8 @@
     "meaning": "تبادل الحديث",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تحادث"
+    "sourceWord": "تحادث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تفارق",
@@ -4286,7 +4646,8 @@
     "meaning": "ابتعد أحدهما عن الآخر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تفارق"
+    "sourceWord": "تفارق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحامل",
@@ -4295,7 +4656,8 @@
     "meaning": "تكلف الحمل على مشقة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تحامل"
+    "sourceWord": "تحامل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكاثر",
@@ -4304,7 +4666,8 @@
     "meaning": "ازداد عدده",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تكاثر"
+    "sourceWord": "تكاثر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تساند",
@@ -4313,7 +4676,8 @@
     "meaning": "اعتمد بعضه على بعض",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تساند"
+    "sourceWord": "تساند",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقارض",
@@ -4322,7 +4686,8 @@
     "meaning": "جازى بعضهم بعضًا",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تقارض"
+    "sourceWord": "تقارض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "برادة",
@@ -4331,7 +4696,8 @@
     "meaning": "فتات ينتج عن برد معدن",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "برادة"
+    "sourceWord": "برادة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مجتهد",
@@ -4340,7 +4706,8 @@
     "meaning": "يبذل جهدًا في عمله",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مجتهد"
+    "sourceWord": "مجتهد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متزمت",
@@ -4349,7 +4716,8 @@
     "meaning": "متشدد في سلوكه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متزمت"
+    "sourceWord": "متزمت",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خبازة",
@@ -4358,7 +4726,8 @@
     "meaning": "صنعة إعداد الخبز",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "خبازة"
+    "sourceWord": "خبازة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تكالم",
@@ -4367,7 +4736,8 @@
     "meaning": "تبادل الكلام",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تكالم"
+    "sourceWord": "تكالم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بشارة",
@@ -4376,7 +4746,8 @@
     "meaning": "خبر يسر سامعه",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "بشارة"
+    "sourceWord": "بشارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مرصاد",
@@ -4385,7 +4756,8 @@
     "meaning": "موضع للمراقبة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مرصاد"
+    "sourceWord": "مرصاد",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مغرفة",
@@ -4394,7 +4766,8 @@
     "meaning": "أداة لغرف الطعام",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مغرفة"
+    "sourceWord": "مغرفة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عجينة",
@@ -4403,7 +4776,8 @@
     "meaning": "دقيق ممزوج بسائل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "عجينة"
+    "sourceWord": "عجينة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فتاحة",
@@ -4412,7 +4786,8 @@
     "meaning": "أداة لفتح العلب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "فتاحة"
+    "sourceWord": "فتاحة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "جرافة",
@@ -4421,7 +4796,8 @@
     "meaning": "آلة لجرف التراب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "جرافة"
+    "sourceWord": "جرافة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "زحافة",
@@ -4430,7 +4806,8 @@
     "meaning": "آلة تنزلق على الأرض",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "زحافة"
+    "sourceWord": "زحافة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بهيمة",
@@ -4439,7 +4816,8 @@
     "meaning": "حيوان غير ناطق",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "بهيمة"
+    "sourceWord": "بهيمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مطحنة",
@@ -4448,7 +4826,8 @@
     "meaning": "مكان لطحن الحبوب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مطحنة"
+    "sourceWord": "مطحنة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سليقة",
@@ -4457,7 +4836,8 @@
     "meaning": "طبع فطري في الإنسان",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "سليقة"
+    "sourceWord": "سليقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مجسمة",
@@ -4466,7 +4846,8 @@
     "meaning": "نموذج ذو أبعاد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مجسمة"
+    "sourceWord": "مجسمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بطالة",
@@ -4475,7 +4856,8 @@
     "meaning": "انقطاع عن العمل",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "بطالة"
+    "sourceWord": "بطالة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "سليخة",
@@ -4484,7 +4866,8 @@
     "meaning": "قشر شجرة يشبه القرفة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "سليخة"
+    "sourceWord": "سليخة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مطمار",
@@ -4493,7 +4876,8 @@
     "meaning": "خيط بثقل لقياس الاستقامة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مطمار"
+    "sourceWord": "مطمار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "فتيلة",
@@ -4502,7 +4886,8 @@
     "meaning": "خيط يشتعل في المصباح",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "فتيلة"
+    "sourceWord": "فتيلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مجلخة",
@@ -4511,7 +4896,8 @@
     "meaning": "أداة لصقل المعدن",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مجلخة"
+    "sourceWord": "مجلخة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مغلاق",
@@ -4520,7 +4906,8 @@
     "meaning": "ما يغلق به الباب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مغلاق"
+    "sourceWord": "مغلاق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منفحة",
@@ -4529,7 +4916,8 @@
     "meaning": "مادة لتخثير الحليب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منفحة"
+    "sourceWord": "منفحة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسلفة",
@@ -4538,7 +4926,8 @@
     "meaning": "أداة لتسوية التربة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مسلفة"
+    "sourceWord": "مسلفة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منقاش",
@@ -4547,7 +4936,8 @@
     "meaning": "أداة لحفر الزخارف",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منقاش"
+    "sourceWord": "منقاش",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معضدة",
@@ -4556,7 +4946,8 @@
     "meaning": "حلية تلبس على العضد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "معضدة"
+    "sourceWord": "معضدة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منقار",
@@ -4565,7 +4956,8 @@
     "meaning": "فم الطائر الصلب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "منقار"
+    "sourceWord": "منقار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مبخرة",
@@ -4574,7 +4966,8 @@
     "meaning": "وعاء يحرق فيه البخور",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مبخرة"
+    "sourceWord": "مبخرة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "استفسار",
@@ -4583,7 +4976,8 @@
     "meaning": "طلب بيان أمر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "استفسار"
+    "sourceWord": "استفسار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسطار",
@@ -4592,7 +4986,8 @@
     "meaning": "أداة لضبط استواء البناء",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مسطار"
+    "sourceWord": "مسطار",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مهراس",
@@ -4601,7 +4996,8 @@
     "meaning": "وعاء يدق فيه الطعام",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مهراس"
+    "sourceWord": "مهراس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متشكر",
@@ -4610,7 +5006,8 @@
     "meaning": "مظهر للامتنان",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متشكر"
+    "sourceWord": "متشكر",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محتشم",
@@ -4619,7 +5016,8 @@
     "meaning": "متحفظ في مظهره وسلوكه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "محتشم"
+    "sourceWord": "محتشم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محدلة",
@@ -4628,7 +5026,8 @@
     "meaning": "آلة لضغط الأرض وتسويتها",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "محدلة"
+    "sourceWord": "محدلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صراخة",
@@ -4637,7 +5036,8 @@
     "meaning": "نبات يسمى لوف الحية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "صراخة"
+    "sourceWord": "صراخة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تصغير",
@@ -4646,7 +5046,8 @@
     "meaning": "جعل الشيء أصغر",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تصغير"
+    "sourceWord": "تصغير",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقراض",
@@ -4655,7 +5056,8 @@
     "meaning": "أداة للقص",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقراض"
+    "sourceWord": "مقراض",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "محجمة",
@@ -4664,7 +5066,8 @@
     "meaning": "إناء يستعمل في الحجامة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "محجمة"
+    "sourceWord": "محجمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عصارة",
@@ -4673,7 +5076,8 @@
     "meaning": "سائل يستخلص بالعصر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "عصارة"
+    "sourceWord": "عصارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طليعة",
@@ -4682,7 +5086,8 @@
     "meaning": "أول القوم المتقدمين",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "طليعة"
+    "sourceWord": "طليعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقتتل",
@@ -4691,7 +5096,8 @@
     "meaning": "موضع قتال",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقتتل"
+    "sourceWord": "مقتتل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معترك",
@@ -4700,7 +5106,8 @@
     "meaning": "ساحة صراع",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "معترك"
+    "sourceWord": "معترك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "قطارة",
@@ -4709,7 +5116,8 @@
     "meaning": "أداة لإسقاط السائل قطرة قطرة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "قطارة"
+    "sourceWord": "قطارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مطبعة",
@@ -4718,7 +5126,8 @@
     "meaning": "مكان لطباعة الكتب",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مطبعة"
+    "sourceWord": "مطبعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستشرق",
@@ -4727,7 +5136,8 @@
     "meaning": "باحث في ثقافات الشرق",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستشرق"
+    "sourceWord": "مستشرق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "استشراق",
@@ -4736,7 +5146,8 @@
     "meaning": "دراسة لغات الشرق وثقافاته",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "استشراق"
+    "sourceWord": "استشراق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "بريمة",
@@ -4745,7 +5156,8 @@
     "meaning": "أداة ثقب لولبية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "بريمة"
+    "sourceWord": "بريمة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "خليقة",
@@ -4754,7 +5166,8 @@
     "meaning": "طبع راسخ في النفس",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "خليقة"
+    "sourceWord": "خليقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منفاخ",
@@ -4763,7 +5176,8 @@
     "meaning": "أداة لدفع الهواء",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منفاخ"
+    "sourceWord": "منفاخ",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مثلجة",
@@ -4772,7 +5186,8 @@
     "meaning": "حجرة لحفظ الثلج",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مثلجة"
+    "sourceWord": "مثلجة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تقانة",
@@ -4781,7 +5196,8 @@
     "meaning": "تطبيق المعرفة لصنع الأدوات",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تقانة"
+    "sourceWord": "تقانة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقصلة",
@@ -4790,7 +5206,8 @@
     "meaning": "آلة ذات شفرة قاطعة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقصلة"
+    "sourceWord": "مقصلة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستجمع",
@@ -4799,7 +5216,8 @@
     "meaning": "حوض تتجمع فيه المياه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستجمع"
+    "sourceWord": "مستجمع",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معراج",
@@ -4808,7 +5226,8 @@
     "meaning": "وسيلة للصعود",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "معراج"
+    "sourceWord": "معراج",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تلاصق",
@@ -4817,7 +5236,8 @@
     "meaning": "اتصلت سطوحه معًا",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تلاصق"
+    "sourceWord": "تلاصق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "معزقة",
@@ -4826,7 +5246,8 @@
     "meaning": "أداة لفلاحة الأرض",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "معزقة"
+    "sourceWord": "معزقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مصحنة",
@@ -4835,7 +5256,8 @@
     "meaning": "إناء واسع مقعر",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مصحنة"
+    "sourceWord": "مصحنة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستعرب",
@@ -4844,7 +5266,8 @@
     "meaning": "متخصص في العربية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستعرب"
+    "sourceWord": "مستعرب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مقعدة",
@@ -4853,7 +5276,8 @@
     "meaning": "مكان الجلوس",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مقعدة"
+    "sourceWord": "مقعدة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستنبت",
@@ -4862,7 +5286,8 @@
     "meaning": "موضع لإنبات النباتات",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مستنبت"
+    "sourceWord": "مستنبت",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "صرافة",
@@ -4871,7 +5296,8 @@
     "meaning": "تبديل العملات",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "صرافة"
+    "sourceWord": "صرافة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تدارك",
@@ -4880,7 +5306,8 @@
     "meaning": "لحق الأمر قبل فواته",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تدارك"
+    "sourceWord": "تدارك",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مدراس",
@@ -4889,7 +5316,8 @@
     "meaning": "أداة لفصل الحب عن السنابل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مدراس"
+    "sourceWord": "مدراس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طبيقة",
@@ -4898,7 +5326,8 @@
     "meaning": "رمح قصير للرمي",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "طبيقة"
+    "sourceWord": "طبيقة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تغابن",
@@ -4907,7 +5336,8 @@
     "meaning": "خدع بعضهم بعضًا في المعاملة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تغابن"
+    "sourceWord": "تغابن",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تغافل",
@@ -4916,7 +5346,8 @@
     "meaning": "تظاهر بعدم الانتباه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تغافل"
+    "sourceWord": "تغافل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منبثق",
@@ -4925,7 +5356,8 @@
     "meaning": "صادر ومتدفق من أصل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منبثق"
+    "sourceWord": "منبثق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مدبغة",
@@ -4934,7 +5366,8 @@
     "meaning": "مكان لمعالجة الجلود",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مدبغة"
+    "sourceWord": "مدبغة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "نشارة",
@@ -4943,7 +5376,8 @@
     "meaning": "فتات الخشب عند قطعه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "نشارة"
+    "sourceWord": "نشارة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسلاط",
@@ -4952,7 +5386,8 @@
     "meaning": "جهاز لعرض الصور",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مسلاط"
+    "sourceWord": "مسلاط",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "عصيدة",
@@ -4961,7 +5396,8 @@
     "meaning": "طعام من دقيق مطبوخ",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "عصيدة"
+    "sourceWord": "عصيدة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مستغرب",
@@ -4970,7 +5406,8 @@
     "meaning": "يشعر بالعجب",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "مستغرب"
+    "sourceWord": "مستغرب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "انفرادي",
@@ -4979,7 +5416,8 @@
     "meaning": "خاص بشخص واحد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "انفرادي"
+    "sourceWord": "انفرادي",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مشروعية",
@@ -4988,7 +5426,8 @@
     "meaning": "موافقة للقانون",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مشروعية"
+    "sourceWord": "مشروعية",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تحاضن",
@@ -4997,7 +5436,8 @@
     "meaning": "عانق بعضهم بعضًا",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تحاضن"
+    "sourceWord": "تحاضن",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تهامس",
@@ -5006,7 +5446,8 @@
     "meaning": "تحدثوا بصوت خافت",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تهامس"
+    "sourceWord": "تهامس",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "كنافة",
@@ -5015,7 +5456,8 @@
     "meaning": "حلوى من خيوط العجين",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "كنافة"
+    "sourceWord": "كنافة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مسبحة",
@@ -5024,7 +5466,8 @@
     "meaning": "خرز يعد به الذكر",
     "difficulty": 2,
     "source": "enwiktionary",
-    "sourceWord": "مسبحة"
+    "sourceWord": "مسبحة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "متعرب",
@@ -5033,7 +5476,8 @@
     "meaning": "اكتسب اللغة والعادات العربية",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "متعرب"
+    "sourceWord": "متعرب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تساهم",
@@ -5042,7 +5486,8 @@
     "meaning": "اقترعوا على الأنصبة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تساهم"
+    "sourceWord": "تساهم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "طريدة",
@@ -5051,7 +5496,8 @@
     "meaning": "حيوان يطارده الصائد",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "طريدة"
+    "sourceWord": "طريدة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تزاحم",
@@ -5060,7 +5506,8 @@
     "meaning": "تدافعوا في مكان ضيق",
     "difficulty": 3,
     "source": "enwiktionary",
-    "sourceWord": "تزاحم"
+    "sourceWord": "تزاحم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تناسل",
@@ -5069,7 +5516,8 @@
     "meaning": "أنجب نسلًا",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تناسل"
+    "sourceWord": "تناسل",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "شراعة",
@@ -5078,7 +5526,8 @@
     "meaning": "فتحة للنظر في الباب",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "شراعة"
+    "sourceWord": "شراعة",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تلاحم",
@@ -5087,7 +5536,8 @@
     "meaning": "تماسك واتصل بقوة",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تلاحم"
+    "sourceWord": "تلاحم",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تخابث",
@@ -5096,7 +5546,8 @@
     "meaning": "أظهر المكر لغيره",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تخابث"
+    "sourceWord": "تخابث",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "ملتهب",
@@ -5105,7 +5556,8 @@
     "meaning": "تشتعل فيه النار",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "ملتهب"
+    "sourceWord": "ملتهب",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "منتعش",
@@ -5114,7 +5566,8 @@
     "meaning": "استعاد نشاطه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "منتعش"
+    "sourceWord": "منتعش",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "مندلق",
@@ -5123,7 +5576,8 @@
     "meaning": "متدفق من وعائه",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "مندلق"
+    "sourceWord": "مندلق",
+    "frequencySource": "frequencywords"
   },
   {
     "word": "تدشين",
@@ -5132,6 +5586,7 @@
     "meaning": "افتتاح رسمي لعمل",
     "difficulty": 4,
     "source": "enwiktionary",
-    "sourceWord": "تدشين"
+    "sourceWord": "تدشين",
+    "frequencySource": "frequencywords"
   }
 ]
