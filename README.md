@@ -1,6 +1,39 @@
 # Jathr / جذر
 
-Two mobile-first Arabic games, HTML/CSS/vanilla JS. **No dependencies, build, backend or installation required.** Run `python3 -m http.server 8000` and open http://localhost:8000. Any static host works (including GitHub Pages); `file://` does not support the JSON fetches. Google Fonts is optional; local font fallbacks and the local arabesque SVG work without it.
+**Arabic-first word games built around language, logic, and careful data engineering.**
+
+Jathr is a mobile-first browser project featuring two Arabic word games: a root-finding challenge based on Arabic morphology and a five-letter guessing game. It is built with plain HTML, CSS, and vanilla JavaScript, with no runtime dependencies or build step.
+
+> **Portfolio highlights:** Arabic text normalization · deterministic daily challenges · persistent game state · accessibility · source-attributed lexical data · automated validation and tests · GitHub Pages deployment
+
+## What’s inside
+
+| Game | Challenge | Content |
+| --- | --- | --- |
+| **Jathr — جذر** | Infer a displayed word’s three-letter Arabic root in six attempts, with progressive hints. | 600 words across four difficulty levels |
+| **Five-letter game** | Guess a hidden five-letter Arabic word in six attempts with duplicate-aware feedback. | 1,000 solutions + 6,872 allowed guesses |
+
+### Engineering highlights
+
+- **Arabic-aware text processing** — NFC normalization, tashkeel/tatweel handling, Alef normalization, and deliberate treatment of Arabic letter variants.
+- **Reliable game state** — daily and practice modes, persistent statistics and preferences, migration of legacy saved games, and safe storage fallbacks.
+- **Accessible interaction** — RTL layout, Arabic keyboard support, visible focus, reduced-motion support, WCAG AA text contrast, and shape-assisted feedback.
+- **Data provenance** — source attribution, recorded dataset fingerprints, licensing documentation, and validation scripts for lexical data.
+- **Quality checks** — automated tests for game logic, duplicate letters, normalization, dates, migrations, corrupt storage, attribution, and immutable daily data.
+
+## Run locally
+
+```sh
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
+
+Any static host works, including GitHub Pages. The project has **no backend, package install, or build step**. Google Fonts are optional; local fallbacks and the local arabesque SVG work offline. `file://` is not supported because the games fetch JSON data.
+
+---
+
+## Technical documentation
 
 ## Games and stability
 
